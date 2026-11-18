@@ -1,0 +1,400 @@
+{
+    "version":  1,
+    "created_utc":  "2026-10-21T17:08:38+00:00",
+    "project":  "knocknight",
+    "source_assets":  [
+                          {
+                              "path":  "web/assets/viper_source.glb",
+                              "sha256":  "8DCD2AB6CD435AC922C5B781B381E251AD093FD2A7CF27F05D3A3B095FFD0A24"
+                          },
+                          {
+                              "path":  "web/assets/anvil_source.glb",
+                              "sha256":  "089E6A1690C2E7430236633E0086F3E7F3C707B08F354D29D7AC52024A537C37"
+                          }
+                      ],
+    "fighters":  [
+                     {
+                         "id":  "anvil",
+                         "display_name":  "Dante \"Anvil\" Okafor",
+                         "glb":  "assets/roster/anvil.glb",
+                         "glb_bytes":  2694076,
+                         "glb_sha256":  "02d89d4d86dcaf444aeaefaa7a6fbc3bdc75eea5f9841c52b2d1de9d9b11c8f5",
+                         "source_glb":  "web/assets/anvil_source.glb",
+                         "source_sha256":  "089E6A1690C2E7430236633E0086F3E7F3C707B08F354D29D7AC52024A537C37",
+                         "style":  "Southpaw pressure fighter: stocky, broad shoulders, short beard, deep warm skin, charcoal trunks with teal waistband, black gloves with teal laces",
+                         "skeleton":  {
+                                          "armature":  "Armature",
+                                          "joint_count":  24,
+                                          "joint_names":  [
+                                                              "Hips",
+                                                              "LeftUpLeg",
+                                                              "LeftLeg",
+                                                              "LeftFoot",
+                                                              "LeftToeBase",
+                                                              "RightUpLeg",
+                                                              "RightLeg",
+                                                              "RightFoot",
+                                                              "RightToeBase",
+                                                              "Spine02",
+                                                              "Spine01",
+                                                              "Spine",
+                                                              "LeftShoulder",
+                                                              "LeftArm",
+                                                              "LeftForeArm",
+                                                              "LeftHand",
+                                                              "RightShoulder",
+                                                              "RightArm",
+                                                              "RightForeArm",
+                                                              "RightHand",
+                                                              "neck",
+                                                              "Head",
+                                                              "head_end",
+                                                              "headfront"
+                                                          ]
+                                      },
+                         "mesh":  {
+                                      "vertices":  16192,
+                                      "triangles":  25022,
+                                      "materials":  1,
+                                      "uv_sets":  1
+                                  },
+                         "textures":  [
+                                          {
+                                              "slot":  "baseColor",
+                                              "width":  2048,
+                                              "height":  2048,
+                                              "mime":  "image/jpeg"
+                                          },
+                                          {
+                                              "slot":  "normal",
+                                              "width":  1024,
+                                              "height":  1024,
+                                              "mime":  "image/png"
+                                          },
+                                          {
+                                              "slot":  "roughness",
+                                              "width":  1024,
+                                              "height":  1024,
+                                              "mime":  "image/jpeg"
+                                          }
+                                      ],
+                         "skin":  {
+                                      "max_influences":  4,
+                                      "unweighted_vertices":  0,
+                                      "weights_normalized":  true
+                                  },
+                         "bounds":  {
+                                        "height_m":  1.84764,
+                                        "min_y_m":  0.0,
+                                        "max_y_m":  1.84764,
+                                        "width_m":  1.83471,
+                                        "depth_m":  0.35744
+                                    },
+                         "validation":  {
+                                            "gltf_valid":  true,
+                                            "bone_names_match":  true,
+                                            "bind_pose_loaded":  true,
+                                            "foot_grounded":  true,
+                                            "no_emissive_glow":  true,
+                                            "render_preview":  "assets/roster/anvil-sheet.jpg",
+                                            "all_checks":  {
+                                                               "one_skin":  true,
+                                                               "joint_count_24":  true,
+                                                               "bone_names_match":  true,
+                                                               "armature_and_char1":  true,
+                                                               "joint_and_armature_transforms_identical":  true,
+                                                               "attributes_present":  true,
+                                                               "single_mesh_primitive":  true,
+                                                               "ibm_identical":  true,
+                                                               "joints0_identical":  true,
+                                                               "weights0_identical":  true,
+                                                               "uv0_identical":  true,
+                                                               "source_triangles_preserved":  true,
+                                                               "max_influences_le_4":  true,
+                                                               "no_unweighted_vertices":  true,
+                                                               "weights_normalized":  true,
+                                                               "no_nan":  true,
+                                                               "bind_pose_loaded":  true,
+                                                               "foot_grounded":  true,
+                                                               "height_in_range":  true,
+                                                               "closed_surface":  true,
+                                                               "no_zero_area_faces":  true,
+                                                               "no_loose_vertices":  true,
+                                                               "material_present":  true,
+                                                               "no_emissive_glow":  true,
+                                                               "single_sided":  true,
+                                                               "specular_in_range":  true,
+                                                               "no_animations":  true,
+                                                               "textures_embedded":  true,
+                                                               "triangles_15k_30k":  true,
+                                                               "size_under_6mb":  true
+                                                           },
+                                            "gltf_validator":  "Khronos glTF-Validator not run (not installed); structural checks by tools/validate_roster42.mjs and Blender 5.1 re-import"
+                                        },
+                         "provenance":  {
+                                            "license":  "User-owned KnockNight asset",
+                                            "real_person_likeness":  false,
+                                            "generator":  "KnockNight roster"
+                                        },
+                         "notes":  "T-pose bind identical to source (joints, IBMs, JOINTS_0/WEIGHTS_0, UV0 byte-identical). No tangents stored (normal map uses runtime tangents). Faces share the base Meshy face topology; identity comes from texture, head/nose/brow/jaw sculpting and hair/beard."
+                     },
+                     {
+                         "id":  "viper_alt",
+                         "display_name":  "Marco \"Viper\" Reyes",
+                         "glb":  "assets/roster/viper_alt.glb",
+                         "glb_bytes":  3216728,
+                         "glb_sha256":  "932b7f82963095f33364bd5a037bf0de6194abeb0911c0aae17a066ad11e3d76",
+                         "source_glb":  "web/assets/viper_source.glb",
+                         "source_sha256":  "8DCD2AB6CD435AC922C5B781B381E251AD093FD2A7CF27F05D3A3B095FFD0A24",
+                         "style":  "Tall technical striker: lean build, clean-shaven, medium-brown skin, cream trunks with burgundy side panels, burgundy gloves",
+                         "skeleton":  {
+                                          "armature":  "Armature",
+                                          "joint_count":  24,
+                                          "joint_names":  [
+                                                              "Hips",
+                                                              "LeftUpLeg",
+                                                              "LeftLeg",
+                                                              "LeftFoot",
+                                                              "LeftToeBase",
+                                                              "RightUpLeg",
+                                                              "RightLeg",
+                                                              "RightFoot",
+                                                              "RightToeBase",
+                                                              "Spine02",
+                                                              "Spine01",
+                                                              "Spine",
+                                                              "LeftShoulder",
+                                                              "LeftArm",
+                                                              "LeftForeArm",
+                                                              "LeftHand",
+                                                              "RightShoulder",
+                                                              "RightArm",
+                                                              "RightForeArm",
+                                                              "RightHand",
+                                                              "neck",
+                                                              "Head",
+                                                              "head_end",
+                                                              "headfront"
+                                                          ]
+                                      },
+                         "mesh":  {
+                                      "vertices":  16565,
+                                      "triangles":  24994,
+                                      "materials":  1,
+                                      "uv_sets":  1
+                                  },
+                         "textures":  [
+                                          {
+                                              "slot":  "baseColor",
+                                              "width":  2048,
+                                              "height":  2048,
+                                              "mime":  "image/jpeg"
+                                          },
+                                          {
+                                              "slot":  "normal",
+                                              "width":  1024,
+                                              "height":  1024,
+                                              "mime":  "image/png"
+                                          },
+                                          {
+                                              "slot":  "roughness",
+                                              "width":  1024,
+                                              "height":  1024,
+                                              "mime":  "image/jpeg"
+                                          }
+                                      ],
+                         "skin":  {
+                                      "max_influences":  4,
+                                      "unweighted_vertices":  0,
+                                      "weights_normalized":  true
+                                  },
+                         "bounds":  {
+                                        "height_m":  1.80433,
+                                        "min_y_m":  0.0,
+                                        "max_y_m":  1.80433,
+                                        "width_m":  1.76083,
+                                        "depth_m":  0.29408
+                                    },
+                         "validation":  {
+                                            "gltf_valid":  true,
+                                            "bone_names_match":  true,
+                                            "bind_pose_loaded":  true,
+                                            "foot_grounded":  true,
+                                            "no_emissive_glow":  true,
+                                            "render_preview":  "assets/roster/viper_alt-sheet.jpg",
+                                            "all_checks":  {
+                                                               "one_skin":  true,
+                                                               "joint_count_24":  true,
+                                                               "bone_names_match":  true,
+                                                               "armature_and_char1":  true,
+                                                               "joint_and_armature_transforms_identical":  true,
+                                                               "attributes_present":  true,
+                                                               "single_mesh_primitive":  true,
+                                                               "ibm_identical":  true,
+                                                               "joints0_identical":  true,
+                                                               "weights0_identical":  true,
+                                                               "uv0_identical":  true,
+                                                               "source_triangles_preserved":  true,
+                                                               "max_influences_le_4":  true,
+                                                               "no_unweighted_vertices":  true,
+                                                               "weights_normalized":  true,
+                                                               "no_nan":  true,
+                                                               "bind_pose_loaded":  true,
+                                                               "foot_grounded":  true,
+                                                               "height_in_range":  true,
+                                                               "closed_surface":  true,
+                                                               "no_zero_area_faces":  true,
+                                                               "no_loose_vertices":  true,
+                                                               "material_present":  true,
+                                                               "no_emissive_glow":  true,
+                                                               "single_sided":  true,
+                                                               "specular_in_range":  true,
+                                                               "no_animations":  true,
+                                                               "textures_embedded":  true,
+                                                               "triangles_15k_30k":  true,
+                                                               "size_under_6mb":  true
+                                                           },
+                                            "gltf_validator":  "Khronos glTF-Validator not run (not installed); structural checks by tools/validate_roster42.mjs and Blender 5.1 re-import"
+                                        },
+                         "provenance":  {
+                                            "license":  "User-owned KnockNight asset",
+                                            "real_person_likeness":  false,
+                                            "generator":  "KnockNight roster"
+                                        },
+                         "notes":  "T-pose bind identical to source (joints, IBMs, JOINTS_0/WEIGHTS_0, UV0 byte-identical). 6 hole-fill triangles appended at the boots. No tangents stored (normal map uses runtime tangents). Faces share the base Meshy face topology; identity comes from texture, head/nose/brow/jaw sculpting and hair/beard."
+                     },
+                     {
+                         "id":  "oak",
+                         "display_name":  "Viktor \"Oak\" Hale",
+                         "glb":  "assets/roster/oak.glb",
+                         "glb_bytes":  3134328,
+                         "glb_sha256":  "011a76abb7fe5de074ebf1fd15503b6a3c505e2dda5e30b5209eee76fd83552d",
+                         "source_glb":  "web/assets/viper_source.glb",
+                         "source_sha256":  "8DCD2AB6CD435AC922C5B781B381E251AD093FD2A7CF27F05D3A3B095FFD0A24",
+                         "style":  "Veteran brawler: heavier build, buzz-cropped hair, stubble, small brow scar, olive/tan skin, navy trunks with gold trim, worn navy gloves",
+                         "skeleton":  {
+                                          "armature":  "Armature",
+                                          "joint_count":  24,
+                                          "joint_names":  [
+                                                              "Hips",
+                                                              "LeftUpLeg",
+                                                              "LeftLeg",
+                                                              "LeftFoot",
+                                                              "LeftToeBase",
+                                                              "RightUpLeg",
+                                                              "RightLeg",
+                                                              "RightFoot",
+                                                              "RightToeBase",
+                                                              "Spine02",
+                                                              "Spine01",
+                                                              "Spine",
+                                                              "LeftShoulder",
+                                                              "LeftArm",
+                                                              "LeftForeArm",
+                                                              "LeftHand",
+                                                              "RightShoulder",
+                                                              "RightArm",
+                                                              "RightForeArm",
+                                                              "RightHand",
+                                                              "neck",
+                                                              "Head",
+                                                              "head_end",
+                                                              "headfront"
+                                                          ]
+                                      },
+                         "mesh":  {
+                                      "vertices":  16565,
+                                      "triangles":  24994,
+                                      "materials":  1,
+                                      "uv_sets":  1
+                                  },
+                         "textures":  [
+                                          {
+                                              "slot":  "baseColor",
+                                              "width":  2048,
+                                              "height":  2048,
+                                              "mime":  "image/jpeg"
+                                          },
+                                          {
+                                              "slot":  "normal",
+                                              "width":  1024,
+                                              "height":  1024,
+                                              "mime":  "image/png"
+                                          },
+                                          {
+                                              "slot":  "roughness",
+                                              "width":  1024,
+                                              "height":  1024,
+                                              "mime":  "image/jpeg"
+                                          }
+                                      ],
+                         "skin":  {
+                                      "max_influences":  4,
+                                      "unweighted_vertices":  0,
+                                      "weights_normalized":  true
+                                  },
+                         "bounds":  {
+                                        "height_m":  1.79449,
+                                        "min_y_m":  0.0,
+                                        "max_y_m":  1.79449,
+                                        "width_m":  1.76083,
+                                        "depth_m":  0.32125
+                                    },
+                         "validation":  {
+                                            "gltf_valid":  true,
+                                            "bone_names_match":  true,
+                                            "bind_pose_loaded":  true,
+                                            "foot_grounded":  true,
+                                            "no_emissive_glow":  true,
+                                            "render_preview":  "assets/roster/oak-sheet.jpg",
+                                            "all_checks":  {
+                                                               "one_skin":  true,
+                                                               "joint_count_24":  true,
+                                                               "bone_names_match":  true,
+                                                               "armature_and_char1":  true,
+                                                               "joint_and_armature_transforms_identical":  true,
+                                                               "attributes_present":  true,
+                                                               "single_mesh_primitive":  true,
+                                                               "ibm_identical":  true,
+                                                               "joints0_identical":  true,
+                                                               "weights0_identical":  true,
+                                                               "uv0_identical":  true,
+                                                               "source_triangles_preserved":  true,
+                                                               "max_influences_le_4":  true,
+                                                               "no_unweighted_vertices":  true,
+                                                               "weights_normalized":  true,
+                                                               "no_nan":  true,
+                                                               "bind_pose_loaded":  true,
+                                                               "foot_grounded":  true,
+                                                               "height_in_range":  true,
+                                                               "closed_surface":  true,
+                                                               "no_zero_area_faces":  true,
+                                                               "no_loose_vertices":  true,
+                                                               "material_present":  true,
+                                                               "no_emissive_glow":  true,
+                                                               "single_sided":  true,
+                                                               "specular_in_range":  true,
+                                                               "no_animations":  true,
+                                                               "textures_embedded":  true,
+                                                               "triangles_15k_30k":  true,
+                                                               "size_under_6mb":  true
+                                                           },
+                                            "gltf_validator":  "Khronos glTF-Validator not run (not installed); structural checks by tools/validate_roster42.mjs and Blender 5.1 re-import"
+                                        },
+                         "provenance":  {
+                                            "license":  "User-owned KnockNight asset",
+                                            "real_person_likeness":  false,
+                                            "generator":  "KnockNight roster"
+                                        },
+                         "notes":  "T-pose bind identical to source (joints, IBMs, JOINTS_0/WEIGHTS_0, UV0 byte-identical). 6 hole-fill triangles appended at the boots. No tangents stored (normal map uses runtime tangents). Faces share the base Meshy face topology; identity comes from texture, head/nose/brow/jaw sculpting and hair/beard."
+                     }
+                 ],
+    "validation_summary":  {
+                               "validated_utc":  "2026-10-21T17:08:38.554Z",
+                               "fighters":  3,
+                               "all_passed":  true,
+                               "validator":  "node assets/roster42/tools/validate_roster42.mjs",
+                               "paid_meshy_generations":  0
+                           },
+    "validator":  "node assets/roster/tools/validate_roster.mjs"
+}

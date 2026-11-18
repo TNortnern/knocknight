@@ -1,0 +1,67 @@
+extends RefCounted
+## Per-model hit / hurt / guard volumes fitted to the visible Meshy skin by tools/fit_visible.gd (do not edit by hand; rerun the tool with write=1).
+## Volumes are in the local frame (orthonormal, metres) of the named MESHY joint: they ride the bones the player sees (meshy_skin.gd mounts).
+## kind: capsule (along `axis`) | box (rounded) | sphere.
+
+const FIT := {
+	"meshy_viper": {
+		"head": {"bone": "Head", "kind": "capsule", "off": Vector3(0.0028, 0.0448, -0.0378), "axis": Vector3(0.0161, 0.7790, -0.6268), "h": 0.2321, "r": 0.0876},
+		"neck": {"bone": "neck", "kind": "capsule", "off": Vector3(-0.0084, 0.0434, -0.0112), "axis": Vector3(-0.0000, 1.0000, -0.0000), "h": 0.1876, "r": 0.0750},
+		"abdomen": {"bone": "Spine01", "kind": "box", "off": Vector3(0.0064, -0.1852, 0.0381), "half": Vector3(0.1252, 0.0768, 0.1340), "rc": 0.0373, "q": Quaternion(-0.00543, 0.44757, -0.05814, 0.89234)},
+		"chest": {"bone": "Spine", "kind": "box", "off": Vector3(0.0220, -0.0703, -0.0124), "half": Vector3(0.1403, 0.1493, 0.1601), "rc": 0.0680, "q": Quaternion(-0.08126, 0.41740, 0.09160, 0.90044)},
+		"lHand": {"bone": "LeftHand", "kind": "capsule", "off": Vector3(-0.0057, 0.0988, 0.0024), "axis": Vector3(-0.1126, 0.9933, 0.0268), "h": 0.2191, "r": 0.0866},
+		"lFist": {"bone": "LeftHand", "kind": "sphere", "off": Vector3(-0.0191, 0.1778, 0.0109), "r": 0.0700},
+		"lForearmBend": {"bone": "LeftForeArm", "kind": "capsule", "off": Vector3(0.0048, 0.1155, 0.0076), "axis": Vector3(-0.0000, 1.0000, -0.0000), "h": 0.2468, "r": 0.0515},
+		"rHand": {"bone": "RightHand", "kind": "capsule", "off": Vector3(0.0068, 0.0970, 0.0025), "axis": Vector3(0.1108, 0.9931, 0.0389), "h": 0.2234, "r": 0.0869},
+		"rFist": {"bone": "RightHand", "kind": "sphere", "off": Vector3(0.0224, 0.1784, 0.0136), "r": 0.0700},
+		"rForearmBend": {"bone": "RightForeArm", "kind": "capsule", "off": Vector3(-0.0024, 0.1112, 0.0082), "axis": Vector3(0.0000, 1.0000, 0.0000), "h": 0.2392, "r": 0.0506},
+	},
+	"meshy_anvil": {
+		"head": {"bone": "Head", "kind": "capsule", "off": Vector3(0.0044, 0.0288, -0.0331), "axis": Vector3(0.0142, 0.7769, -0.6295), "h": 0.2308, "r": 0.0965},
+		"neck": {"bone": "neck", "kind": "capsule", "off": Vector3(-0.0091, 0.0318, -0.0237), "axis": Vector3(-0.0000, 1.0000, -0.0000), "h": 0.2404, "r": 0.0750},
+		"abdomen": {"bone": "Spine01", "kind": "box", "off": Vector3(-0.0020, -0.1838, 0.0365), "half": Vector3(0.1453, 0.0838, 0.1588), "rc": 0.0406, "q": Quaternion(-0.00246, 0.44983, -0.07101, 0.89029)},
+		"chest": {"bone": "Spine", "kind": "box", "off": Vector3(0.0230, -0.0685, -0.0151), "half": Vector3(0.1654, 0.1529, 0.1884), "rc": 0.0742, "q": Quaternion(-0.11655, 0.44307, 0.06548, 0.88646)},
+		"lHand": {"bone": "LeftHand", "kind": "capsule", "off": Vector3(-0.0105, 0.1131, 0.0044), "axis": Vector3(-0.0891, 0.9943, 0.0590), "h": 0.1978, "r": 0.0805},
+		"lFist": {"bone": "LeftHand", "kind": "sphere", "off": Vector3(-0.0014, 0.1938, 0.0163), "r": 0.0700},
+		"lForearmBend": {"bone": "LeftForeArm", "kind": "capsule", "off": Vector3(0.0073, 0.1195, 0.0051), "axis": Vector3(-0.0000, 1.0000, 0.0000), "h": 0.2302, "r": 0.0551},
+		"rHand": {"bone": "RightHand", "kind": "capsule", "off": Vector3(0.0105, 0.1129, 0.0038), "axis": Vector3(0.0803, 0.9949, 0.0603), "h": 0.1941, "r": 0.0812},
+		"rFist": {"bone": "RightHand", "kind": "sphere", "off": Vector3(0.0023, 0.1913, 0.0157), "r": 0.0700},
+		"rForearmBend": {"bone": "RightForeArm", "kind": "capsule", "off": Vector3(-0.0059, 0.1166, 0.0049), "axis": Vector3(0.0000, 1.0000, 0.0000), "h": 0.2397, "r": 0.0560},
+	},
+	"meshy_oak": {
+		"head": {"bone": "Head", "kind": "capsule", "off": Vector3(0.0032, 0.0402, -0.0368), "axis": Vector3(0.0247, 0.7853, -0.6186), "h": 0.2215, "r": 0.0936},
+		"neck": {"bone": "neck", "kind": "capsule", "off": Vector3(-0.0087, 0.0456, -0.0128), "axis": Vector3(-0.0000, 1.0000, -0.0000), "h": 0.2043, "r": 0.0750},
+		"abdomen": {"bone": "Spine01", "kind": "box", "off": Vector3(0.0020, -0.1877, 0.0410), "half": Vector3(0.1384, 0.0810, 0.1480), "rc": 0.0393, "q": Quaternion(-0.00878, 0.44889, -0.07250, 0.89060)},
+		"chest": {"bone": "Spine", "kind": "box", "off": Vector3(0.0213, -0.0689, -0.0065), "half": Vector3(0.1496, 0.1533, 0.1730), "rc": 0.0726, "q": Quaternion(-0.09050, 0.42675, 0.07013, 0.89709)},
+		"lHand": {"bone": "LeftHand", "kind": "capsule", "off": Vector3(-0.0057, 0.0981, 0.0023), "axis": Vector3(-0.1126, 0.9933, 0.0269), "h": 0.2190, "r": 0.0863},
+		"lFist": {"bone": "LeftHand", "kind": "sphere", "off": Vector3(-0.0190, 0.1772, 0.0109), "r": 0.0700},
+		"lForearmBend": {"bone": "LeftForeArm", "kind": "capsule", "off": Vector3(0.0045, 0.1133, 0.0085), "axis": Vector3(-0.0000, 1.0000, -0.0000), "h": 0.2476, "r": 0.0562},
+		"rHand": {"bone": "RightHand", "kind": "capsule", "off": Vector3(0.0068, 0.0967, 0.0025), "axis": Vector3(0.1104, 0.9931, 0.0389), "h": 0.2224, "r": 0.0866},
+		"rFist": {"bone": "RightHand", "kind": "sphere", "off": Vector3(0.0224, 0.1777, 0.0136), "r": 0.0700},
+		"rForearmBend": {"bone": "RightForeArm", "kind": "capsule", "off": Vector3(-0.0026, 0.1101, 0.0091), "axis": Vector3(0.0000, 1.0000, 0.0000), "h": 0.2395, "r": 0.0555},
+	},
+	"meshy_boxer1": {
+		"head": {"bone": "Head", "kind": "capsule", "off": Vector3(0.0023, 0.0444, -0.0377), "axis": Vector3(-0.0030, 0.7873, -0.6165), "h": 0.2247, "r": 0.0890},
+		"neck": {"bone": "neck", "kind": "capsule", "off": Vector3(-0.0082, 0.0443, -0.0111), "axis": Vector3(-0.0000, 1.0000, -0.0000), "h": 0.1873, "r": 0.0750},
+		"abdomen": {"bone": "Spine01", "kind": "box", "off": Vector3(0.0097, -0.1852, 0.0348), "half": Vector3(0.1292, 0.0759, 0.1386), "rc": 0.0368, "q": Quaternion(-0.00225, 0.44804, -0.04529, 0.89286)},
+		"chest": {"bone": "Spine", "kind": "box", "off": Vector3(0.0225, -0.0705, -0.0156), "half": Vector3(0.1422, 0.1505, 0.1633), "rc": 0.0690, "q": Quaternion(-0.05718, 0.42781, 0.11544, 0.89464)},
+		"lHand": {"bone": "LeftHand", "kind": "capsule", "off": Vector3(-0.0057, 0.0987, 0.0024), "axis": Vector3(-0.1127, 0.9933, 0.0268), "h": 0.2194, "r": 0.0866},
+		"lFist": {"bone": "LeftHand", "kind": "sphere", "off": Vector3(-0.0191, 0.1778, 0.0109), "r": 0.0700},
+		"lForearmBend": {"bone": "LeftForeArm", "kind": "capsule", "off": Vector3(0.0047, 0.1150, 0.0079), "axis": Vector3(-0.0000, 1.0000, -0.0000), "h": 0.2464, "r": 0.0531},
+		"rHand": {"bone": "RightHand", "kind": "capsule", "off": Vector3(0.0068, 0.0970, 0.0025), "axis": Vector3(0.1107, 0.9931, 0.0389), "h": 0.2233, "r": 0.0869},
+		"rFist": {"bone": "RightHand", "kind": "sphere", "off": Vector3(0.0224, 0.1784, 0.0136), "r": 0.0700},
+		"rForearmBend": {"bone": "RightForeArm", "kind": "capsule", "off": Vector3(-0.0025, 0.1114, 0.0086), "axis": Vector3(0.0000, 1.0000, 0.0000), "h": 0.2393, "r": 0.0518},
+	},
+	"meshy_boxer2": {
+		"head": {"bone": "Head", "kind": "capsule", "off": Vector3(0.0035, 0.0316, -0.0317), "axis": Vector3(0.0155, 0.7836, -0.6211), "h": 0.2320, "r": 0.0930},
+		"neck": {"bone": "neck", "kind": "capsule", "off": Vector3(-0.0093, 0.0293, -0.0195), "axis": Vector3(-0.0000, 1.0000, -0.0000), "h": 0.2222, "r": 0.0750},
+		"abdomen": {"bone": "Spine01", "kind": "box", "off": Vector3(-0.0000, -0.1820, 0.0353), "half": Vector3(0.1403, 0.0847, 0.1528), "rc": 0.0411, "q": Quaternion(-0.00235, 0.45018, -0.06599, 0.89049)},
+		"chest": {"bone": "Spine", "kind": "box", "off": Vector3(0.0228, -0.0691, -0.0147), "half": Vector3(0.1569, 0.1501, 0.1813), "rc": 0.0728, "q": Quaternion(-0.11277, 0.43645, 0.07343, 0.88961)},
+		"lHand": {"bone": "LeftHand", "kind": "capsule", "off": Vector3(-0.0105, 0.1130, 0.0044), "axis": Vector3(-0.0891, 0.9943, 0.0590), "h": 0.1980, "r": 0.0805},
+		"lFist": {"bone": "LeftHand", "kind": "sphere", "off": Vector3(-0.0014, 0.1938, 0.0163), "r": 0.0700},
+		"lForearmBend": {"bone": "LeftForeArm", "kind": "capsule", "off": Vector3(0.0069, 0.1207, 0.0049), "axis": Vector3(-0.0000, 1.0000, 0.0000), "h": 0.2292, "r": 0.0526},
+		"rHand": {"bone": "RightHand", "kind": "capsule", "off": Vector3(0.0105, 0.1130, 0.0038), "axis": Vector3(0.0803, 0.9949, 0.0603), "h": 0.1941, "r": 0.0812},
+		"rFist": {"bone": "RightHand", "kind": "sphere", "off": Vector3(0.0023, 0.1913, 0.0157), "r": 0.0700},
+		"rForearmBend": {"bone": "RightForeArm", "kind": "capsule", "off": Vector3(-0.0061, 0.1180, 0.0052), "axis": Vector3(0.0000, 1.0000, 0.0000), "h": 0.2401, "r": 0.0533},
+	},
+}

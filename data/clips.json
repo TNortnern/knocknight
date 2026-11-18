@@ -1,0 +1,11647 @@
+{
+ "note": "Hip values are metres in fighter space after normalisation (+Z forward, +X = fighter left, Y up), measured on the first fighter built (viper). Clip time = frame * duration/(frames-1).",
+ "rootNode": "Fighter",
+ "skeleton": "Skeleton3D",
+ "idleFloorClip": "KB_Idle_1",
+ "bones": {
+  "hands": [
+   "lHand",
+   "rHand"
+  ],
+  "feet": [
+   "lFoot",
+   "rFoot"
+  ],
+  "toes": [
+   "lMetatarsals",
+   "rMetatarsals"
+  ],
+  "head": "head",
+  "pelvis": "pelvis",
+  "hip": "hip"
+ },
+ "clips": {
+  "Arm Stretching": {
+   "name": "Arm Stretching",
+   "source": "Arm Stretching",
+   "tag": "Entry",
+   "duration": 8.8833,
+   "frames": 267,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0058,
+     1.0223,
+     0.0173
+    ],
+    "endDelta": [
+     0,
+     0,
+     -0.0001
+    ],
+    "netXZ": 0.0001,
+    "maxXZ": 0.047,
+    "yMin": 1.0193,
+    "yMax": 1.0277,
+    "rootTravel": false
+   }
+  },
+  "Back Flip To Uppercut": {
+   "name": "Back Flip To Uppercut",
+   "source": "Back Flip To Uppercut",
+   "tag": "Entry",
+   "duration": 5.85,
+   "frames": 177,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0124,
+     0.9843,
+     0.0067
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1986,
+    "yMin": 0.6091,
+    "yMax": 1.1442,
+    "rootTravel": false
+   }
+  },
+  "Block": {
+   "name": "Block",
+   "source": "Block",
+   "tag": "Neutral",
+   "duration": 2.88333,
+   "frames": 87,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0141,
+     0.9784,
+     -0.0594
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0785,
+    "yMin": 0.9368,
+    "yMax": 1.0177,
+    "rootTravel": false
+   }
+  },
+  "Body Block": {
+   "name": "Body Block",
+   "source": "Body Block",
+   "tag": "Neutral",
+   "duration": 2.28333,
+   "frames": 69,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0023,
+     0.9515,
+     -0.0489
+    ],
+    "endDelta": [
+     0.0066,
+     0,
+     -0.0019
+    ],
+    "netXZ": 0.0069,
+    "maxXZ": 0.0543,
+    "yMin": 0.9328,
+    "yMax": 0.97,
+    "rootTravel": false
+   }
+  },
+  "Body Block (2)": {
+   "name": "Body Block (2)",
+   "source": "Body Block (2)",
+   "tag": "Neutral",
+   "duration": 2.86667,
+   "frames": 87,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0242,
+     0.9655,
+     -0.0673
+    ],
+    "endDelta": [
+     -0.0067,
+     0.0006,
+     0.0092
+    ],
+    "netXZ": 0.0114,
+    "maxXZ": 0.0526,
+    "yMin": 0.9423,
+    "yMax": 0.9975,
+    "rootTravel": false
+   }
+  },
+  "Bow": {
+   "name": "Bow",
+   "source": "Bow",
+   "tag": "Victory",
+   "duration": 4.6667,
+   "frames": 141,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0021,
+     1.0079,
+     0.0341
+    ],
+    "endDelta": [
+     -0.0123,
+     -0.0058,
+     0.0163
+    ],
+    "netXZ": 0.0205,
+    "maxXZ": 0.164,
+    "yMin": 0.9259,
+    "yMax": 1.0085,
+    "rootTravel": false
+   }
+  },
+  "Celebration_01": {
+   "name": "Celebration_01",
+   "source": "Celebration_01",
+   "tag": "Victory",
+   "duration": 8.7,
+   "frames": 262,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0015,
+     1.012,
+     0.0185
+    ],
+    "endDelta": [
+     -0.0024,
+     0.0008,
+     0.008
+    ],
+    "netXZ": 0.0083,
+    "maxXZ": 0.197,
+    "yMin": 0.791,
+    "yMax": 1.0243,
+    "rootTravel": false
+   }
+  },
+  "Celebration_02": {
+   "name": "Celebration_02",
+   "source": "Celebration_02",
+   "tag": "Victory",
+   "duration": 6.1333,
+   "frames": 185,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0073,
+     1.0171,
+     0.0116
+    ],
+    "endDelta": [
+     0.0024,
+     0.0038,
+     0.0292
+    ],
+    "netXZ": 0.0293,
+    "maxXZ": 0.0909,
+    "yMin": 0.9615,
+    "yMax": 1.0503,
+    "rootTravel": false
+   }
+  },
+  "Center Block (1)": {
+   "name": "Center Block (1)",
+   "source": "Center Block (1)",
+   "tag": "Neutral",
+   "duration": 1.6,
+   "frames": 49,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0194,
+     1.0034,
+     -0.0187
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1141,
+    "yMin": 0.995,
+    "yMax": 1.0707,
+    "rootTravel": false
+   }
+  },
+  "Charge": {
+   "name": "Charge",
+   "source": "Charge",
+   "tag": "Entry",
+   "duration": 7.25,
+   "frames": 219,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0041,
+     1.0318,
+     0.0142
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0209,
+    "yMin": 1.0051,
+    "yMax": 1.0329,
+    "rootTravel": false
+   }
+  },
+  "Cheer": {
+   "name": "Cheer",
+   "source": "Cheer",
+   "tag": "",
+   "duration": 2.5667,
+   "frames": 78,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0022,
+     1.0192,
+     0.0141
+    ],
+    "endDelta": [
+     0.004,
+     0.0092,
+     -0.001
+    ],
+    "netXZ": 0.0042,
+    "maxXZ": 0.1802,
+    "yMin": 0.7951,
+    "yMax": 1.4402,
+    "rootTravel": false
+   }
+  },
+  "Cheering": {
+   "name": "Cheering",
+   "source": "Cheering",
+   "tag": "Entry",
+   "duration": 1.9167,
+   "frames": 59,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0214,
+     0.8558,
+     -0.0232
+    ],
+    "endDelta": [
+     0,
+     0,
+     -0.0002
+    ],
+    "netXZ": 0.0002,
+    "maxXZ": 0.0622,
+    "yMin": 0.7441,
+    "yMax": 0.8742,
+    "rootTravel": false
+   }
+  },
+  "Chest_Beat": {
+   "name": "Chest_Beat",
+   "source": "Chest_Beat",
+   "tag": "",
+   "duration": 4.4667,
+   "frames": 135,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0014,
+     1.0143,
+     0.0121
+    ],
+    "endDelta": [
+     -0.0089,
+     -0.0022,
+     0.01
+    ],
+    "netXZ": 0.0134,
+    "maxXZ": 0.0579,
+    "yMin": 0.9953,
+    "yMax": 1.0204,
+    "rootTravel": false
+   }
+  },
+  "Come_Here": {
+   "name": "Come_Here",
+   "source": "Come_Here",
+   "tag": "Taunt",
+   "duration": 6.4333,
+   "frames": 194,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0003,
+     1.0266,
+     0.0243
+    ],
+    "endDelta": [
+     -0.003,
+     -0.0072,
+     0.0088
+    ],
+    "netXZ": 0.0092,
+    "maxXZ": 0.0372,
+    "yMin": 1.0121,
+    "yMax": 1.0317,
+    "rootTravel": false
+   }
+  },
+  "Crazy Gesture": {
+   "name": "Crazy Gesture",
+   "source": "Crazy Gesture",
+   "tag": "Taunt",
+   "duration": 5.0167,
+   "frames": 151,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0046,
+     1.0042,
+     0.0186
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0439,
+    "yMin": 0.9902,
+    "yMax": 1.0113,
+    "rootTravel": false
+   }
+  },
+  "Despair": {
+   "name": "Despair",
+   "source": "Despair",
+   "tag": "Neutral",
+   "duration": 5.66667,
+   "frames": 171,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0047,
+     1.0085,
+     -0.0074
+    ],
+    "endDelta": [
+     0.0138,
+     -0.5135,
+     -0.1655
+    ],
+    "netXZ": 0.166,
+    "maxXZ": 0.1664,
+    "yMin": 0.4934,
+    "yMax": 1.0085,
+    "rootTravel": false
+   }
+  },
+  "Double Leg Takedown - Attacker": {
+   "name": "Double Leg Takedown - Attacker",
+   "source": "Double Leg Takedown - Attacker",
+   "tag": "Hit",
+   "duration": 7.23333,
+   "frames": 218,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0279,
+     0.9464,
+     -0.0332
+    ],
+    "endDelta": [
+     -0.03,
+     -0.5683,
+     -0.0188
+    ],
+    "netXZ": 0.0354,
+    "maxXZ": 0.1551,
+    "yMin": 0.3689,
+    "yMax": 0.9467,
+    "rootTravel": false
+   }
+  },
+  "Double Leg Takedown - Victim (2)": {
+   "name": "Double Leg Takedown - Victim (2)",
+   "source": "Double Leg Takedown - Victim (2)",
+   "tag": "Hit",
+   "duration": 7.23333,
+   "frames": 218,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0186,
+     1.0201,
+     -0.0391
+    ],
+    "endDelta": [
+     -0.0199,
+     -0.8637,
+     0.1343
+    ],
+    "netXZ": 0.1358,
+    "maxXZ": 0.1425,
+    "yMin": 0.1552,
+    "yMax": 1.0284,
+    "rootTravel": false
+   }
+  },
+  "Drop Kick": {
+   "name": "Drop Kick",
+   "source": "Drop Kick",
+   "tag": "LDropKick",
+   "duration": 2.91667,
+   "frames": 89,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0717,
+     0.9171,
+     -0.0667
+    ],
+    "endDelta": [
+     0.1369,
+     -0.075,
+     0.0011
+    ],
+    "netXZ": 0.1369,
+    "maxXZ": 0.2972,
+    "yMin": 0.4702,
+    "yMax": 1.7153,
+    "rootTravel": true
+   }
+  },
+  "Entry (2)": {
+   "name": "Entry (2)",
+   "source": "Entry (2)",
+   "tag": "Entry",
+   "duration": 9.3667,
+   "frames": 282,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.009,
+     0.9183,
+     -0.0237
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0454,
+    "yMin": 0.897,
+    "yMax": 1.1141,
+    "rootTravel": false
+   }
+  },
+  "Excited": {
+   "name": "Excited",
+   "source": "Excited",
+   "tag": "Entry",
+   "duration": 6.5667,
+   "frames": 198,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0046,
+     1.0146,
+     0.0186
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0556,
+    "yMin": 0.9255,
+    "yMax": 1.0286,
+    "rootTravel": false
+   }
+  },
+  "Fight Idle": {
+   "name": "Fight Idle",
+   "source": "Fight Idle",
+   "tag": "Entry",
+   "duration": 7.4667,
+   "frames": 225,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0585,
+     0.662,
+     -0.0266
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.049,
+    "yMin": 0.6385,
+    "yMax": 0.8608,
+    "rootTravel": false
+   }
+  },
+  "Finger_Taunt": {
+   "name": "Finger_Taunt",
+   "source": "Finger_Taunt",
+   "tag": "Taunt",
+   "duration": 5.5333,
+   "frames": 167,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0042,
+     1.0222,
+     -0.0024
+    ],
+    "endDelta": [
+     -0.016,
+     -0.0041,
+     0.0147
+    ],
+    "netXZ": 0.0217,
+    "maxXZ": 0.0244,
+    "yMin": 0.9858,
+    "yMax": 1.0635,
+    "rootTravel": false
+   }
+  },
+  "Fist Fight B": {
+   "name": "Fist Fight B",
+   "source": "Fist Fight B",
+   "tag": "Entry",
+   "duration": 4.6833,
+   "frames": 141,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.009,
+     0.9508,
+     -0.0187
+    ],
+    "endDelta": [
+     0.0592,
+     -0.1327,
+     0.0161
+    ],
+    "netXZ": 0.0613,
+    "maxXZ": 0.1617,
+    "yMin": 0.6908,
+    "yMax": 0.9808,
+    "rootTravel": false
+   }
+  },
+  "Glory_Spin": {
+   "name": "Glory_Spin",
+   "source": "Glory_Spin",
+   "tag": "Entry",
+   "duration": 11.6333,
+   "frames": 350,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0131,
+     1.0374,
+     -0.0008
+    ],
+    "endDelta": [
+     -0.0096,
+     0.0032,
+     0.0059
+    ],
+    "netXZ": 0.0113,
+    "maxXZ": 0.096,
+    "yMin": 0.8607,
+    "yMax": 1.1134,
+    "rootTravel": false
+   }
+  },
+  "Groin_Taunt": {
+   "name": "Groin_Taunt",
+   "source": "Groin_Taunt",
+   "tag": "Taunt",
+   "duration": 3.0667,
+   "frames": 93,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0141,
+     1.0159,
+     0.0087
+    ],
+    "endDelta": [
+     0.0032,
+     0.0094,
+     0.0213
+    ],
+    "netXZ": 0.0215,
+    "maxXZ": 0.0747,
+    "yMin": 0.8174,
+    "yMax": 1.0274,
+    "rootTravel": false
+   }
+  },
+  "HandsUp": {
+   "name": "HandsUp",
+   "source": "HandsUp",
+   "tag": "",
+   "duration": 1.3333,
+   "frames": 41,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0109,
+     0.9674,
+     0.0478
+    ],
+    "endDelta": [
+     0.0001,
+     0.0001,
+     0.0006
+    ],
+    "netXZ": 0.0006,
+    "maxXZ": 0.0053,
+    "yMin": 0.9674,
+    "yMax": 0.9688,
+    "rootTravel": false
+   }
+  },
+  "I_Can't_Hear_You": {
+   "name": "I_Can't_Hear_You",
+   "source": "I_Can't_Hear_You",
+   "tag": "Entry",
+   "duration": 8.5,
+   "frames": 256,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.008,
+     1.0207,
+     0.0059
+    ],
+    "endDelta": [
+     0.0055,
+     0.0165,
+     0.0247
+    ],
+    "netXZ": 0.0253,
+    "maxXZ": 0.0643,
+    "yMin": 0.8494,
+    "yMax": 1.0441,
+    "rootTravel": false
+   }
+  },
+  "Idle": {
+   "name": "Idle",
+   "source": "Idle",
+   "tag": "",
+   "duration": 2.5,
+   "frames": 76,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0468,
+     0.9902,
+     -0.0375
+    ],
+    "endDelta": [
+     -0.0002,
+     0.0004,
+     -0.0003
+    ],
+    "netXZ": 0.0004,
+    "maxXZ": 0.0551,
+    "yMin": 0.9768,
+    "yMax": 1.0021,
+    "rootTravel": false
+   }
+  },
+  "Inside Crescent Kick": {
+   "name": "Inside Crescent Kick",
+   "source": "Inside Crescent Kick",
+   "tag": "RCrescentJumpKick",
+   "duration": 2.68333,
+   "frames": 81,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0047,
+     0.9734,
+     0.0004
+    ],
+    "endDelta": [
+     0.0001,
+     0,
+     0
+    ],
+    "netXZ": 0.0001,
+    "maxXZ": 0.1674,
+    "yMin": 0.6403,
+    "yMax": 1.3869,
+    "rootTravel": false
+   }
+  },
+  "Inverted Double Kick To Kip Up (1)": {
+   "name": "Inverted Double Kick To Kip Up (1)",
+   "source": "Inverted Double Kick To Kip Up (1)",
+   "tag": "LDoubleKick",
+   "duration": 3.21667,
+   "frames": 97,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.007,
+     0.8979,
+     -0.039
+    ],
+    "endDelta": [
+     -0.0093,
+     0.03,
+     -0.052
+    ],
+    "netXZ": 0.0528,
+    "maxXZ": 0.2891,
+    "yMin": 0.0835,
+    "yMax": 0.9588,
+    "rootTravel": true
+   }
+  },
+  "Jump_Kick_To_Head": {
+   "name": "Jump_Kick_To_Head",
+   "source": "Jump_Kick_To_Head",
+   "tag": "RJumpKick",
+   "duration": 2.23333,
+   "frames": 68,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0122,
+     0.8997,
+     -0.0031
+    ],
+    "endDelta": [
+     -0.0038,
+     -0.0062,
+     -0.0008
+    ],
+    "netXZ": 0.0038,
+    "maxXZ": 0.0974,
+    "yMin": 0.7582,
+    "yMax": 1.309,
+    "rootTravel": false
+   }
+  },
+  "KB_AxeKick": {
+   "name": "KB_AxeKick",
+   "source": "KB_AxeKick",
+   "tag": "RAxeKick",
+   "duration": 2,
+   "frames": 61,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0751,
+    "yMin": 0.9327,
+    "yMax": 1.0425,
+    "rootTravel": false
+   }
+  },
+  "KB_Block_Loop": {
+   "name": "KB_Block_Loop",
+   "source": "KB_Block_Loop",
+   "tag": "Neutral",
+   "duration": 0.93333,
+   "frames": 29,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0428,
+     0.9297,
+     -0.0897
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0078,
+    "yMin": 0.9295,
+    "yMax": 0.9299,
+    "rootTravel": false
+   }
+  },
+  "KB_Dodge_L": {
+   "name": "KB_Dodge_L",
+   "source": "KB_Dodge_L",
+   "tag": "LDodge",
+   "duration": 1.31667,
+   "frames": 41,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.2041,
+    "yMin": 0.7767,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_Dodge_R": {
+   "name": "KB_Dodge_R",
+   "source": "KB_Dodge_R",
+   "tag": "RDodge",
+   "duration": 1.21667,
+   "frames": 37,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0.0039,
+     -0.0016,
+     -0.002
+    ],
+    "netXZ": 0.0043,
+    "maxXZ": 0.075,
+    "yMin": 0.7982,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_GetUpBack": {
+   "name": "KB_GetUpBack",
+   "source": "KB_GetUpBack",
+   "tag": "Neutral",
+   "duration": 1.66667,
+   "frames": 51,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0299,
+     0.116,
+     0.0032
+    ],
+    "endDelta": [
+     0.0765,
+     0.874,
+     -0.0409
+    ],
+    "netXZ": 0.0868,
+    "maxXZ": 0.1211,
+    "yMin": 0.1113,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_GetUpFace": {
+   "name": "KB_GetUpFace",
+   "source": "KB_GetUpFace",
+   "tag": "Neutral",
+   "duration": 1.66667,
+   "frames": 51,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0119,
+     0.0891,
+     -0.0018
+    ],
+    "endDelta": [
+     0.0586,
+     0.9009,
+     -0.0361
+    ],
+    "netXZ": 0.0688,
+    "maxXZ": 0.2429,
+    "yMin": 0.0891,
+    "yMax": 0.9905,
+    "rootTravel": false
+   }
+  },
+  "KB_HighKO_L": {
+   "name": "KB_HighKO_L",
+   "source": "KB_HighKO_L",
+   "tag": "Hit",
+   "duration": 1.95,
+   "frames": 59,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     -0.076,
+     -0.8738,
+     0.041
+    ],
+    "netXZ": 0.0863,
+    "maxXZ": 0.0955,
+    "yMin": 0.1112,
+    "yMax": 0.9936,
+    "rootTravel": false
+   }
+  },
+  "KB_HighKO_R": {
+   "name": "KB_HighKO_R",
+   "source": "KB_HighKO_R",
+   "tag": "Hit",
+   "duration": 2.21667,
+   "frames": 67,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     -0.0768,
+     -0.8738,
+     0.041
+    ],
+    "netXZ": 0.087,
+    "maxXZ": 0.1321,
+    "yMin": 0.1161,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_Hit_m_HighFront_Med": {
+   "name": "KB_Hit_m_HighFront_Med",
+   "source": "KB_Hit_m_HighFront_Med",
+   "tag": "Hit",
+   "duration": 1.5,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0884,
+    "yMin": 0.8957,
+    "yMax": 0.9781,
+    "rootTravel": false
+   }
+  },
+  "KB_Hit_m_HighFront_Stagger": {
+   "name": "KB_Hit_m_HighFront_Stagger",
+   "source": "KB_Hit_m_HighFront_Stagger",
+   "tag": "Hit",
+   "duration": 2.66667,
+   "frames": 81,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1021,
+    "yMin": 0.8729,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "KB_Hit_m_HighFront_Weak": {
+   "name": "KB_Hit_m_HighFront_Weak",
+   "source": "KB_Hit_m_HighFront_Weak",
+   "tag": "Hit",
+   "duration": 1,
+   "frames": 31,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0946,
+    "yMin": 0.9053,
+    "yMax": 0.9824,
+    "rootTravel": false
+   }
+  },
+  "KB_Hit_m_HighLeft_Med": {
+   "name": "KB_Hit_m_HighLeft_Med",
+   "source": "KB_Hit_m_HighLeft_Med",
+   "tag": "Hit",
+   "duration": 1.5,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0885,
+    "yMin": 0.8862,
+    "yMax": 0.9783,
+    "rootTravel": false
+   }
+  },
+  "KB_Hit_m_HighLeft_Weak": {
+   "name": "KB_Hit_m_HighLeft_Weak",
+   "source": "KB_Hit_m_HighLeft_Weak",
+   "tag": "Hit",
+   "duration": 1,
+   "frames": 31,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     -0.0001
+    ],
+    "netXZ": 0.0001,
+    "maxXZ": 0.0662,
+    "yMin": 0.8961,
+    "yMax": 0.9783,
+    "rootTravel": false
+   }
+  },
+  "KB_Hit_m_HighRight_Med": {
+   "name": "KB_Hit_m_HighRight_Med",
+   "source": "KB_Hit_m_HighRight_Med",
+   "tag": "Hit",
+   "duration": 1.51667,
+   "frames": 47,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1338,
+    "yMin": 0.8528,
+    "yMax": 0.9849,
+    "rootTravel": false
+   }
+  },
+  "KB_Hit_m_HighRight_Weak": {
+   "name": "KB_Hit_m_HighRight_Weak",
+   "source": "KB_Hit_m_HighRight_Weak",
+   "tag": "Hit",
+   "duration": 1.03333,
+   "frames": 32,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0785,
+    "yMin": 0.9,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "KB_Hit_m_LowLeft_Med": {
+   "name": "KB_Hit_m_LowLeft_Med",
+   "source": "KB_Hit_m_LowLeft_Med",
+   "tag": "Hit",
+   "duration": 1.5,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.172,
+    "yMin": 0.8037,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "KB_Hit_m_LowLeft_Weak": {
+   "name": "KB_Hit_m_LowLeft_Weak",
+   "source": "KB_Hit_m_LowLeft_Weak",
+   "tag": "Hit",
+   "duration": 1,
+   "frames": 31,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.129,
+    "yMin": 0.8163,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "KB_Hit_m_LowRight_Med": {
+   "name": "KB_Hit_m_LowRight_Med",
+   "source": "KB_Hit_m_LowRight_Med",
+   "tag": "Hit",
+   "duration": 1.5,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1641,
+    "yMin": 0.7823,
+    "yMax": 0.978,
+    "rootTravel": false
+   }
+  },
+  "KB_Hit_m_LowRight_Weak": {
+   "name": "KB_Hit_m_LowRight_Weak",
+   "source": "KB_Hit_m_LowRight_Weak",
+   "tag": "Hit",
+   "duration": 1,
+   "frames": 31,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1499,
+    "yMin": 0.8362,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "KB_Hit_m_MidFront_Med": {
+   "name": "KB_Hit_m_MidFront_Med",
+   "source": "KB_Hit_m_MidFront_Med",
+   "tag": "Hit",
+   "duration": 1.5,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1532,
+    "yMin": 0.8388,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "KB_Hit_m_MidFront_Weak": {
+   "name": "KB_Hit_m_MidFront_Weak",
+   "source": "KB_Hit_m_MidFront_Weak",
+   "tag": "Hit",
+   "duration": 1.16667,
+   "frames": 36,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1021,
+    "yMin": 0.8664,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "KB_Hit_m_MidLeft_Med": {
+   "name": "KB_Hit_m_MidLeft_Med",
+   "source": "KB_Hit_m_MidLeft_Med",
+   "tag": "Hit",
+   "duration": 1.5,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     -0.0011
+    ],
+    "netXZ": 0.0011,
+    "maxXZ": 0.1404,
+    "yMin": 0.8816,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "KB_Hit_m_MidRight_Med": {
+   "name": "KB_Hit_m_MidRight_Med",
+   "source": "KB_Hit_m_MidRight_Med",
+   "tag": "Hit",
+   "duration": 1.5,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0127,
+     0.9778,
+     -0.0235
+    ],
+    "endDelta": [
+     0.0004,
+     0,
+     0.0004
+    ],
+    "netXZ": 0.0005,
+    "maxXZ": 0.1369,
+    "yMin": 0.8734,
+    "yMax": 0.9813,
+    "rootTravel": false
+   }
+  },
+  "KB_Hit_m_MidTop_Med": {
+   "name": "KB_Hit_m_MidTop_Med",
+   "source": "KB_Hit_m_MidTop_Med",
+   "tag": "Hit",
+   "duration": 1.5,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1411,
+    "yMin": 0.8197,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "KB_Hit_p_HighFront_Weak": {
+   "name": "KB_Hit_p_HighFront_Weak",
+   "source": "KB_Hit_p_HighFront_Weak",
+   "tag": "Hit",
+   "duration": 0.83333,
+   "frames": 26,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0819,
+    "yMin": 0.9279,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "KB_Hit_p_HighLeft_Weak": {
+   "name": "KB_Hit_p_HighLeft_Weak",
+   "source": "KB_Hit_p_HighLeft_Weak",
+   "tag": "Hit",
+   "duration": 0.83333,
+   "frames": 26,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0464,
+    "yMin": 0.9579,
+    "yMax": 0.9805,
+    "rootTravel": false
+   }
+  },
+  "KB_Hit_p_HighRight_Weak": {
+   "name": "KB_Hit_p_HighRight_Weak",
+   "source": "KB_Hit_p_HighRight_Weak",
+   "tag": "Hit",
+   "duration": 0.83333,
+   "frames": 26,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0854,
+    "yMin": 0.9633,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "KB_Hit_p_HighUpper_Weak": {
+   "name": "KB_Hit_p_HighUpper_Weak",
+   "source": "KB_Hit_p_HighUpper_Weak",
+   "tag": "Hit",
+   "duration": 1.2,
+   "frames": 37,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1216,
+    "yMin": 0.9545,
+    "yMax": 0.9894,
+    "rootTravel": false
+   }
+  },
+  "KB_Hit_p_LowLeft_Weak": {
+   "name": "KB_Hit_p_LowLeft_Weak",
+   "source": "KB_Hit_p_LowLeft_Weak",
+   "tag": "Hit",
+   "duration": 1,
+   "frames": 31,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1303,
+    "yMin": 0.8816,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "KB_Hit_p_LowRight_Weak": {
+   "name": "KB_Hit_p_LowRight_Weak",
+   "source": "KB_Hit_p_LowRight_Weak",
+   "tag": "Hit",
+   "duration": 1,
+   "frames": 31,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0922,
+    "yMin": 0.8769,
+    "yMax": 0.9783,
+    "rootTravel": false
+   }
+  },
+  "KB_Hit_p_MidLeft_Weak": {
+   "name": "KB_Hit_p_MidLeft_Weak",
+   "source": "KB_Hit_p_MidLeft_Weak",
+   "tag": "Hit",
+   "duration": 1,
+   "frames": 31,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1032,
+    "yMin": 0.9452,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "KB_Hit_p_MidRight_Weak": {
+   "name": "KB_Hit_p_MidRight_Weak",
+   "source": "KB_Hit_p_MidRight_Weak",
+   "tag": "Hit",
+   "duration": 0.93333,
+   "frames": 29,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     -0.0002,
+     0,
+     0.0001
+    ],
+    "netXZ": 0.0003,
+    "maxXZ": 0.0922,
+    "yMin": 0.94,
+    "yMax": 0.9808,
+    "rootTravel": false
+   }
+  },
+  "KB_Idle_1": {
+   "name": "KB_Idle_1",
+   "source": "KB_Idle_1",
+   "tag": "Neutral",
+   "duration": 2.5,
+   "frames": 76,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0468,
+     0.9902,
+     -0.0375
+    ],
+    "endDelta": [
+     -0.0002,
+     0.0003,
+     -0.0003
+    ],
+    "netXZ": 0.0004,
+    "maxXZ": 0.055,
+    "yMin": 0.9768,
+    "yMax": 1.0021,
+    "rootTravel": false
+   }
+  },
+  "KB_Idle_2": {
+   "name": "KB_Idle_2",
+   "source": "KB_Idle_2",
+   "tag": "Neutral",
+   "duration": 1.8,
+   "frames": 55,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0766,
+    "yMin": 0.9656,
+    "yMax": 0.9947,
+    "rootTravel": false
+   }
+  },
+  "KB_Idle_3": {
+   "name": "KB_Idle_3",
+   "source": "KB_Idle_3",
+   "tag": "Neutral",
+   "duration": 1.78333,
+   "frames": 55,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     -0.0013,
+     -0.0001,
+     -0.0026
+    ],
+    "netXZ": 0.0029,
+    "maxXZ": 0.1024,
+    "yMin": 0.9514,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_Idle_5": {
+   "name": "KB_Idle_5",
+   "source": "KB_Idle_5",
+   "tag": "Neutral",
+   "duration": 2.26667,
+   "frames": 69,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0778,
+    "yMin": 0.9072,
+    "yMax": 1.0027,
+    "rootTravel": false
+   }
+  },
+  "KB_Idle_6": {
+   "name": "KB_Idle_6",
+   "source": "KB_Idle_6",
+   "tag": "Neutral",
+   "duration": 2.83333,
+   "frames": 86,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1377,
+    "yMin": 0.9792,
+    "yMax": 1.0152,
+    "rootTravel": false
+   }
+  },
+  "KB_KO_Head": {
+   "name": "KB_KO_Head",
+   "source": "KB_KO_Head",
+   "tag": "Hit",
+   "duration": 3.25,
+   "frames": 99,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     -0.0765,
+     -0.874,
+     0.0409
+    ],
+    "netXZ": 0.0868,
+    "maxXZ": 0.0896,
+    "yMin": 0.1152,
+    "yMax": 0.9964,
+    "rootTravel": false
+   }
+  },
+  "KB_LowBlock": {
+   "name": "KB_LowBlock",
+   "source": "KB_LowBlock",
+   "tag": "Neutral",
+   "duration": 0.63333,
+   "frames": 20,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     -0.0252,
+     0.0085,
+     -0.0416
+    ],
+    "netXZ": 0.0486,
+    "maxXZ": 0.1377,
+    "yMin": 0.9841,
+    "yMax": 1.0113,
+    "rootTravel": false
+   }
+  },
+  "KB_LowKO_L": {
+   "name": "KB_LowKO_L",
+   "source": "KB_LowKO_L",
+   "tag": "Neutral",
+   "duration": 2.03333,
+   "frames": 62,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     -0.0586,
+     -0.9009,
+     0.0359
+    ],
+    "netXZ": 0.0687,
+    "maxXZ": 0.2844,
+    "yMin": 0.0886,
+    "yMax": 1.0405,
+    "rootTravel": true
+   }
+  },
+  "KB_LowKO_R": {
+   "name": "KB_LowKO_R",
+   "source": "KB_LowKO_R",
+   "tag": "Neutral",
+   "duration": 1.93333,
+   "frames": 59,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     -0.0765,
+     -0.8741,
+     0.0408
+    ],
+    "netXZ": 0.0867,
+    "maxXZ": 0.1455,
+    "yMin": 0.1115,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_LowLeft_KO": {
+   "name": "KB_LowLeft_KO",
+   "source": "KB_LowLeft_KO",
+   "tag": "Hit",
+   "duration": 0.75,
+   "frames": 24,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0.0323,
+     -0.1179,
+     -0.1691
+    ],
+    "netXZ": 0.1721,
+    "maxXZ": 0.1721,
+    "yMin": 0.8037,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "KB_LowRight_KO": {
+   "name": "KB_LowRight_KO",
+   "source": "KB_LowRight_KO",
+   "tag": "Hit",
+   "duration": 0.26667,
+   "frames": 9,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0.0783,
+     -0.1792,
+     -0.1092
+    ],
+    "netXZ": 0.1344,
+    "maxXZ": 0.1344,
+    "yMin": 0.7985,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "KB_MidBlock_L_Single": {
+   "name": "KB_MidBlock_L_Single",
+   "source": "KB_MidBlock_L_Single",
+   "tag": "Neutral",
+   "duration": 0.98333,
+   "frames": 31,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1428,
+    "yMin": 0.9029,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_MidBlock_R_Single": {
+   "name": "KB_MidBlock_R_Single",
+   "source": "KB_MidBlock_R_Single",
+   "tag": "Neutral",
+   "duration": 0.98333,
+   "frames": 31,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1019,
+    "yMin": 0.8999,
+    "yMax": 1.0029,
+    "rootTravel": false
+   }
+  },
+  "KB_MidKO": {
+   "name": "KB_MidKO",
+   "source": "KB_MidKO",
+   "tag": "Hit",
+   "duration": 2.06667,
+   "frames": 63,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     -0.0589,
+     -0.9009,
+     0.0359
+    ],
+    "netXZ": 0.069,
+    "maxXZ": 0.2035,
+    "yMin": 0.0891,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_MidLeft_KO": {
+   "name": "KB_MidLeft_KO",
+   "source": "KB_MidLeft_KO",
+   "tag": "Hit",
+   "duration": 1.15,
+   "frames": 36,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0.0518,
+     -0.1184,
+     -0.1609
+    ],
+    "netXZ": 0.169,
+    "maxXZ": 0.169,
+    "yMin": 0.8316,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "KB_MidRight_KO": {
+   "name": "KB_MidRight_KO",
+   "source": "KB_MidRight_KO",
+   "tag": "Hit",
+   "duration": 1.48333,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0.0251,
+     -0.0616,
+     -0.0993
+    ],
+    "netXZ": 0.1024,
+    "maxXZ": 0.1295,
+    "yMin": 0.9094,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "KB_Projectile_1": {
+   "name": "KB_Projectile_1",
+   "source": "KB_Projectile_1",
+   "tag": "Taunt",
+   "duration": 1.3333,
+   "frames": 41,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0462,
+     0.9778,
+     -0.0375
+    ],
+    "endDelta": [
+     0.0001,
+     0.0001,
+     0
+    ],
+    "netXZ": 0.0001,
+    "maxXZ": 0.2881,
+    "yMin": 0.9407,
+    "yMax": 1.0151,
+    "rootTravel": true
+   }
+  },
+  "KB_Projectile_2": {
+   "name": "KB_Projectile_2",
+   "source": "KB_Projectile_2",
+   "tag": "Taunt",
+   "duration": 1.4,
+   "frames": 43,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0463,
+     0.9779,
+     -0.0375
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1419,
+    "yMin": 0.9456,
+    "yMax": 1.0286,
+    "rootTravel": false
+   }
+  },
+  "KB_Projectile_3": {
+   "name": "KB_Projectile_3",
+   "source": "KB_Projectile_3",
+   "tag": "Taunt",
+   "duration": 1.8333,
+   "frames": 56,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0463,
+     0.9779,
+     -0.0375
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1626,
+    "yMin": 0.9442,
+    "yMax": 1.0046,
+    "rootTravel": false
+   }
+  },
+  "KB_Sidestep_L": {
+   "name": "KB_Sidestep_L",
+   "source": "KB_Sidestep_L",
+   "tag": "Neutral",
+   "duration": 0.75,
+   "frames": 24,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0.0069,
+     -0.0017,
+     -0.0038
+    ],
+    "netXZ": 0.0079,
+    "maxXZ": 0.0507,
+    "yMin": 0.8297,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_SkipFwd_2": {
+   "name": "KB_SkipFwd_2",
+   "source": "KB_SkipFwd_2",
+   "tag": "Neutral",
+   "duration": 1.73333,
+   "frames": 53,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1206,
+    "yMin": 0.8239,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_TopKO": {
+   "name": "KB_TopKO",
+   "source": "KB_TopKO",
+   "tag": "Hit",
+   "duration": 1.95,
+   "frames": 59,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     -0.077,
+     -0.8739,
+     0.0408
+    ],
+    "netXZ": 0.0871,
+    "maxXZ": 0.1384,
+    "yMin": 0.0997,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_TurnL_90": {
+   "name": "KB_TurnL_90",
+   "source": "KB_TurnL_90",
+   "tag": "Neutral",
+   "duration": 1,
+   "frames": 31,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1473,
+    "yMin": 0.9424,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_TurnR_90": {
+   "name": "KB_TurnR_90",
+   "source": "KB_TurnR_90",
+   "tag": "Neutral",
+   "duration": 1,
+   "frames": 31,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0466,
+     0.99,
+     -0.0375
+    ],
+    "endDelta": [
+     0,
+     0,
+     -0.0001
+    ],
+    "netXZ": 0.0002,
+    "maxXZ": 0.1505,
+    "yMin": 0.9554,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_UpperKO": {
+   "name": "KB_UpperKO",
+   "source": "KB_UpperKO",
+   "tag": "Hit",
+   "duration": 2.2,
+   "frames": 67,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     -0.0765,
+     -0.874,
+     0.0409
+    ],
+    "netXZ": 0.0868,
+    "maxXZ": 0.1591,
+    "yMin": 0.1093,
+    "yMax": 1.1247,
+    "rootTravel": false
+   }
+  },
+  "KB_WalkBwd": {
+   "name": "KB_WalkBwd",
+   "source": "KB_WalkBwd",
+   "tag": "Neutral",
+   "duration": 0.75,
+   "frames": 24,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0.0015,
+     -0.0029,
+     -0.0069
+    ],
+    "netXZ": 0.0071,
+    "maxXZ": 0.0384,
+    "yMin": 0.8347,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_WalkFwd2": {
+   "name": "KB_WalkFwd2",
+   "source": "KB_WalkFwd2",
+   "tag": "Neutral",
+   "duration": 0.76667,
+   "frames": 24,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0708,
+    "yMin": 0.8722,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_WalkLeft135": {
+   "name": "KB_WalkLeft135",
+   "source": "KB_WalkLeft135",
+   "tag": "Neutral",
+   "duration": 0.75,
+   "frames": 24,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0.0111,
+     -0.0024,
+     0.0007
+    ],
+    "netXZ": 0.0112,
+    "maxXZ": 0.0539,
+    "yMin": 0.8229,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_WalkLeft45": {
+   "name": "KB_WalkLeft45",
+   "source": "KB_WalkLeft45",
+   "tag": "Neutral",
+   "duration": 0.75,
+   "frames": 24,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0.0016,
+     -0.0022,
+     -0.0004
+    ],
+    "netXZ": 0.0017,
+    "maxXZ": 0.0923,
+    "yMin": 0.7711,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_WalkRight135": {
+   "name": "KB_WalkRight135",
+   "source": "KB_WalkRight135",
+   "tag": "Neutral",
+   "duration": 0.75,
+   "frames": 24,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0.001,
+     -0.0015,
+     -0.0007
+    ],
+    "netXZ": 0.0012,
+    "maxXZ": 0.0696,
+    "yMin": 0.8189,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_WalkRight45": {
+   "name": "KB_WalkRight45",
+   "source": "KB_WalkRight45",
+   "tag": "Neutral",
+   "duration": 0.75,
+   "frames": 24,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     -0.0065,
+     -0.0007,
+     0.0011
+    ],
+    "netXZ": 0.0066,
+    "maxXZ": 0.0331,
+    "yMin": 0.8631,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_crouch_End": {
+   "name": "KB_crouch_End",
+   "source": "KB_crouch_End",
+   "tag": "FDodge",
+   "duration": 0.5,
+   "frames": 16,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.132,
+     0.6334,
+     -0.1493
+    ],
+    "endDelta": [
+     -0.1191,
+     0.3646,
+     0.1259
+    ],
+    "netXZ": 0.1733,
+    "maxXZ": 0.1733,
+    "yMin": 0.6334,
+    "yMax": 1.0015,
+    "rootTravel": false
+   }
+  },
+  "KB_crouch_Idle": {
+   "name": "KB_crouch_Idle",
+   "source": "KB_crouch_Idle",
+   "tag": "FDodge",
+   "duration": 2.5,
+   "frames": 76,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.132,
+     0.6335,
+     -0.1492
+    ],
+    "endDelta": [
+     0.0001,
+     -0.0038,
+     0.0002
+    ],
+    "netXZ": 0.0002,
+    "maxXZ": 0.0085,
+    "yMin": 0.619,
+    "yMax": 0.6449,
+    "rootTravel": false
+   }
+  },
+  "KB_crouch_Sidestep_L": {
+   "name": "KB_crouch_Sidestep_L",
+   "source": "KB_crouch_Sidestep_L",
+   "tag": "FDodge",
+   "duration": 0.76667,
+   "frames": 24,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.1318,
+     0.6323,
+     -0.1491
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0102,
+    "yMin": 0.6323,
+    "yMax": 0.6608,
+    "rootTravel": false
+   }
+  },
+  "KB_crouch_Sidestep_R": {
+   "name": "KB_crouch_Sidestep_R",
+   "source": "KB_crouch_Sidestep_R",
+   "tag": "FDodge",
+   "duration": 0.76667,
+   "frames": 24,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.1318,
+     0.6323,
+     -0.1491
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.015,
+    "yMin": 0.6323,
+    "yMax": 0.6658,
+    "rootTravel": false
+   }
+  },
+  "KB_crouch_Start": {
+   "name": "KB_crouch_Start",
+   "source": "KB_crouch_Start",
+   "tag": "FDodge",
+   "duration": 0.45,
+   "frames": 15,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     1.009,
+     -0.0234
+    ],
+    "endDelta": [
+     0.1191,
+     -0.3646,
+     -0.1259
+    ],
+    "netXZ": 0.1733,
+    "maxXZ": 0.1749,
+    "yMin": 0.6441,
+    "yMax": 1.009,
+    "rootTravel": false
+   }
+  },
+  "KB_crouch_WalkBwd": {
+   "name": "KB_crouch_WalkBwd",
+   "source": "KB_crouch_WalkBwd",
+   "tag": "FDodge",
+   "duration": 0.76667,
+   "frames": 24,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.132,
+     0.6334,
+     -0.1493
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0097,
+    "yMin": 0.6256,
+    "yMax": 0.6447,
+    "rootTravel": false
+   }
+  },
+  "KB_crouch_WalkFwd": {
+   "name": "KB_crouch_WalkFwd",
+   "source": "KB_crouch_WalkFwd",
+   "tag": "FDodge",
+   "duration": 0.76667,
+   "frames": 24,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.1318,
+     0.6323,
+     -0.1491
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0108,
+    "yMin": 0.6323,
+    "yMax": 0.6743,
+    "rootTravel": false
+   }
+  },
+  "KB_crouch_WalkLeft135": {
+   "name": "KB_crouch_WalkLeft135",
+   "source": "KB_crouch_WalkLeft135",
+   "tag": "FDodge",
+   "duration": 0.76667,
+   "frames": 24,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.1318,
+     0.6323,
+     -0.1491
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0203,
+    "yMin": 0.6239,
+    "yMax": 0.6787,
+    "rootTravel": false
+   }
+  },
+  "KB_crouch_WalkLeft45": {
+   "name": "KB_crouch_WalkLeft45",
+   "source": "KB_crouch_WalkLeft45",
+   "tag": "FDodge",
+   "duration": 0.76667,
+   "frames": 24,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.1318,
+     0.6323,
+     -0.1491
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0196,
+    "yMin": 0.5821,
+    "yMax": 0.6349,
+    "rootTravel": false
+   }
+  },
+  "KB_crouch_WalkRight135": {
+   "name": "KB_crouch_WalkRight135",
+   "source": "KB_crouch_WalkRight135",
+   "tag": "FDodge",
+   "duration": 0.76667,
+   "frames": 24,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.1318,
+     0.6323,
+     -0.1491
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0162,
+    "yMin": 0.5882,
+    "yMax": 0.6367,
+    "rootTravel": false
+   }
+  },
+  "KB_crouch_WalkRight45": {
+   "name": "KB_crouch_WalkRight45",
+   "source": "KB_crouch_WalkRight45",
+   "tag": "FDodge",
+   "duration": 0.76667,
+   "frames": 24,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.1318,
+     0.6323,
+     -0.1491
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0157,
+    "yMin": 0.6323,
+    "yMax": 0.6814,
+    "rootTravel": false
+   }
+  },
+  "KB_m_BackKick_R": {
+   "name": "KB_m_BackKick_R",
+   "source": "KB_m_BackKick_R",
+   "tag": "RBodyBackKick",
+   "duration": 1.55,
+   "frames": 48,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1878,
+    "yMin": 0.9051,
+    "yMax": 1.0249,
+    "rootTravel": false
+   }
+  },
+  "KB_m_BackfistRoundFar_R": {
+   "name": "KB_m_BackfistRoundFar_R",
+   "source": "KB_m_BackfistRoundFar_R",
+   "tag": "RBackFist2",
+   "duration": 2.23333,
+   "frames": 68,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     -0.0011,
+     0.0079
+    ],
+    "netXZ": 0.0079,
+    "maxXZ": 0.288,
+    "yMin": 0.8297,
+    "yMax": 1.0054,
+    "rootTravel": true
+   }
+  },
+  "KB_m_BackfistRound_L": {
+   "name": "KB_m_BackfistRound_L",
+   "source": "KB_m_BackfistRound_L",
+   "tag": "LBackFist1",
+   "duration": 2.18333,
+   "frames": 67,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1222,
+    "yMin": 0.8814,
+    "yMax": 1.0077,
+    "rootTravel": false
+   }
+  },
+  "KB_m_BackfistRound_L2": {
+   "name": "KB_m_BackfistRound_L2",
+   "source": "KB_m_BackfistRound_L2",
+   "tag": "LBackFist2",
+   "duration": 2.45,
+   "frames": 75,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.2081,
+    "yMin": 0.9055,
+    "yMax": 0.9992,
+    "rootTravel": false
+   }
+  },
+  "KB_m_BackfistRound_R": {
+   "name": "KB_m_BackfistRound_R",
+   "source": "KB_m_BackfistRound_R",
+   "tag": "RBackFist1",
+   "duration": 1.45,
+   "frames": 45,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.2261,
+    "yMin": 0.8611,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_m_HighKickRound_L_1": {
+   "name": "KB_m_HighKickRound_L_1",
+   "source": "KB_m_HighKickRound_L_1",
+   "tag": "LRoundKick",
+   "duration": 2.36667,
+   "frames": 72,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0064,
+     0.9778,
+     -0.0259
+    ],
+    "endDelta": [
+     -0.0009,
+     0,
+     0.0004
+    ],
+    "netXZ": 0.001,
+    "maxXZ": 0.1319,
+    "yMin": 0.9489,
+    "yMax": 1.058,
+    "rootTravel": false
+   }
+  },
+  "KB_m_HighKickRound_R_1": {
+   "name": "KB_m_HighKickRound_R_1",
+   "source": "KB_m_HighKickRound_R_1",
+   "tag": "RRoundKick",
+   "duration": 2.18333,
+   "frames": 67,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1592,
+    "yMin": 0.9264,
+    "yMax": 1.0374,
+    "rootTravel": false
+   }
+  },
+  "KB_m_HighKick_R": {
+   "name": "KB_m_HighKick_R",
+   "source": "KB_m_HighKick_R",
+   "tag": "RHighKick",
+   "duration": 1.46667,
+   "frames": 45,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0843,
+    "yMin": 0.8629,
+    "yMax": 1.0505,
+    "rootTravel": false
+   }
+  },
+  "KB_m_HighKick_R_2": {
+   "name": "KB_m_HighKick_R_2",
+   "source": "KB_m_HighKick_R_2",
+   "tag": "RHighKick",
+   "duration": 1.88333,
+   "frames": 58,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0129,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1195,
+    "yMin": 0.8396,
+    "yMax": 1.0289,
+    "rootTravel": false
+   }
+  },
+  "KB_m_Hook_L": {
+   "name": "KB_m_Hook_L",
+   "source": "KB_m_Hook_L",
+   "tag": "LPHook",
+   "duration": 0.8,
+   "frames": 25,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0.065,
+     -0.0289,
+     0.1186
+    ],
+    "netXZ": 0.1352,
+    "maxXZ": 0.3195,
+    "yMin": 0.7905,
+    "yMax": 0.99,
+    "rootTravel": true
+   }
+  },
+  "KB_m_Hook_R": {
+   "name": "KB_m_Hook_R",
+   "source": "KB_m_Hook_R",
+   "tag": "RPHook",
+   "duration": 1.03333,
+   "frames": 32,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     -0.0002,
+     0,
+     0.0005
+    ],
+    "netXZ": 0.0005,
+    "maxXZ": 0.1528,
+    "yMin": 0.8063,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_m_Jab_L": {
+   "name": "KB_m_Jab_L",
+   "source": "KB_m_Jab_L",
+   "tag": "LPJab",
+   "duration": 0.9,
+   "frames": 28,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.2216,
+    "yMin": 0.808,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_m_Jab_R": {
+   "name": "KB_m_Jab_R",
+   "source": "KB_m_Jab_R",
+   "tag": "RPJab",
+   "duration": 0.93333,
+   "frames": 29,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0468,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     -0.0003,
+     0,
+     -0.0002
+    ],
+    "netXZ": 0.0004,
+    "maxXZ": 0.1968,
+    "yMin": 0.8022,
+    "yMax": 0.9905,
+    "rootTravel": false
+   }
+  },
+  "KB_m_MidKickRoud_L_1": {
+   "name": "KB_m_MidKickRoud_L_1",
+   "source": "KB_m_MidKickRoud_L_1",
+   "tag": "LBodyRoundKick",
+   "duration": 2.41667,
+   "frames": 73,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     -0.0022,
+     0,
+     0.0001
+    ],
+    "netXZ": 0.0022,
+    "maxXZ": 0.1214,
+    "yMin": 0.9143,
+    "yMax": 1.0019,
+    "rootTravel": false
+   }
+  },
+  "KB_m_MidKickRoud_R_1": {
+   "name": "KB_m_MidKickRoud_R_1",
+   "source": "KB_m_MidKickRoud_R_1",
+   "tag": "RBodyRoundKick",
+   "duration": 1.8,
+   "frames": 55,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1039,
+    "yMin": 0.9186,
+    "yMax": 1.0503,
+    "rootTravel": false
+   }
+  },
+  "KB_m_MidKickStraight_R": {
+   "name": "KB_m_MidKickStraight_R",
+   "source": "KB_m_MidKickStraight_R",
+   "tag": "RBodyPush1Kick",
+   "duration": 1.58333,
+   "frames": 49,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0.0001,
+     0,
+     -0.0002
+    ],
+    "netXZ": 0.0003,
+    "maxXZ": 0.0785,
+    "yMin": 0.9355,
+    "yMax": 0.9848,
+    "rootTravel": false
+   }
+  },
+  "KB_m_MidKick_L": {
+   "name": "KB_m_MidKick_L",
+   "source": "KB_m_MidKick_L",
+   "tag": "LBody1Kick",
+   "duration": 2.28333,
+   "frames": 70,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0116,
+     0.9853,
+     -0.0218
+    ],
+    "endDelta": [
+     -0.0001,
+     0,
+     -0.0003
+    ],
+    "netXZ": 0.0003,
+    "maxXZ": 0.0761,
+    "yMin": 0.8913,
+    "yMax": 1.0609,
+    "rootTravel": false
+   }
+  },
+  "KB_m_MidKick_L_2": {
+   "name": "KB_m_MidKick_L_2",
+   "source": "KB_m_MidKick_L_2",
+   "tag": "LBody2Kick",
+   "duration": 1.43333,
+   "frames": 44,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0153,
+     0.9709,
+     -0.0225
+    ],
+    "endDelta": [
+     -0.0018,
+     0,
+     0
+    ],
+    "netXZ": 0.0018,
+    "maxXZ": 0.0581,
+    "yMin": 0.8907,
+    "yMax": 1.0729,
+    "rootTravel": false
+   }
+  },
+  "KB_m_MidKick_R": {
+   "name": "KB_m_MidKick_R",
+   "source": "KB_m_MidKick_R",
+   "tag": "RBody1Kick",
+   "duration": 1.5,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0129,
+     0.9773,
+     -0.0236
+    ],
+    "endDelta": [
+     -0.0007,
+     0,
+     0.0002
+    ],
+    "netXZ": 0.0008,
+    "maxXZ": 0.0639,
+    "yMin": 0.8679,
+    "yMax": 1.052,
+    "rootTravel": false
+   }
+  },
+  "KB_m_MidKick_R_2": {
+   "name": "KB_m_MidKick_R_2",
+   "source": "KB_m_MidKick_R_2",
+   "tag": "RBody2Kick",
+   "duration": 2.41667,
+   "frames": 73,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0129,
+     0.9778,
+     -0.0233
+    ],
+    "endDelta": [
+     -0.0011,
+     0.0038,
+     0.0004
+    ],
+    "netXZ": 0.0011,
+    "maxXZ": 0.1038,
+    "yMin": 0.833,
+    "yMax": 1.0044,
+    "rootTravel": false
+   }
+  },
+  "KB_m_Overhand_L": {
+   "name": "KB_m_Overhand_L",
+   "source": "KB_m_Overhand_L",
+   "tag": "LOverHand",
+   "duration": 1.01667,
+   "frames": 32,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0.0001,
+     0
+    ],
+    "netXZ": 0.0001,
+    "maxXZ": 0.2146,
+    "yMin": 0.8703,
+    "yMax": 0.9902,
+    "rootTravel": false
+   }
+  },
+  "KB_m_Overhand_R": {
+   "name": "KB_m_Overhand_R",
+   "source": "KB_m_Overhand_R",
+   "tag": "ROverHand",
+   "duration": 1.6,
+   "frames": 49,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0468,
+     0.9899,
+     -0.0375
+    ],
+    "endDelta": [
+     -0.0001,
+     0.0001,
+     -0.0002
+    ],
+    "netXZ": 0.0002,
+    "maxXZ": 0.1493,
+    "yMin": 0.8642,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_m_RoundhouseKickRight": {
+   "name": "KB_m_RoundhouseKickRight",
+   "source": "KB_m_RoundhouseKickRight",
+   "tag": "RWheelKick",
+   "duration": 1.6,
+   "frames": 49,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1877,
+    "yMin": 0.9253,
+    "yMax": 1.026,
+    "rootTravel": false
+   }
+  },
+  "KB_m_SideKickLeft": {
+   "name": "KB_m_SideKickLeft",
+   "source": "KB_m_SideKickLeft",
+   "tag": "LBodySideKick",
+   "duration": 1.56667,
+   "frames": 48,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0235
+    ],
+    "endDelta": [
+     -0.0001,
+     0,
+     -0.0002
+    ],
+    "netXZ": 0.0003,
+    "maxXZ": 0.1215,
+    "yMin": 0.9279,
+    "yMax": 1.064,
+    "rootTravel": false
+   }
+  },
+  "KB_m_Uppercut_L": {
+   "name": "KB_m_Uppercut_L",
+   "source": "KB_m_Uppercut_L",
+   "tag": "LPUppercut",
+   "duration": 1.16667,
+   "frames": 36,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.9899,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     -0.0001
+    ],
+    "netXZ": 0.0001,
+    "maxXZ": 0.2318,
+    "yMin": 0.805,
+    "yMax": 1.0008,
+    "rootTravel": false
+   }
+  },
+  "KB_m_Uppercut_R": {
+   "name": "KB_m_Uppercut_R",
+   "source": "KB_m_Uppercut_R",
+   "tag": "RPUppercut",
+   "duration": 1.2,
+   "frames": 37,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0468,
+     0.9901,
+     -0.0375
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.2638,
+    "yMin": 0.8057,
+    "yMax": 0.9901,
+    "rootTravel": true
+   }
+  },
+  "KB_p_Duck": {
+   "name": "KB_p_Duck",
+   "source": "KB_p_Duck",
+   "tag": "BDodge",
+   "duration": 0.81667,
+   "frames": 26,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1119,
+    "yMin": 0.8703,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_p_HighKickStraight_R": {
+   "name": "KB_p_HighKickStraight_R",
+   "source": "KB_p_HighKickStraight_R",
+   "tag": "RThrustKick",
+   "duration": 1.4,
+   "frames": 43,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0812,
+    "yMin": 0.9642,
+    "yMax": 1.058,
+    "rootTravel": false
+   }
+  },
+  "KB_p_HighKick_R_1": {
+   "name": "KB_p_HighKick_R_1",
+   "source": "KB_p_HighKick_R_1",
+   "tag": "RFrontKick",
+   "duration": 1.56667,
+   "frames": 48,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0849,
+    "yMin": 0.9288,
+    "yMax": 1.0502,
+    "rootTravel": false
+   }
+  },
+  "KB_p_Hook_L": {
+   "name": "KB_p_Hook_L",
+   "source": "KB_p_Hook_L",
+   "tag": "LHook",
+   "duration": 1,
+   "frames": 31,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0.0003,
+     0.0001,
+     0.0003
+    ],
+    "netXZ": 0.0004,
+    "maxXZ": 0.105,
+    "yMin": 0.9405,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_p_Hook_R": {
+   "name": "KB_p_Hook_R",
+   "source": "KB_p_Hook_R",
+   "tag": "RHook",
+   "duration": 1.01667,
+   "frames": 32,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     -0.0001,
+     0.0005,
+     0
+    ],
+    "netXZ": 0.0001,
+    "maxXZ": 0.1965,
+    "yMin": 0.9226,
+    "yMax": 0.9916,
+    "rootTravel": false
+   }
+  },
+  "KB_p_Jab_LR_combo": {
+   "name": "KB_p_Jab_LR_combo",
+   "source": "KB_p_Jab_LR_combo",
+   "tag": "RJab",
+   "duration": 0.7,
+   "frames": 22,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.1053,
+     0.9063,
+     0.058
+    ],
+    "endDelta": [
+     -0.0587,
+     0.0836,
+     -0.0956
+    ],
+    "netXZ": 0.1122,
+    "maxXZ": 0.1139,
+    "yMin": 0.9063,
+    "yMax": 0.9975,
+    "rootTravel": false
+   }
+  },
+  "KB_p_Jab_L_1": {
+   "name": "KB_p_Jab_L_1",
+   "source": "KB_p_Jab_L_1",
+   "tag": "LJab",
+   "duration": 0.95,
+   "frames": 30,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     -0.0002,
+     -0.0002
+    ],
+    "netXZ": 0.0002,
+    "maxXZ": 0.1171,
+    "yMin": 0.9103,
+    "yMax": 1.0048,
+    "rootTravel": false
+   }
+  },
+  "KB_p_Jab_R_1": {
+   "name": "KB_p_Jab_R_1",
+   "source": "KB_p_Jab_R_1",
+   "tag": "RJab",
+   "duration": 0.76667,
+   "frames": 24,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0.0001,
+     0,
+     0.0001
+    ],
+    "netXZ": 0.0001,
+    "maxXZ": 0.0757,
+    "yMin": 0.9097,
+    "yMax": 0.9907,
+    "rootTravel": false
+   }
+  },
+  "KB_p_LowKick_L_1": {
+   "name": "KB_p_LowKick_L_1",
+   "source": "KB_p_LowKick_L_1",
+   "tag": "LLowKick",
+   "duration": 1.21667,
+   "frames": 37,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0.0005,
+     -0.0006,
+     0.0005
+    ],
+    "netXZ": 0.0007,
+    "maxXZ": 0.0594,
+    "yMin": 0.9559,
+    "yMax": 0.9936,
+    "rootTravel": false
+   }
+  },
+  "KB_p_LowKick_R_1": {
+   "name": "KB_p_LowKick_R_1",
+   "source": "KB_p_LowKick_R_1",
+   "tag": "RLowKick",
+   "duration": 1.6,
+   "frames": 49,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0442,
+    "yMin": 0.9339,
+    "yMax": 1.0142,
+    "rootTravel": false
+   }
+  },
+  "KB_p_MidHook_L": {
+   "name": "KB_p_MidHook_L",
+   "source": "KB_p_MidHook_L",
+   "tag": "LBodyHook",
+   "duration": 1.2,
+   "frames": 37,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.3548,
+    "yMin": 0.8106,
+    "yMax": 0.9935,
+    "rootTravel": true
+   }
+  },
+  "KB_p_MidHook_R": {
+   "name": "KB_p_MidHook_R",
+   "source": "KB_p_MidHook_R",
+   "tag": "RBodyHook",
+   "duration": 1.4,
+   "frames": 43,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.2444,
+    "yMin": 0.8183,
+    "yMax": 0.9985,
+    "rootTravel": false
+   }
+  },
+  "KB_p_MidJab_L": {
+   "name": "KB_p_MidJab_L",
+   "source": "KB_p_MidJab_L",
+   "tag": "LBodyJab",
+   "duration": 0.91667,
+   "frames": 29,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1481,
+    "yMin": 0.5957,
+    "yMax": 0.9948,
+    "rootTravel": false
+   }
+  },
+  "KB_p_MidJab_R": {
+   "name": "KB_p_MidJab_R",
+   "source": "KB_p_MidJab_R",
+   "tag": "RBodyJab",
+   "duration": 0.88333,
+   "frames": 28,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0675,
+    "yMin": 0.7125,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_p_MidKickFront_L": {
+   "name": "KB_p_MidKickFront_L",
+   "source": "KB_p_MidKickFront_L",
+   "tag": "LBodyPushKick",
+   "duration": 1.26667,
+   "frames": 39,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0.0006,
+     0,
+     0.0006
+    ],
+    "netXZ": 0.0008,
+    "maxXZ": 0.0775,
+    "yMin": 0.9417,
+    "yMax": 1.0497,
+    "rootTravel": false
+   }
+  },
+  "KB_p_MidKickFront_R": {
+   "name": "KB_p_MidKickFront_R",
+   "source": "KB_p_MidKickFront_R",
+   "tag": "RBodyPush2Kick",
+   "duration": 1.41667,
+   "frames": 44,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0235
+    ],
+    "endDelta": [
+     0.0001,
+     0.0001,
+     0.0023
+    ],
+    "netXZ": 0.0023,
+    "maxXZ": 0.1059,
+    "yMin": 0.9576,
+    "yMax": 1.0112,
+    "rootTravel": false
+   }
+  },
+  "KB_p_MidKickStraight_R": {
+   "name": "KB_p_MidKickStraight_R",
+   "source": "KB_p_MidKickStraight_R",
+   "tag": "RBodyPush3Kick",
+   "duration": 1.5,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0593,
+    "yMin": 0.9155,
+    "yMax": 1.0018,
+    "rootTravel": false
+   }
+  },
+  "KB_p_MidKick_L_1": {
+   "name": "KB_p_MidKick_L_1",
+   "source": "KB_p_MidKick_L_1",
+   "tag": "LBody3Kick",
+   "duration": 2.28333,
+   "frames": 70,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0125,
+     0.9777,
+     -0.0237
+    ],
+    "endDelta": [
+     -0.0002,
+     0,
+     -0.0003
+    ],
+    "netXZ": 0.0003,
+    "maxXZ": 0.0771,
+    "yMin": 0.948,
+    "yMax": 1.069,
+    "rootTravel": false
+   }
+  },
+  "KB_p_MidKick_R_1": {
+   "name": "KB_p_MidKick_R_1",
+   "source": "KB_p_MidKick_R_1",
+   "tag": "RBody3Kick",
+   "duration": 1.5,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0129,
+     0.9773,
+     -0.0236
+    ],
+    "endDelta": [
+     -0.0007,
+     0,
+     0.0002
+    ],
+    "netXZ": 0.0008,
+    "maxXZ": 0.0548,
+    "yMin": 0.9126,
+    "yMax": 1.0521,
+    "rootTravel": false
+   }
+  },
+  "KB_p_MidUppercut_L": {
+   "name": "KB_p_MidUppercut_L",
+   "source": "KB_p_MidUppercut_L",
+   "tag": "LBodyUppercut",
+   "duration": 1.15,
+   "frames": 36,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1087,
+    "yMin": 0.8717,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_p_MidUppercut_R": {
+   "name": "KB_p_MidUppercut_R",
+   "source": "KB_p_MidUppercut_R",
+   "tag": "RBodyUppercut",
+   "duration": 1.11667,
+   "frames": 35,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1185,
+    "yMin": 0.8122,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_p_Uppercut_L": {
+   "name": "KB_p_Uppercut_L",
+   "source": "KB_p_Uppercut_L",
+   "tag": "LUppercut",
+   "duration": 0.96667,
+   "frames": 30,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1131,
+    "yMin": 0.9305,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "KB_p_Uppercut_R": {
+   "name": "KB_p_Uppercut_R",
+   "source": "KB_p_Uppercut_R",
+   "tag": "RUppercut",
+   "duration": 1.1,
+   "frames": 34,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1431,
+    "yMin": 0.9149,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "Karate_Kick": {
+   "name": "Karate_Kick",
+   "source": "Karate_Kick",
+   "tag": "Entry",
+   "duration": 6.7,
+   "frames": 202,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0059,
+     1.0395,
+     0.0282
+    ],
+    "endDelta": [
+     0.0136,
+     -0.0024,
+     -0.0066
+    ],
+    "netXZ": 0.0151,
+    "maxXZ": 0.1268,
+    "yMin": 0.9159,
+    "yMax": 1.2206,
+    "rootTravel": false
+   }
+  },
+  "Kick_To_Head_01_Attacker": {
+   "name": "Kick_To_Head_01_Attacker",
+   "source": "Kick_To_Head_01_Attacker",
+   "tag": "LCrescentKick",
+   "duration": 1.86667,
+   "frames": 57,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.002,
+     0.9999,
+     0.0052
+    ],
+    "endDelta": [
+     -0.0211,
+     -0.0282,
+     0.0046
+    ],
+    "netXZ": 0.0216,
+    "maxXZ": 0.1124,
+    "yMin": 0.919,
+    "yMax": 1.1023,
+    "rootTravel": false
+   }
+  },
+  "Kick_To_Head_03_Attacker": {
+   "name": "Kick_To_Head_03_Attacker",
+   "source": "Kick_To_Head_03_Attacker",
+   "tag": "LThrustBounceKick",
+   "duration": 2.03333,
+   "frames": 62,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0269,
+     0.9657,
+     0.0098
+    ],
+    "endDelta": [
+     0.0116,
+     -0.0016,
+     -0.0089
+    ],
+    "netXZ": 0.0146,
+    "maxXZ": 0.0596,
+    "yMin": 0.904,
+    "yMax": 1.0781,
+    "rootTravel": false
+   }
+  },
+  "Kick_To_Head_04_Attacker": {
+   "name": "Kick_To_Head_04_Attacker",
+   "source": "Kick_To_Head_04_Attacker",
+   "tag": "LThrustKick",
+   "duration": 2.56667,
+   "frames": 78,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0105,
+     0.9163,
+     -0.0131
+    ],
+    "endDelta": [
+     0.0063,
+     -0.0066,
+     0.0103
+    ],
+    "netXZ": 0.012,
+    "maxXZ": 0.0511,
+    "yMin": 0.8393,
+    "yMax": 1.0646,
+    "rootTravel": false
+   }
+  },
+  "Kicking": {
+   "name": "Kicking",
+   "source": "Kicking",
+   "tag": "LJumpKick",
+   "duration": 2.03333,
+   "frames": 62,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0016,
+     1.0361,
+     -0.0319
+    ],
+    "endDelta": [
+     -0.0145,
+     0.015,
+     0.0189
+    ],
+    "netXZ": 0.0239,
+    "maxXZ": 0.1101,
+    "yMin": 0.9036,
+    "yMax": 1.4994,
+    "rootTravel": false
+   }
+  },
+  "Knuckle_Taunt": {
+   "name": "Knuckle_Taunt",
+   "source": "Knuckle_Taunt",
+   "tag": "Entry",
+   "duration": 12.0667,
+   "frames": 363,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.001,
+     1.0397,
+     0.0193
+    ],
+    "endDelta": [
+     -0.0025,
+     0.0014,
+     -0.0031
+    ],
+    "netXZ": 0.0039,
+    "maxXZ": 0.0843,
+    "yMin": 0.9722,
+    "yMax": 1.0444,
+    "rootTravel": false
+   }
+  },
+  "Loser": {
+   "name": "Loser",
+   "source": "Loser",
+   "tag": "Taunt",
+   "duration": 3.2667,
+   "frames": 99,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0046,
+     1.0146,
+     0.0186
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.2023,
+    "yMin": 0.9827,
+    "yMax": 1.0236,
+    "rootTravel": false
+   }
+  },
+  "Mma Kick": {
+   "name": "Mma Kick",
+   "source": "Mma Kick",
+   "tag": "RSideKick",
+   "duration": 2.01667,
+   "frames": 61,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0279,
+     0.9464,
+     -0.0332
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1715,
+    "yMin": 0.9127,
+    "yMax": 1.0681,
+    "rootTravel": false
+   }
+  },
+  "Mma Kick (1)": {
+   "name": "Mma Kick (1)",
+   "source": "Mma Kick (1)",
+   "tag": "RWheelKick",
+   "duration": 2.05,
+   "frames": 63,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0279,
+     0.9464,
+     -0.0332
+    ],
+    "endDelta": [
+     0,
+     -0.0001,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.2079,
+    "yMin": 0.8676,
+    "yMax": 1.0929,
+    "rootTravel": false
+   }
+  },
+  "Monster_Idle_01": {
+   "name": "Monster_Idle_01",
+   "source": "Monster_Idle_01",
+   "tag": "",
+   "duration": 6.3333,
+   "frames": 191,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0286,
+     0.92,
+     -0.0599
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0261,
+    "yMin": 0.9183,
+    "yMax": 0.9254,
+    "rootTravel": false
+   }
+  },
+  "Monster_Idle_04": {
+   "name": "Monster_Idle_04",
+   "source": "Monster_Idle_04",
+   "tag": "Neutral",
+   "duration": 6.53333,
+   "frames": 197,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     -0.0066,
+     0.9488,
+     0.0239
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1028,
+    "yMin": 0.9397,
+    "yMax": 0.9555,
+    "rootTravel": false
+   }
+  },
+  "Monster_Walk_Bwd": {
+   "name": "Monster_Walk_Bwd",
+   "source": "Monster_Walk_Bwd",
+   "tag": "Neutral",
+   "duration": 2.03333,
+   "frames": 62,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     -0.0295,
+     0.9839,
+     -0.0486
+    ],
+    "endDelta": [
+     0.0001,
+     0,
+     0
+    ],
+    "netXZ": 0.0001,
+    "maxXZ": 0.078,
+    "yMin": 0.88,
+    "yMax": 1.0245,
+    "rootTravel": false
+   }
+  },
+  "Monster_Walk_Fwd": {
+   "name": "Monster_Walk_Fwd",
+   "source": "Monster_Walk_Fwd",
+   "tag": "Neutral",
+   "duration": 2.03333,
+   "frames": 62,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     -0.0159,
+     1.0215,
+     -0.0457
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0393,
+    "yMin": 0.893,
+    "yMax": 1.0219,
+    "rootTravel": false
+   }
+  },
+  "Monster_Walk_Left": {
+   "name": "Monster_Walk_Left",
+   "source": "Monster_Walk_Left",
+   "tag": "Neutral",
+   "duration": 2.03333,
+   "frames": 62,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.011,
+     1.0266,
+     -0.04
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0.0001,
+    "maxXZ": 0.0739,
+    "yMin": 0.8693,
+    "yMax": 1.0305,
+    "rootTravel": false
+   }
+  },
+  "Monster_Walk_Left_135": {
+   "name": "Monster_Walk_Left_135",
+   "source": "Monster_Walk_Left_135",
+   "tag": "Neutral",
+   "duration": 2.03333,
+   "frames": 62,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     -0.0164,
+     1.026,
+     -0.0529
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0393,
+    "yMin": 0.9044,
+    "yMax": 1.026,
+    "rootTravel": false
+   }
+  },
+  "Monster_Walk_Left_45": {
+   "name": "Monster_Walk_Left_45",
+   "source": "Monster_Walk_Left_45",
+   "tag": "Neutral",
+   "duration": 2.03333,
+   "frames": 62,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0104,
+     1.0265,
+     -0.0213
+    ],
+    "endDelta": [
+     -0.0001,
+     0,
+     0
+    ],
+    "netXZ": 0.0001,
+    "maxXZ": 0.0664,
+    "yMin": 0.8711,
+    "yMax": 1.0265,
+    "rootTravel": false
+   }
+  },
+  "Monster_Walk_Right": {
+   "name": "Monster_Walk_Right",
+   "source": "Monster_Walk_Right",
+   "tag": "Neutral",
+   "duration": 2.03333,
+   "frames": 62,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0247,
+     0.9413,
+     -0.0746
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.032,
+    "yMin": 0.8543,
+    "yMax": 1.0137,
+    "rootTravel": false
+   }
+  },
+  "Monster_Walk_Right_135": {
+   "name": "Monster_Walk_Right_135",
+   "source": "Monster_Walk_Right_135",
+   "tag": "Neutral",
+   "duration": 2.03333,
+   "frames": 62,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0341,
+     0.9576,
+     -0.0614
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0603,
+    "yMin": 0.869,
+    "yMax": 1.0153,
+    "rootTravel": false
+   }
+  },
+  "Monster_Walk_Right_45": {
+   "name": "Monster_Walk_Right_45",
+   "source": "Monster_Walk_Right_45",
+   "tag": "Neutral",
+   "duration": 2.03333,
+   "frames": 62,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     -0.0137,
+     0.96,
+     -0.048
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0321,
+    "yMin": 0.8656,
+    "yMax": 1.0204,
+    "rootTravel": false
+   }
+  },
+  "Mr_Universe": {
+   "name": "Mr_Universe",
+   "source": "Mr_Universe",
+   "tag": "Entry",
+   "duration": 7.0667,
+   "frames": 213,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0061,
+     1.027,
+     0.001
+    ],
+    "endDelta": [
+     0.0019,
+     0.002,
+     0.0045
+    ],
+    "netXZ": 0.0049,
+    "maxXZ": 0.1426,
+    "yMin": 0.8735,
+    "yMax": 1.0298,
+    "rootTravel": false
+   }
+  },
+  "No": {
+   "name": "No",
+   "source": "No",
+   "tag": "Taunt",
+   "duration": 5.2667,
+   "frames": 159,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0041,
+     1.0251,
+     0.0358
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1385,
+    "yMin": 0.9364,
+    "yMax": 1.028,
+    "rootTravel": false
+   }
+  },
+  "Offensive Idle": {
+   "name": "Offensive Idle",
+   "source": "Offensive Idle",
+   "tag": "",
+   "duration": 10.56667,
+   "frames": 318,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     -0.0059,
+     1.0085,
+     0.0159
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.2515,
+    "yMin": 0.985,
+    "yMax": 1.0248,
+    "rootTravel": true
+   }
+  },
+  "Pointing Gesture": {
+   "name": "Pointing Gesture",
+   "source": "Pointing Gesture",
+   "tag": "Taunt",
+   "duration": 1.85,
+   "frames": 57,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0194,
+     1.0054,
+     0.0288
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0445,
+    "yMin": 0.8943,
+    "yMax": 1.008,
+    "rootTravel": false
+   }
+  },
+  "Quick Formal Bow": {
+   "name": "Quick Formal Bow",
+   "source": "Quick Formal Bow",
+   "tag": "Entry",
+   "duration": 2.75,
+   "frames": 83,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0005,
+     1.0389,
+     0.0281
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0619,
+    "yMin": 1.0324,
+    "yMax": 1.0389,
+    "rootTravel": false
+   }
+  },
+  "Rallying": {
+   "name": "Rallying",
+   "source": "Rallying",
+   "tag": "Entry",
+   "duration": 6.2,
+   "frames": 187,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0121,
+     0.9863,
+     -0.0378
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0808,
+    "yMin": 0.9163,
+    "yMax": 1.0204,
+    "rootTravel": false
+   }
+  },
+  "Robo_Taunt": {
+   "name": "Robo_Taunt",
+   "source": "Robo_Taunt",
+   "tag": "Entry",
+   "duration": 9.6,
+   "frames": 289,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0011,
+     1.0278,
+     0.026
+    ],
+    "endDelta": [
+     0.0027,
+     -0.0032,
+     -0.0102
+    ],
+    "netXZ": 0.0106,
+    "maxXZ": 0.1259,
+    "yMin": 0.9893,
+    "yMax": 1.0327,
+    "rootTravel": false
+   }
+  },
+  "Roundhouse Kick": {
+   "name": "Roundhouse Kick",
+   "source": "Roundhouse Kick",
+   "tag": "RRoundHouseKick",
+   "duration": 2.51667,
+   "frames": 77,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0238,
+     0.9434,
+     0.0155
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1038,
+    "yMin": 0.878,
+    "yMax": 1.087,
+    "rootTravel": false
+   }
+  },
+  "Sarcastic_Clap": {
+   "name": "Sarcastic_Clap",
+   "source": "Sarcastic_Clap",
+   "tag": "Entry",
+   "duration": 7.3333,
+   "frames": 221,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0018,
+     1.0269,
+     0.0107
+    ],
+    "endDelta": [
+     0.01,
+     0.0006,
+     0.016
+    ],
+    "netXZ": 0.0189,
+    "maxXZ": 0.0441,
+    "yMin": 1.007,
+    "yMax": 1.0293,
+    "rootTravel": false
+   }
+  },
+  "Scissor Kick": {
+   "name": "Scissor Kick",
+   "source": "Scissor Kick",
+   "tag": "RScissorKick",
+   "duration": 2.76667,
+   "frames": 84,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0131,
+     0.9239,
+     -0.1033
+    ],
+    "endDelta": [
+     -0.0051,
+     0,
+     0.2071
+    ],
+    "netXZ": 0.2072,
+    "maxXZ": 0.3464,
+    "yMin": 0.058,
+    "yMax": 1.1783,
+    "rootTravel": true
+   }
+  },
+  "Shadow_Boxing": {
+   "name": "Shadow_Boxing",
+   "source": "Shadow_Boxing",
+   "tag": "Entry",
+   "duration": 7.2,
+   "frames": 217,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0085,
+     1.0361,
+     0.0079
+    ],
+    "endDelta": [
+     0.0011,
+     -0.0034,
+     0.0147
+    ],
+    "netXZ": 0.0147,
+    "maxXZ": 0.0653,
+    "yMin": 0.8291,
+    "yMax": 1.0383,
+    "rootTravel": false
+   }
+  },
+  "Shake_Behind_Taunt": {
+   "name": "Shake_Behind_Taunt",
+   "source": "Shake_Behind_Taunt",
+   "tag": "Taunt",
+   "duration": 3.0667,
+   "frames": 93,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0058,
+     1.0413,
+     0.0121
+    ],
+    "endDelta": [
+     0.0156,
+     -0.0241,
+     0.0012
+    ],
+    "netXZ": 0.0156,
+    "maxXZ": 0.0992,
+    "yMin": 0.8861,
+    "yMax": 1.1802,
+    "rootTravel": false
+   }
+  },
+  "Side_Kick_To_Body": {
+   "name": "Side_Kick_To_Body",
+   "source": "Side_Kick_To_Body",
+   "tag": "RBodySide2Kick",
+   "duration": 1.53333,
+   "frames": 47,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0015,
+     0.9114,
+     -0.0363
+    ],
+    "endDelta": [
+     -0.0021,
+     0.0301,
+     0.0199
+    ],
+    "netXZ": 0.02,
+    "maxXZ": 0.1117,
+    "yMin": 0.887,
+    "yMax": 1.0119,
+    "rootTravel": false
+   }
+  },
+  "Side_Kick_To_Head_Attacker": {
+   "name": "Side_Kick_To_Head_Attacker",
+   "source": "Side_Kick_To_Head_Attacker",
+   "tag": "LFrontKick",
+   "duration": 1.76667,
+   "frames": 54,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0079,
+     0.9542,
+     -0.012
+    ],
+    "endDelta": [
+     0.0148,
+     -0.1168,
+     0.0049
+    ],
+    "netXZ": 0.0156,
+    "maxXZ": 0.1104,
+    "yMin": 0.8375,
+    "yMax": 1.061,
+    "rootTravel": false
+   }
+  },
+  "Speedbag": {
+   "name": "Speedbag",
+   "source": "Speedbag",
+   "tag": "Entry",
+   "duration": 6.6333,
+   "frames": 200,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0293,
+     0.996,
+     0.0093
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0727,
+    "yMin": 0.9801,
+    "yMax": 1.0131,
+    "rootTravel": false
+   }
+  },
+  "Spin Flip Kick": {
+   "name": "Spin Flip Kick",
+   "source": "Spin Flip Kick",
+   "tag": "LSpinKick",
+   "duration": 3.71667,
+   "frames": 113,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0252,
+     0.9391,
+     -0.0325
+    ],
+    "endDelta": [
+     -0.0165,
+     -0.1307,
+     0.0165
+    ],
+    "netXZ": 0.0233,
+    "maxXZ": 0.2554,
+    "yMin": 0.0805,
+    "yMax": 1.2815,
+    "rootTravel": true
+   }
+  },
+  "Taunt": {
+   "name": "Taunt",
+   "source": "Taunt",
+   "tag": "Taunt",
+   "duration": 2.85,
+   "frames": 87,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0234,
+     0.8805,
+     -0.0454
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0366,
+    "yMin": 0.8805,
+    "yMax": 0.9237,
+    "rootTravel": false
+   }
+  },
+  "Taunt (1)": {
+   "name": "Taunt (1)",
+   "source": "Taunt (1)",
+   "tag": "Taunt",
+   "duration": 1.65,
+   "frames": 51,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0194,
+     0.889,
+     -0.0187
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0345,
+    "yMin": 0.8886,
+    "yMax": 0.9595,
+    "rootTravel": false
+   }
+  },
+  "Up_Yours": {
+   "name": "Up_Yours",
+   "source": "Up_Yours",
+   "tag": "Taunt",
+   "duration": 3.6667,
+   "frames": 111,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0033,
+     1.0256,
+     0.0231
+    ],
+    "endDelta": [
+     0.0007,
+     0.0001,
+     0.0079
+    ],
+    "netXZ": 0.0079,
+    "maxXZ": 0.0732,
+    "yMin": 1.012,
+    "yMax": 1.0471,
+    "rootTravel": false
+   }
+  },
+  "Victory": {
+   "name": "Victory",
+   "source": "Victory",
+   "tag": "Victory",
+   "duration": 6.48333,
+   "frames": 195,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0002,
+     1.0206,
+     0.0264
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0359,
+    "yMin": 1.0093,
+    "yMax": 1.0259,
+    "rootTravel": false
+   }
+  },
+  "Victory_Taunt": {
+   "name": "Victory_Taunt",
+   "source": "Victory_Taunt",
+   "tag": "Victory",
+   "duration": 8.7333,
+   "frames": 263,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0058,
+     1.0106,
+     0.0072
+    ],
+    "endDelta": [
+     0.0054,
+     -0.0016,
+     0.0096
+    ],
+    "netXZ": 0.011,
+    "maxXZ": 0.0624,
+    "yMin": 0.9874,
+    "yMax": 1.0221,
+    "rootTravel": false
+   }
+  },
+  "Warming Up": {
+   "name": "Warming Up",
+   "source": "Warming Up",
+   "tag": "Entry",
+   "duration": 6.3,
+   "frames": 190,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0031,
+     0.9356,
+     -0.0032
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.3098,
+    "yMin": 0.7566,
+    "yMax": 1.1736,
+    "rootTravel": true
+   }
+  },
+  "Warrior Idle": {
+   "name": "Warrior Idle",
+   "source": "Warrior Idle",
+   "tag": "",
+   "duration": 11.46667,
+   "frames": 345,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     -0.0012,
+     0.9708,
+     0.0219
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0327,
+    "yMin": 0.9598,
+    "yMax": 1.001,
+    "rootTravel": false
+   }
+  },
+  "Yes": {
+   "name": "Yes",
+   "source": "Yes",
+   "tag": "Victory",
+   "duration": 2.2333,
+   "frames": 68,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0077,
+     1.0015,
+     0.0317
+    ],
+    "endDelta": [
+     0.0181,
+     0.0066,
+     -0.0144
+    ],
+    "netXZ": 0.0231,
+    "maxXZ": 0.0586,
+    "yMin": 0.8748,
+    "yMax": 1.0081,
+    "rootTravel": false
+   }
+  },
+  "mixamo.com": {
+   "name": "mixamo.com",
+   "source": "mixamo.com",
+   "tag": "LWheelKick",
+   "duration": 2.9,
+   "frames": 88,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.029,
+     0.9516,
+     -0.0115
+    ],
+    "endDelta": [
+     -0.0402,
+     -0.2665,
+     -0.0046
+    ],
+    "netXZ": 0.0404,
+    "maxXZ": 0.1612,
+    "yMin": 0.6146,
+    "yMax": 1.335,
+    "rootTravel": false
+   }
+  },
+  "v001_007_Kickboxing kick": {
+   "name": "v001_007_Kickboxing kick",
+   "source": "v001_007_Kickboxing kick",
+   "tag": "RHammerKick",
+   "duration": 1.78333,
+   "frames": 55,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0081,
+     0.946,
+     -0.0228
+    ],
+    "endDelta": [
+     0.0001,
+     0.0007,
+     -0.0004
+    ],
+    "netXZ": 0.0004,
+    "maxXZ": 0.4905,
+    "yMin": 0.9151,
+    "yMax": 1.0885,
+    "rootTravel": true
+   }
+  },
+  "v001_008_Kickboxing kick": {
+   "name": "v001_008_Kickboxing kick",
+   "source": "v001_008_Kickboxing kick",
+   "tag": "RBodyKick",
+   "duration": 1.85,
+   "frames": 57,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0081,
+     0.946,
+     -0.0229
+    ],
+    "endDelta": [
+     -0.0001,
+     -0.0002,
+     -0.0006
+    ],
+    "netXZ": 0.0006,
+    "maxXZ": 0.3095,
+    "yMin": 0.9058,
+    "yMax": 1.057,
+    "rootTravel": true
+   }
+  },
+  "v001_024_Karate Kick": {
+   "name": "v001_024_Karate Kick",
+   "source": "v001_024_Karate Kick",
+   "tag": "RFrontJumpKick",
+   "duration": 2.45,
+   "frames": 75,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0007,
+     0.9188,
+     -0.0119
+    ],
+    "endDelta": [
+     0.0007,
+     -0.0018,
+     -0.001
+    ],
+    "netXZ": 0.0012,
+    "maxXZ": 0.1041,
+    "yMin": 0.6901,
+    "yMax": 1.2922,
+    "rootTravel": false
+   }
+  },
+  "v001_026_Karate Kick": {
+   "name": "v001_026_Karate Kick",
+   "source": "v001_026_Karate Kick",
+   "tag": "RWheelKick",
+   "duration": 2.63333,
+   "frames": 80,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0043,
+     0.9286,
+     -0.0077
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1801,
+    "yMin": 0.7556,
+    "yMax": 1.0235,
+    "rootTravel": false
+   }
+  },
+  "v001_027_Karate Kick": {
+   "name": "v001_027_Karate Kick",
+   "source": "v001_027_Karate Kick",
+   "tag": "RWheelJumpKick",
+   "duration": 2.4,
+   "frames": 73,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0043,
+     0.9286,
+     -0.0077
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.2337,
+    "yMin": 0.7343,
+    "yMax": 1.2679,
+    "rootTravel": false
+   }
+  },
+  "v001_028_Karate Kick": {
+   "name": "v001_028_Karate Kick",
+   "source": "v001_028_Karate Kick",
+   "tag": "LArcKick",
+   "duration": 3.01667,
+   "frames": 92,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0043,
+     0.9286,
+     -0.0077
+    ],
+    "endDelta": [
+     0.0004,
+     -0.0004,
+     0.0006
+    ],
+    "netXZ": 0.0007,
+    "maxXZ": 0.1212,
+    "yMin": 0.8062,
+    "yMax": 1.0436,
+    "rootTravel": false
+   }
+  },
+  "v001_029_Karate Kick": {
+   "name": "v001_029_Karate Kick",
+   "source": "v001_029_Karate Kick",
+   "tag": "RBodyKick",
+   "duration": 2.25,
+   "frames": 69,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0043,
+     0.9286,
+     -0.0077
+    ],
+    "endDelta": [
+     0.0007,
+     -0.0001,
+     -0.0005
+    ],
+    "netXZ": 0.0009,
+    "maxXZ": 0.3245,
+    "yMin": 0.778,
+    "yMax": 1.0151,
+    "rootTravel": true
+   }
+  },
+  "Switch Stands A": {
+   "name": "Switch Stands A",
+   "source": "Switch Stands A",
+   "tag": "Neutral",
+   "duration": 1,
+   "frames": 31,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0452,
+     0.9899,
+     -0.0381
+    ],
+    "endDelta": [
+     -0.0001,
+     0,
+     -0.0001
+    ],
+    "netXZ": 0.0001,
+    "maxXZ": 0.151,
+    "yMin": 0.9552,
+    "yMax": 0.9899,
+    "rootTravel": false
+   }
+  },
+  "Switch Stands B": {
+   "name": "Switch Stands B",
+   "source": "Switch Stands B",
+   "tag": "Neutral",
+   "duration": 1,
+   "frames": 31,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0,
+     0.0001
+    ],
+    "netXZ": 0.0001,
+    "maxXZ": 0.1473,
+    "yMin": 0.9424,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "GetUpBack": {
+   "name": "GetUpBack",
+   "source": "GetUpBack",
+   "tag": "Neutral",
+   "duration": 1.6667,
+   "frames": 51,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0298,
+     0.116,
+     0.0032
+    ],
+    "endDelta": [
+     0.0765,
+     0.874,
+     -0.0409
+    ],
+    "netXZ": 0.0867,
+    "maxXZ": 0.121,
+    "yMin": 0.1113,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "GetUpFace": {
+   "name": "GetUpFace",
+   "source": "GetUpFace",
+   "tag": "Neutral",
+   "duration": 1.6667,
+   "frames": 51,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0119,
+     0.0891,
+     -0.0019
+    ],
+    "endDelta": [
+     0.0587,
+     0.901,
+     -0.036
+    ],
+    "netXZ": 0.0689,
+    "maxXZ": 0.2428,
+    "yMin": 0.0891,
+    "yMax": 0.9906,
+    "rootTravel": false
+   }
+  },
+  "B Dodge": {
+   "name": "B Dodge",
+   "source": "B Dodge",
+   "tag": "BDodge",
+   "duration": 0.8167,
+   "frames": 26,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1118,
+    "yMin": 0.8702,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "RunFwdLoop": {
+   "name": "RunFwdLoop",
+   "source": "RunFwdLoop",
+   "tag": "Neutral",
+   "duration": 1.7333,
+   "frames": 53,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1206,
+    "yMin": 0.824,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "L Fall": {
+   "name": "L Fall",
+   "source": "L Fall",
+   "tag": "Neutral",
+   "duration": 2.0333,
+   "frames": 62,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     -0.0586,
+     -0.9009,
+     0.0358
+    ],
+    "netXZ": 0.0687,
+    "maxXZ": 0.2844,
+    "yMin": 0.0886,
+    "yMax": 1.0405,
+    "rootTravel": true
+   }
+  },
+  "R Fall": {
+   "name": "R Fall",
+   "source": "R Fall",
+   "tag": "Neutral",
+   "duration": 1.9333,
+   "frames": 59,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     -0.0765,
+     -0.8741,
+     0.0408
+    ],
+    "netXZ": 0.0867,
+    "maxXZ": 0.1455,
+    "yMin": 0.1115,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "TakedownAttack": {
+   "name": "TakedownAttack",
+   "source": "TakedownAttack",
+   "tag": "Hit",
+   "duration": 7.2333,
+   "frames": 218,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.028,
+     0.9465,
+     -0.0332
+    ],
+    "endDelta": [
+     -0.03,
+     -0.5683,
+     -0.0188
+    ],
+    "netXZ": 0.0354,
+    "maxXZ": 0.155,
+    "yMin": 0.369,
+    "yMax": 0.9467,
+    "rootTravel": false
+   }
+  },
+  "TakedownVictim": {
+   "name": "TakedownVictim",
+   "source": "TakedownVictim",
+   "tag": "Hit",
+   "duration": 7.2333,
+   "frames": 218,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0186,
+     1.0201,
+     -0.0391
+    ],
+    "endDelta": [
+     -0.0199,
+     -0.8637,
+     0.1342
+    ],
+    "netXZ": 0.1357,
+    "maxXZ": 0.1425,
+    "yMin": 0.1553,
+    "yMax": 1.0284,
+    "rootTravel": false
+   }
+  },
+  "R LowKick": {
+   "name": "R LowKick",
+   "source": "R LowKick",
+   "tag": "RLowKick",
+   "duration": 1.6,
+   "frames": 49,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0442,
+    "yMin": 0.9339,
+    "yMax": 1.0142,
+    "rootTravel": false
+   }
+  },
+  "L LowKick": {
+   "name": "L LowKick",
+   "source": "L LowKick",
+   "tag": "LLowKick",
+   "duration": 1.2167,
+   "frames": 37,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0.0005,
+     -0.0006,
+     0.0005
+    ],
+    "netXZ": 0.0007,
+    "maxXZ": 0.0595,
+    "yMin": 0.9559,
+    "yMax": 0.9936,
+    "rootTravel": false
+   }
+  },
+  "Mma Idle": {
+   "name": "Mma Idle",
+   "source": "Mma Idle",
+   "tag": "",
+   "duration": 11.4667,
+   "frames": 345,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     -0.0012,
+     0.9708,
+     0.022
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0327,
+    "yMin": 0.9597,
+    "yMax": 1.001,
+    "rootTravel": false
+   }
+  },
+  "Crouch In": {
+   "name": "Crouch In",
+   "source": "Crouch In",
+   "tag": "FDodge",
+   "duration": 0.45,
+   "frames": 15,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     1.009,
+     -0.0234
+    ],
+    "endDelta": [
+     0.1191,
+     -0.3646,
+     -0.1258
+    ],
+    "netXZ": 0.1733,
+    "maxXZ": 0.1749,
+    "yMin": 0.6442,
+    "yMax": 1.009,
+    "rootTravel": false
+   }
+  },
+  "Crouch Out": {
+   "name": "Crouch Out",
+   "source": "Crouch Out",
+   "tag": "FDodge",
+   "duration": 0.5,
+   "frames": 16,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.1319,
+     0.6333,
+     -0.1493
+    ],
+    "endDelta": [
+     -0.1191,
+     0.3646,
+     0.1258
+    ],
+    "netXZ": 0.1733,
+    "maxXZ": 0.1733,
+    "yMin": 0.6333,
+    "yMax": 1.0015,
+    "rootTravel": false
+   }
+  },
+  "L Dodge": {
+   "name": "L Dodge",
+   "source": "L Dodge",
+   "tag": "LDodge",
+   "duration": 1.3167,
+   "frames": 41,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.2041,
+    "yMin": 0.7767,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "R Dodge": {
+   "name": "R Dodge",
+   "source": "R Dodge",
+   "tag": "RDodge",
+   "duration": 1.2167,
+   "frames": 37,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0.0038,
+     -0.0017,
+     -0.002
+    ],
+    "netXZ": 0.0043,
+    "maxXZ": 0.0749,
+    "yMin": 0.7982,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "Leg Block": {
+   "name": "Leg Block",
+   "source": "Leg Block",
+   "tag": "Neutral",
+   "duration": 0.6333,
+   "frames": 20,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     -0.0252,
+     0.0085,
+     -0.0417
+    ],
+    "netXZ": 0.0487,
+    "maxXZ": 0.1377,
+    "yMin": 0.9841,
+    "yMax": 1.0113,
+    "rootTravel": false
+   }
+  },
+  "Congrats": {
+   "name": "Congrats",
+   "source": "Congrats",
+   "tag": "Neutral",
+   "duration": 5.6667,
+   "frames": 171,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0046,
+     1.0086,
+     -0.0074
+    ],
+    "endDelta": [
+     0.0138,
+     -0.5135,
+     -0.1655
+    ],
+    "netXZ": 0.1661,
+    "maxXZ": 0.1663,
+    "yMin": 0.4934,
+    "yMax": 1.0086,
+    "rootTravel": false
+   }
+  },
+  "Joy": {
+   "name": "Joy",
+   "source": "Joy",
+   "tag": "",
+   "duration": 2.2333,
+   "frames": 68,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0077,
+     1.0015,
+     0.0317
+    ],
+    "endDelta": [
+     0.0181,
+     0.0066,
+     -0.0144
+    ],
+    "netXZ": 0.0231,
+    "maxXZ": 0.0586,
+    "yMin": 0.8748,
+    "yMax": 1.0081,
+    "rootTravel": false
+   }
+  },
+  "R J + L H": {
+   "name": "R J + L H",
+   "source": "R J + L H",
+   "tag": "LHook",
+   "duration": 1,
+   "frames": 31,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0.0003,
+     0,
+     0.0003
+    ],
+    "netXZ": 0.0004,
+    "maxXZ": 0.105,
+    "yMin": 0.9405,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "R J": {
+   "name": "R J",
+   "source": "R J",
+   "tag": "RJab",
+   "duration": 0.7667,
+   "frames": 24,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0.0001,
+     0,
+     0
+    ],
+    "netXZ": 0.0001,
+    "maxXZ": 0.0757,
+    "yMin": 0.9097,
+    "yMax": 0.9907,
+    "rootTravel": false
+   }
+  },
+  "R J + L J + R J": {
+   "name": "R J + L J + R J",
+   "source": "R J + L J + R J",
+   "tag": "RJab",
+   "duration": 0.7667,
+   "frames": 24,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0.0001,
+     0,
+     0
+    ],
+    "netXZ": 0.0001,
+    "maxXZ": 0.0757,
+    "yMin": 0.9097,
+    "yMax": 0.9907,
+    "rootTravel": false
+   }
+  },
+  "R J + L J + R U": {
+   "name": "R J + L J + R U",
+   "source": "R J + L J + R U",
+   "tag": "RUppercut",
+   "duration": 1.1,
+   "frames": 34,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1431,
+    "yMin": 0.9148,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "R J + L J": {
+   "name": "R J + L J",
+   "source": "R J + L J",
+   "tag": "LJab",
+   "duration": 0.95,
+   "frames": 30,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     -0.0002,
+     -0.0002
+    ],
+    "netXZ": 0.0002,
+    "maxXZ": 0.117,
+    "yMin": 0.9102,
+    "yMax": 1.0048,
+    "rootTravel": false
+   }
+  },
+  "L J + L H": {
+   "name": "L J + L H",
+   "source": "L J + L H",
+   "tag": "LHook",
+   "duration": 1,
+   "frames": 31,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0.0003,
+     0,
+     0.0003
+    ],
+    "netXZ": 0.0004,
+    "maxXZ": 0.105,
+    "yMin": 0.9405,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "L J + L U": {
+   "name": "L J + L U",
+   "source": "L J + L U",
+   "tag": "LUppercut",
+   "duration": 0.9667,
+   "frames": 30,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1131,
+    "yMin": 0.9305,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "L J + R B U": {
+   "name": "L J + R B U",
+   "source": "L J + R B U",
+   "tag": "RBodyUppercut",
+   "duration": 1.1167,
+   "frames": 35,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1185,
+    "yMin": 0.8122,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "L J + R U": {
+   "name": "L J + R U",
+   "source": "L J + R U",
+   "tag": "RUppercut",
+   "duration": 1.1,
+   "frames": 34,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1431,
+    "yMin": 0.9148,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "L J": {
+   "name": "L J",
+   "source": "L J",
+   "tag": "LJab",
+   "duration": 0.95,
+   "frames": 30,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     -0.0002,
+     -0.0002
+    ],
+    "netXZ": 0.0002,
+    "maxXZ": 0.117,
+    "yMin": 0.9102,
+    "yMax": 1.0048,
+    "rootTravel": false
+   }
+  },
+  "R B J": {
+   "name": "R B J",
+   "source": "R B J",
+   "tag": "RBodyJab",
+   "duration": 0.8833,
+   "frames": 28,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0674,
+    "yMin": 0.7125,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "L J + L J + R B U": {
+   "name": "L J + L J + R B U",
+   "source": "L J + L J + R B U",
+   "tag": "RBodyUppercut",
+   "duration": 1.1167,
+   "frames": 35,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1185,
+    "yMin": 0.8122,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "L J + L J + R B H": {
+   "name": "L J + L J + R B H",
+   "source": "L J + L J + R B H",
+   "tag": "RBodyHook",
+   "duration": 1.4,
+   "frames": 43,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.2444,
+    "yMin": 0.8183,
+    "yMax": 0.9985,
+    "rootTravel": false
+   }
+  },
+  "L J + L J + R H": {
+   "name": "L J + L J + R H",
+   "source": "L J + L J + R H",
+   "tag": "RHook",
+   "duration": 1.0167,
+   "frames": 32,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     -0.0001,
+     0.0005,
+     -0.0001
+    ],
+    "netXZ": 0.0001,
+    "maxXZ": 0.1965,
+    "yMin": 0.9225,
+    "yMax": 0.9915,
+    "rootTravel": false
+   }
+  },
+  "L J + L J + R B J": {
+   "name": "L J + L J + R B J",
+   "source": "L J + L J + R B J",
+   "tag": "RBodyJab",
+   "duration": 0.8833,
+   "frames": 28,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0674,
+    "yMin": 0.7125,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "L J + L J": {
+   "name": "L J + L J",
+   "source": "L J + L J",
+   "tag": "LJab",
+   "duration": 0.95,
+   "frames": 30,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     -0.0002,
+     -0.0002
+    ],
+    "netXZ": 0.0002,
+    "maxXZ": 0.117,
+    "yMin": 0.9102,
+    "yMax": 1.0048,
+    "rootTravel": false
+   }
+  },
+  "L J + L J + R U": {
+   "name": "L J + L J + R U",
+   "source": "L J + L J + R U",
+   "tag": "RUppercut",
+   "duration": 1.1,
+   "frames": 34,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1431,
+    "yMin": 0.9148,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "L J + L J + R J": {
+   "name": "L J + L J + R J",
+   "source": "L J + L J + R J",
+   "tag": "RJab",
+   "duration": 0.7,
+   "frames": 22,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.1054,
+     0.9063,
+     0.058
+    ],
+    "endDelta": [
+     -0.0587,
+     0.0837,
+     -0.0956
+    ],
+    "netXZ": 0.1122,
+    "maxXZ": 0.1139,
+    "yMin": 0.9063,
+    "yMax": 0.9975,
+    "rootTravel": false
+   }
+  },
+  "L J + R J + L U": {
+   "name": "L J + R J + L U",
+   "source": "L J + R J + L U",
+   "tag": "LUppercut",
+   "duration": 0.9667,
+   "frames": 30,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1131,
+    "yMin": 0.9305,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "L J + R J": {
+   "name": "L J + R J",
+   "source": "L J + R J",
+   "tag": "RJab",
+   "duration": 0.7667,
+   "frames": 24,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0.0001,
+     0,
+     0
+    ],
+    "netXZ": 0.0001,
+    "maxXZ": 0.0757,
+    "yMin": 0.9097,
+    "yMax": 0.9907,
+    "rootTravel": false
+   }
+  },
+  "L J + R J + L J": {
+   "name": "L J + R J + L J",
+   "source": "L J + R J + L J",
+   "tag": "LJab",
+   "duration": 0.95,
+   "frames": 30,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     -0.0002,
+     -0.0002
+    ],
+    "netXZ": 0.0002,
+    "maxXZ": 0.117,
+    "yMin": 0.9102,
+    "yMax": 1.0048,
+    "rootTravel": false
+   }
+  },
+  "L J + R J + L J + RJ": {
+   "name": "L J + R J + L J + RJ",
+   "source": "L J + R J + L J + RJ",
+   "tag": "RJab",
+   "duration": 0.7667,
+   "frames": 24,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0.0001,
+     0,
+     0
+    ],
+    "netXZ": 0.0001,
+    "maxXZ": 0.0757,
+    "yMin": 0.9097,
+    "yMax": 0.9907,
+    "rootTravel": false
+   }
+  },
+  "L J + R H + L U": {
+   "name": "L J + R H + L U",
+   "source": "L J + R H + L U",
+   "tag": "LUppercut",
+   "duration": 0.9667,
+   "frames": 30,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1131,
+    "yMin": 0.9305,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "L J + R H": {
+   "name": "L J + R H",
+   "source": "L J + R H",
+   "tag": "RHook",
+   "duration": 1.0167,
+   "frames": 32,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     -0.0001,
+     0.0005,
+     -0.0001
+    ],
+    "netXZ": 0.0001,
+    "maxXZ": 0.1965,
+    "yMin": 0.9225,
+    "yMax": 0.9915,
+    "rootTravel": false
+   }
+  },
+  "L J + R H + L H": {
+   "name": "L J + R H + L H",
+   "source": "L J + R H + L H",
+   "tag": "LHook",
+   "duration": 1,
+   "frames": 31,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0.0003,
+     0,
+     0.0003
+    ],
+    "netXZ": 0.0004,
+    "maxXZ": 0.105,
+    "yMin": 0.9405,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "L J + R B H + L B H": {
+   "name": "L J + R B H + L B H",
+   "source": "L J + R B H + L B H",
+   "tag": "LBodyHook",
+   "duration": 1.2,
+   "frames": 37,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.3547,
+    "yMin": 0.8106,
+    "yMax": 0.9935,
+    "rootTravel": true
+   }
+  },
+  "L J + R B H": {
+   "name": "L J + R B H",
+   "source": "L J + R B H",
+   "tag": "RBodyHook",
+   "duration": 1.4,
+   "frames": 43,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.2444,
+    "yMin": 0.8183,
+    "yMax": 0.9985,
+    "rootTravel": false
+   }
+  },
+  "L Wheel 114": {
+   "name": "L Wheel 114",
+   "source": "L Wheel 114",
+   "tag": "LWheelKick",
+   "duration": 2.9,
+   "frames": 88,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0313,
+     0.9515,
+     -0.0098
+    ],
+    "endDelta": [
+     0.0404,
+     -0.2667,
+     -0.0057
+    ],
+    "netXZ": 0.0408,
+    "maxXZ": 0.1608,
+    "yMin": 0.6143,
+    "yMax": 1.3353,
+    "rootTravel": false
+   }
+  },
+  "L Twirl 115": {
+   "name": "L Twirl 115",
+   "source": "L Twirl 115",
+   "tag": "LTwirlKick",
+   "duration": 3.0667,
+   "frames": 93,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0046,
+     1.0103,
+     -0.0231
+    ],
+    "endDelta": [
+     -0.0127,
+     -0.1125,
+     -0.0242
+    ],
+    "netXZ": 0.0274,
+    "maxXZ": 0.2202,
+    "yMin": 0.8021,
+    "yMax": 1.2007,
+    "rootTravel": false
+   }
+  },
+  "L Drop 116": {
+   "name": "L Drop 116",
+   "source": "L Drop 116",
+   "tag": "LDropKick",
+   "duration": 2.9167,
+   "frames": 89,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0733,
+     0.917,
+     -0.0661
+    ],
+    "endDelta": [
+     -0.1365,
+     -0.0754,
+     -0.0005
+    ],
+    "netXZ": 0.1365,
+    "maxXZ": 0.2997,
+    "yMin": 0.471,
+    "yMax": 1.716,
+    "rootTravel": true
+   }
+  },
+  "L Jump 117": {
+   "name": "L Jump 117",
+   "source": "L Jump 117",
+   "tag": "LJumpKick",
+   "duration": 2.0333,
+   "frames": 62,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0016,
+     1.0361,
+     -0.0319
+    ],
+    "endDelta": [
+     -0.0145,
+     0.015,
+     0.0189
+    ],
+    "netXZ": 0.0238,
+    "maxXZ": 0.1102,
+    "yMin": 0.9036,
+    "yMax": 1.4994,
+    "rootTravel": false
+   }
+  },
+  "-": {
+   "name": "-",
+   "source": "-",
+   "tag": "LJumpKick",
+   "duration": 2.6,
+   "frames": 79,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0088,
+     0.9031,
+     0.0217
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1226,
+    "yMin": 0.8182,
+    "yMax": 1.5274,
+    "rootTravel": false
+   }
+  },
+  "L SpinKick 119": {
+   "name": "L SpinKick 119",
+   "source": "L SpinKick 119",
+   "tag": "LSpinKick",
+   "duration": 3.7167,
+   "frames": 113,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0263,
+     0.9393,
+     -0.0317
+    ],
+    "endDelta": [
+     0.0169,
+     -0.1307,
+     0.0174
+    ],
+    "netXZ": 0.0243,
+    "maxXZ": 0.2593,
+    "yMin": 0.0798,
+    "yMax": 1.2825,
+    "rootTravel": true
+   }
+  },
+  "L Round 101": {
+   "name": "L Round 101",
+   "source": "L Round 101",
+   "tag": "LRoundKick",
+   "duration": 2.3667,
+   "frames": 72,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0063,
+     0.9778,
+     -0.0259
+    ],
+    "endDelta": [
+     -0.0009,
+     0,
+     0.0004
+    ],
+    "netXZ": 0.001,
+    "maxXZ": 0.132,
+    "yMin": 0.9489,
+    "yMax": 1.058,
+    "rootTravel": false
+   }
+  },
+  "L FrontSide 102": {
+   "name": "L FrontSide 102",
+   "source": "L FrontSide 102",
+   "tag": "LFrontSideKick",
+   "duration": 1.6167,
+   "frames": 49,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.028,
+     0.9464,
+     -0.0332
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1578,
+    "yMin": 0.9436,
+    "yMax": 1.0407,
+    "rootTravel": false
+   }
+  },
+  "L Heel 103": {
+   "name": "L Heel 103",
+   "source": "L Heel 103",
+   "tag": "LHeelKick",
+   "duration": 2.25,
+   "frames": 69,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0145,
+     0.9341,
+     -0.0086
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.094,
+    "yMin": 0.8497,
+    "yMax": 0.994,
+    "rootTravel": false
+   }
+  },
+  "L Front 104": {
+   "name": "L Front 104",
+   "source": "L Front 104",
+   "tag": "LFrontKick",
+   "duration": 2.15,
+   "frames": 65,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0109,
+     0.9825,
+     -0.0093
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0939,
+    "yMin": 0.9252,
+    "yMax": 1.0923,
+    "rootTravel": false
+   }
+  },
+  "L Thrust 106": {
+   "name": "L Thrust 106",
+   "source": "L Thrust 106",
+   "tag": "LThrustKick",
+   "duration": 2.5667,
+   "frames": 78,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0104,
+     0.9162,
+     -0.0131
+    ],
+    "endDelta": [
+     0.0062,
+     -0.0065,
+     0.0102
+    ],
+    "netXZ": 0.012,
+    "maxXZ": 0.0511,
+    "yMin": 0.8393,
+    "yMax": 1.0645,
+    "rootTravel": false
+   }
+  },
+  "L ThrustBounce 107": {
+   "name": "L ThrustBounce 107",
+   "source": "L ThrustBounce 107",
+   "tag": "LThrustBounceKick",
+   "duration": 2.0333,
+   "frames": 62,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0269,
+     0.9658,
+     0.0097
+    ],
+    "endDelta": [
+     0.0116,
+     -0.0016,
+     -0.0089
+    ],
+    "netXZ": 0.0146,
+    "maxXZ": 0.0596,
+    "yMin": 0.904,
+    "yMax": 1.0782,
+    "rootTravel": false
+   }
+  },
+  "L Crescent 108": {
+   "name": "L Crescent 108",
+   "source": "L Crescent 108",
+   "tag": "LCrescentKick",
+   "duration": 1.8667,
+   "frames": 57,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0021,
+     0.9999,
+     0.0052
+    ],
+    "endDelta": [
+     -0.0211,
+     -0.0282,
+     0.0045
+    ],
+    "netXZ": 0.0216,
+    "maxXZ": 0.1123,
+    "yMin": 0.919,
+    "yMax": 1.1023,
+    "rootTravel": false
+   }
+  },
+  "L Front 109": {
+   "name": "L Front 109",
+   "source": "L Front 109",
+   "tag": "LFrontKick",
+   "duration": 1.7667,
+   "frames": 54,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0079,
+     0.9542,
+     -0.012
+    ],
+    "endDelta": [
+     0.0148,
+     -0.1168,
+     0.0049
+    ],
+    "netXZ": 0.0156,
+    "maxXZ": 0.1104,
+    "yMin": 0.8374,
+    "yMax": 1.0611,
+    "rootTravel": false
+   }
+  },
+  "L Arc 110": {
+   "name": "L Arc 110",
+   "source": "L Arc 110",
+   "tag": "LArcKick",
+   "duration": 3.0167,
+   "frames": 92,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0043,
+     0.9285,
+     -0.0077
+    ],
+    "endDelta": [
+     0.0004,
+     -0.0003,
+     0.0006
+    ],
+    "netXZ": 0.0007,
+    "maxXZ": 0.1212,
+    "yMin": 0.8061,
+    "yMax": 1.0436,
+    "rootTravel": false
+   }
+  },
+  "L Double 111": {
+   "name": "L Double 111",
+   "source": "L Double 111",
+   "tag": "LDoubleKick",
+   "duration": 3.2167,
+   "frames": 97,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.007,
+     0.8979,
+     -0.039
+    ],
+    "endDelta": [
+     -0.0094,
+     0.0299,
+     -0.052
+    ],
+    "netXZ": 0.0528,
+    "maxXZ": 0.2891,
+    "yMin": 0.0835,
+    "yMax": 0.9588,
+    "rootTravel": true
+   }
+  },
+  "R CrescentJump 220": {
+   "name": "R CrescentJump 220",
+   "source": "R CrescentJump 220",
+   "tag": "RCrescentJumpKick",
+   "duration": 2.6833,
+   "frames": 81,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0047,
+     0.9733,
+     0.0004
+    ],
+    "endDelta": [
+     0.0001,
+     0,
+     0
+    ],
+    "netXZ": 0.0001,
+    "maxXZ": 0.1674,
+    "yMin": 0.6403,
+    "yMax": 1.3869,
+    "rootTravel": false
+   }
+  },
+  "- 3": {
+   "name": "- 3",
+   "source": "- 3",
+   "tag": "RReverseKick",
+   "duration": 2.2833,
+   "frames": 69,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0019,
+     0.9506,
+     -0.0171
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0871,
+    "yMin": 0.8172,
+    "yMax": 1.3232,
+    "rootTravel": false
+   }
+  },
+  "R ScissorKick 222": {
+   "name": "R ScissorKick 222",
+   "source": "R ScissorKick 222",
+   "tag": "RScissorKick",
+   "duration": 2.7667,
+   "frames": 84,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0131,
+     0.9239,
+     -0.1033
+    ],
+    "endDelta": [
+     -0.0052,
+     0,
+     0.2071
+    ],
+    "netXZ": 0.2071,
+    "maxXZ": 0.3463,
+    "yMin": 0.058,
+    "yMax": 1.1782,
+    "rootTravel": true
+   }
+  },
+  "R High 201": {
+   "name": "R High 201",
+   "source": "R High 201",
+   "tag": "RHighKick",
+   "duration": 1.4667,
+   "frames": 45,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0843,
+    "yMin": 0.863,
+    "yMax": 1.0505,
+    "rootTravel": false
+   }
+  },
+  "R Round 205": {
+   "name": "R Round 205",
+   "source": "R Round 205",
+   "tag": "RRoundKick",
+   "duration": 2.1833,
+   "frames": 67,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1592,
+    "yMin": 0.9264,
+    "yMax": 1.0374,
+    "rootTravel": false
+   }
+  },
+  "- 1": {
+   "name": "- 1",
+   "source": "- 1",
+   "tag": "RWheelKick",
+   "duration": 1.6,
+   "frames": 49,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1877,
+    "yMin": 0.9253,
+    "yMax": 1.026,
+    "rootTravel": false
+   }
+  },
+  "R Front 203": {
+   "name": "R Front 203",
+   "source": "R Front 203",
+   "tag": "RFrontKick",
+   "duration": 1.5667,
+   "frames": 48,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.085,
+    "yMin": 0.9288,
+    "yMax": 1.0501,
+    "rootTravel": false
+   }
+  },
+  "R Thrust 204": {
+   "name": "R Thrust 204",
+   "source": "R Thrust 204",
+   "tag": "RThrustKick",
+   "duration": 1.4,
+   "frames": 43,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0813,
+    "yMin": 0.9642,
+    "yMax": 1.0579,
+    "rootTravel": false
+   }
+  },
+  "R Wheel 219": {
+   "name": "R Wheel 219",
+   "source": "R Wheel 219",
+   "tag": "RWheelKick",
+   "duration": 2.05,
+   "frames": 63,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.028,
+     0.9465,
+     -0.0332
+    ],
+    "endDelta": [
+     0,
+     -0.0001,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.2079,
+    "yMin": 0.8676,
+    "yMax": 1.0929,
+    "rootTravel": false
+   }
+  },
+  "R FrontSide 207": {
+   "name": "R FrontSide 207",
+   "source": "R FrontSide 207",
+   "tag": "RFrontSideKick",
+   "duration": 2.0167,
+   "frames": 61,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0709,
+     0.8097,
+     -0.0412
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.172,
+    "yMin": 0.7686,
+    "yMax": 1.0468,
+    "rootTravel": false
+   }
+  },
+  "- 0": {
+   "name": "- 0",
+   "source": "- 0",
+   "tag": "RHighKick",
+   "duration": 1.5,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0137,
+     0.9374,
+     0.0081
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1008,
+    "yMin": 0.861,
+    "yMax": 1.0542,
+    "rootTravel": false
+   }
+  },
+  "R RoundHouse 209": {
+   "name": "R RoundHouse 209",
+   "source": "R RoundHouse 209",
+   "tag": "RRoundHouseKick",
+   "duration": 2.5167,
+   "frames": 77,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0237,
+     0.9434,
+     0.0155
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1038,
+    "yMin": 0.878,
+    "yMax": 1.087,
+    "rootTravel": false
+   }
+  },
+  "R Slash 210": {
+   "name": "R Slash 210",
+   "source": "R Slash 210",
+   "tag": "RSlashKick",
+   "duration": 1.6833,
+   "frames": 51,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.028,
+     0.9465,
+     -0.0332
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.2065,
+    "yMin": 0.8917,
+    "yMax": 1.0948,
+    "rootTravel": false
+   }
+  },
+  "R Side 211": {
+   "name": "R Side 211",
+   "source": "R Side 211",
+   "tag": "RSideKick",
+   "duration": 2.0167,
+   "frames": 61,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.028,
+     0.9465,
+     -0.0332
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1716,
+    "yMin": 0.9128,
+    "yMax": 1.0681,
+    "rootTravel": false
+   }
+  },
+  "R Upper 212": {
+   "name": "R Upper 212",
+   "source": "R Upper 212",
+   "tag": "RUpperKick",
+   "duration": 2.1333,
+   "frames": 65,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0559,
+     0.8303,
+     -0.0355
+    ],
+    "endDelta": [
+     0,
+     0,
+     -0.0003
+    ],
+    "netXZ": 0.0003,
+    "maxXZ": 0.1623,
+    "yMin": 0.8172,
+    "yMax": 1.0556,
+    "rootTravel": false
+   }
+  },
+  "R Jump 214": {
+   "name": "R Jump 214",
+   "source": "R Jump 214",
+   "tag": "RJumpKick",
+   "duration": 2.2333,
+   "frames": 68,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0122,
+     0.8997,
+     -0.0032
+    ],
+    "endDelta": [
+     -0.0038,
+     -0.0062,
+     -0.0008
+    ],
+    "netXZ": 0.0039,
+    "maxXZ": 0.0974,
+    "yMin": 0.7583,
+    "yMax": 1.3089,
+    "rootTravel": false
+   }
+  },
+  "R FrontJump 215": {
+   "name": "R FrontJump 215",
+   "source": "R FrontJump 215",
+   "tag": "RFrontJumpKick",
+   "duration": 2.45,
+   "frames": 75,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0007,
+     0.9188,
+     -0.0119
+    ],
+    "endDelta": [
+     0.0007,
+     -0.0019,
+     -0.001
+    ],
+    "netXZ": 0.0012,
+    "maxXZ": 0.1041,
+    "yMin": 0.69,
+    "yMax": 1.2922,
+    "rootTravel": false
+   }
+  },
+  "R Hammer 216": {
+   "name": "R Hammer 216",
+   "source": "R Hammer 216",
+   "tag": "RHammerKick",
+   "duration": 1.7833,
+   "frames": 55,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0081,
+     0.946,
+     -0.0228
+    ],
+    "endDelta": [
+     0.0001,
+     0.0007,
+     -0.0004
+    ],
+    "netXZ": 0.0004,
+    "maxXZ": 0.4905,
+    "yMin": 0.915,
+    "yMax": 1.0885,
+    "rootTravel": true
+   }
+  },
+  "R WheelJump 217": {
+   "name": "R WheelJump 217",
+   "source": "R WheelJump 217",
+   "tag": "RWheelJumpKick",
+   "duration": 2.4,
+   "frames": 73,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0043,
+     0.9285,
+     -0.0077
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.2336,
+    "yMin": 0.7343,
+    "yMax": 1.2679,
+    "rootTravel": false
+   }
+  },
+  "- 2": {
+   "name": "- 2",
+   "source": "- 2",
+   "tag": "RWheelKick",
+   "duration": 2.6333,
+   "frames": 80,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0043,
+     0.9285,
+     -0.0077
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1801,
+    "yMin": 0.7556,
+    "yMax": 1.0236,
+    "rootTravel": false
+   }
+  },
+  "R Axe 213": {
+   "name": "R Axe 213",
+   "source": "R Axe 213",
+   "tag": "RAxeKick",
+   "duration": 2,
+   "frames": 61,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0752,
+    "yMin": 0.9327,
+    "yMax": 1.0425,
+    "rootTravel": false
+   }
+  },
+  "L Body1 301": {
+   "name": "L Body1 301",
+   "source": "L Body1 301",
+   "tag": "LBody1Kick",
+   "duration": 2.2833,
+   "frames": 70,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0116,
+     0.9853,
+     -0.0219
+    ],
+    "endDelta": [
+     -0.0001,
+     -0.0001,
+     -0.0002
+    ],
+    "netXZ": 0.0002,
+    "maxXZ": 0.0761,
+    "yMin": 0.8913,
+    "yMax": 1.061,
+    "rootTravel": false
+   }
+  },
+  "L Body2 302": {
+   "name": "L Body2 302",
+   "source": "L Body2 302",
+   "tag": "LBody2Kick",
+   "duration": 1.4333,
+   "frames": 44,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0154,
+     0.9709,
+     -0.0225
+    ],
+    "endDelta": [
+     -0.0018,
+     0,
+     0
+    ],
+    "netXZ": 0.0018,
+    "maxXZ": 0.058,
+    "yMin": 0.8907,
+    "yMax": 1.0729,
+    "rootTravel": false
+   }
+  },
+  "L BodyRound 305": {
+   "name": "L BodyRound 305",
+   "source": "L BodyRound 305",
+   "tag": "LBodyRoundKick",
+   "duration": 2.4167,
+   "frames": 73,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     -0.0022,
+     0,
+     0.0002
+    ],
+    "netXZ": 0.0022,
+    "maxXZ": 0.1215,
+    "yMin": 0.9144,
+    "yMax": 1.0019,
+    "rootTravel": false
+   }
+  },
+  "L BodySideKick 306": {
+   "name": "L BodySideKick 306",
+   "source": "L BodySideKick 306",
+   "tag": "LBodySideKick",
+   "duration": 1.5667,
+   "frames": 48,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     -0.0001,
+     0,
+     -0.0003
+    ],
+    "netXZ": 0.0003,
+    "maxXZ": 0.1215,
+    "yMin": 0.9279,
+    "yMax": 1.064,
+    "rootTravel": false
+   }
+  },
+  "L Body3 303": {
+   "name": "L Body3 303",
+   "source": "L Body3 303",
+   "tag": "LBody3Kick",
+   "duration": 2.2833,
+   "frames": 70,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0125,
+     0.9778,
+     -0.0237
+    ],
+    "endDelta": [
+     -0.0001,
+     -0.0001,
+     -0.0002
+    ],
+    "netXZ": 0.0002,
+    "maxXZ": 0.0772,
+    "yMin": 0.9479,
+    "yMax": 1.0689,
+    "rootTravel": false
+   }
+  },
+  "L BodyPush 304": {
+   "name": "L BodyPush 304",
+   "source": "L BodyPush 304",
+   "tag": "LBodyPushKick",
+   "duration": 1.2667,
+   "frames": 39,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0.0006,
+     0,
+     0.0006
+    ],
+    "netXZ": 0.0008,
+    "maxXZ": 0.0776,
+    "yMin": 0.9417,
+    "yMax": 1.0497,
+    "rootTravel": false
+   }
+  },
+  "L BodyFront 307": {
+   "name": "L BodyFront 307",
+   "source": "L BodyFront 307",
+   "tag": "LBodyFrontKick",
+   "duration": 1.7333,
+   "frames": 53,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0101,
+     0.9382,
+     -0.0252
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0621,
+    "yMin": 0.9089,
+    "yMax": 0.9823,
+    "rootTravel": false
+   }
+  },
+  "R BodyBack 409": {
+   "name": "R BodyBack 409",
+   "source": "R BodyBack 409",
+   "tag": "RBodyBackKick",
+   "duration": 1.55,
+   "frames": 48,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1879,
+    "yMin": 0.9051,
+    "yMax": 1.0248,
+    "rootTravel": false
+   }
+  },
+  "R Body1 401": {
+   "name": "R Body1 401",
+   "source": "R Body1 401",
+   "tag": "RBody1Kick",
+   "duration": 1.5,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0129,
+     0.9773,
+     -0.0236
+    ],
+    "endDelta": [
+     -0.0008,
+     0,
+     0.0002
+    ],
+    "netXZ": 0.0008,
+    "maxXZ": 0.064,
+    "yMin": 0.868,
+    "yMax": 1.052,
+    "rootTravel": false
+   }
+  },
+  "R Body2 402": {
+   "name": "R Body2 402",
+   "source": "R Body2 402",
+   "tag": "RBody2Kick",
+   "duration": 2.4167,
+   "frames": 73,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0129,
+     0.9778,
+     -0.0233
+    ],
+    "endDelta": [
+     -0.0011,
+     0.0038,
+     0.0004
+    ],
+    "netXZ": 0.0012,
+    "maxXZ": 0.1038,
+    "yMin": 0.8329,
+    "yMax": 1.0044,
+    "rootTravel": false
+   }
+  },
+  "R BodyPush1 404": {
+   "name": "R BodyPush1 404",
+   "source": "R BodyPush1 404",
+   "tag": "RBodyPush1Kick",
+   "duration": 1.5833,
+   "frames": 49,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0.0001,
+     0,
+     -0.0002
+    ],
+    "netXZ": 0.0002,
+    "maxXZ": 0.0785,
+    "yMin": 0.9355,
+    "yMax": 0.9848,
+    "rootTravel": false
+   }
+  },
+  "R BodyRound 407": {
+   "name": "R BodyRound 407",
+   "source": "R BodyRound 407",
+   "tag": "RBodyRoundKick",
+   "duration": 1.8,
+   "frames": 55,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1038,
+    "yMin": 0.9186,
+    "yMax": 1.0502,
+    "rootTravel": false
+   }
+  },
+  "R Body3 403": {
+   "name": "R Body3 403",
+   "source": "R Body3 403",
+   "tag": "RBody3Kick",
+   "duration": 1.5,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0129,
+     0.9773,
+     -0.0236
+    ],
+    "endDelta": [
+     -0.0008,
+     0,
+     0.0002
+    ],
+    "netXZ": 0.0008,
+    "maxXZ": 0.0548,
+    "yMin": 0.9126,
+    "yMax": 1.0521,
+    "rootTravel": false
+   }
+  },
+  "R BodyPush2 405": {
+   "name": "R BodyPush2 405",
+   "source": "R BodyPush2 405",
+   "tag": "RBodyPush2Kick",
+   "duration": 1.4167,
+   "frames": 44,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0.0001,
+     0.0001,
+     0.0023
+    ],
+    "netXZ": 0.0023,
+    "maxXZ": 0.1059,
+    "yMin": 0.9576,
+    "yMax": 1.0112,
+    "rootTravel": false
+   }
+  },
+  "R BodyPush3 406": {
+   "name": "R BodyPush3 406",
+   "source": "R BodyPush3 406",
+   "tag": "RBodyPush3Kick",
+   "duration": 1.5,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0593,
+    "yMin": 0.9154,
+    "yMax": 1.0019,
+    "rootTravel": false
+   }
+  },
+  "R BodyFront1 410": {
+   "name": "R BodyFront1 410",
+   "source": "R BodyFront1 410",
+   "tag": "RBodyFrontKick",
+   "duration": 1.9333,
+   "frames": 59,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0316,
+     0.971,
+     0.0152
+    ],
+    "endDelta": [
+     -0.0001,
+     0,
+     -0.0001
+    ],
+    "netXZ": 0.0001,
+    "maxXZ": 0.067,
+    "yMin": 0.9234,
+    "yMax": 0.9902,
+    "rootTravel": false
+   }
+  },
+  "R BodyFront2 411": {
+   "name": "R BodyFront2 411",
+   "source": "R BodyFront2 411",
+   "tag": "RBodyFront2Kick",
+   "duration": 1.9333,
+   "frames": 59,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0316,
+     0.971,
+     0.0152
+    ],
+    "endDelta": [
+     -0.0001,
+     0,
+     -0.0001
+    ],
+    "netXZ": 0.0001,
+    "maxXZ": 0.067,
+    "yMin": 0.9234,
+    "yMax": 0.9902,
+    "rootTravel": false
+   }
+  },
+  "R BodyFront3 412": {
+   "name": "R BodyFront3 412",
+   "source": "R BodyFront3 412",
+   "tag": "RBodyFront3Kick",
+   "duration": 1.6667,
+   "frames": 51,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0047,
+     0.9285,
+     -0.0052
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0907,
+    "yMin": 0.8418,
+    "yMax": 1.024,
+    "rootTravel": false
+   }
+  },
+  "R BodySide1 413": {
+   "name": "R BodySide1 413",
+   "source": "R BodySide1 413",
+   "tag": "RBodySide1Kick",
+   "duration": 1.6,
+   "frames": 49,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.028,
+     0.9464,
+     -0.0332
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.179,
+    "yMin": 0.9265,
+    "yMax": 1.0893,
+    "rootTravel": false
+   }
+  },
+  "R BodyFrontSide 414": {
+   "name": "R BodyFrontSide 414",
+   "source": "R BodyFrontSide 414",
+   "tag": "RBodyFrontSideKick",
+   "duration": 1.9667,
+   "frames": 60,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0711,
+     0.8264,
+     -0.0433
+    ],
+    "endDelta": [
+     0,
+     -0.0001,
+     -0.0001
+    ],
+    "netXZ": 0.0001,
+    "maxXZ": 0.1643,
+    "yMin": 0.7977,
+    "yMax": 1.0862,
+    "rootTravel": false
+   }
+  },
+  "R BodySide2 415": {
+   "name": "R BodySide2 415",
+   "source": "R BodySide2 415",
+   "tag": "RBodySide2Kick",
+   "duration": 1.5333,
+   "frames": 47,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0015,
+     0.9114,
+     -0.0362
+    ],
+    "endDelta": [
+     -0.0022,
+     0.0301,
+     0.0199
+    ],
+    "netXZ": 0.02,
+    "maxXZ": 0.1117,
+    "yMin": 0.8871,
+    "yMax": 1.0119,
+    "rootTravel": false
+   }
+  },
+  "F body kick": {
+   "name": "F body kick",
+   "source": "F body kick",
+   "tag": "Hit",
+   "duration": 1.1667,
+   "frames": 36,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1021,
+    "yMin": 0.8664,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "R body kick": {
+   "name": "R body kick",
+   "source": "R body kick",
+   "tag": "Hit",
+   "duration": 1,
+   "frames": 31,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1033,
+    "yMin": 0.9452,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "L body kick": {
+   "name": "L body kick",
+   "source": "L body kick",
+   "tag": "Hit",
+   "duration": 0.9333,
+   "frames": 29,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     -0.0002,
+     0,
+     0.0002
+    ],
+    "netXZ": 0.0003,
+    "maxXZ": 0.0922,
+    "yMin": 0.94,
+    "yMax": 0.9808,
+    "rootTravel": false
+   }
+  },
+  "F head kick": {
+   "name": "F head kick",
+   "source": "F head kick",
+   "tag": "Hit",
+   "duration": 1.5,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0884,
+    "yMin": 0.8956,
+    "yMax": 0.9782,
+    "rootTravel": false
+   }
+  },
+  "R head kick": {
+   "name": "R head kick",
+   "source": "R head kick",
+   "tag": "Hit",
+   "duration": 1,
+   "frames": 31,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0662,
+    "yMin": 0.8961,
+    "yMax": 0.9783,
+    "rootTravel": false
+   }
+  },
+  "L head kick": {
+   "name": "L head kick",
+   "source": "L head kick",
+   "tag": "Hit",
+   "duration": 1.0333,
+   "frames": 32,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0785,
+    "yMin": 0.9,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "R head Stun": {
+   "name": "R head Stun",
+   "source": "R head Stun",
+   "tag": "Hit",
+   "duration": 1.5,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0884,
+    "yMin": 0.8863,
+    "yMax": 0.9783,
+    "rootTravel": false
+   }
+  },
+  "L head Stun": {
+   "name": "L head Stun",
+   "source": "L head Stun",
+   "tag": "Hit",
+   "duration": 1.5167,
+   "frames": 47,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1339,
+    "yMin": 0.8528,
+    "yMax": 0.985,
+    "rootTravel": false
+   }
+  },
+  "F head Stun": {
+   "name": "F head Stun",
+   "source": "F head Stun",
+   "tag": "Hit",
+   "duration": 2.6667,
+   "frames": 81,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1021,
+    "yMin": 0.8729,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "L head punch Break": {
+   "name": "L head punch Break",
+   "source": "L head punch Break",
+   "tag": "Hit",
+   "duration": 1.0333,
+   "frames": 32,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0785,
+    "yMin": 0.9,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "R head punch Break": {
+   "name": "R head punch Break",
+   "source": "R head punch Break",
+   "tag": "Hit",
+   "duration": 1,
+   "frames": 31,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0662,
+    "yMin": 0.8961,
+    "yMax": 0.9783,
+    "rootTravel": false
+   }
+  },
+  "F head punch Break": {
+   "name": "F head punch Break",
+   "source": "F head punch Break",
+   "tag": "Hit",
+   "duration": 1,
+   "frames": 31,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0947,
+    "yMin": 0.9053,
+    "yMax": 0.9824,
+    "rootTravel": false
+   }
+  },
+  "R leg kick": {
+   "name": "R leg kick",
+   "source": "R leg kick",
+   "tag": "Hit",
+   "duration": 1,
+   "frames": 31,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1304,
+    "yMin": 0.8817,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "L leg kick": {
+   "name": "L leg kick",
+   "source": "L leg kick",
+   "tag": "Hit",
+   "duration": 1,
+   "frames": 31,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0922,
+    "yMin": 0.8768,
+    "yMax": 0.9783,
+    "rootTravel": false
+   }
+  },
+  "R leg kick C": {
+   "name": "R leg kick C",
+   "source": "R leg kick C",
+   "tag": "Hit",
+   "duration": 1,
+   "frames": 31,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.129,
+    "yMin": 0.8163,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "R leg kick S": {
+   "name": "R leg kick S",
+   "source": "R leg kick S",
+   "tag": "Hit",
+   "duration": 1.5,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1719,
+    "yMin": 0.8037,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "L leg kick C": {
+   "name": "L leg kick C",
+   "source": "L leg kick C",
+   "tag": "Hit",
+   "duration": 1,
+   "frames": 31,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1499,
+    "yMin": 0.8362,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "L leg kick S": {
+   "name": "L leg kick S",
+   "source": "L leg kick S",
+   "tag": "Hit",
+   "duration": 1.5,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1641,
+    "yMin": 0.7822,
+    "yMax": 0.9781,
+    "rootTravel": false
+   }
+  },
+  "O head kick": {
+   "name": "O head kick",
+   "source": "O head kick",
+   "tag": "Hit",
+   "duration": 1.5,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1412,
+    "yMin": 0.8196,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "F head punch": {
+   "name": "F head punch",
+   "source": "F head punch",
+   "tag": "Hit",
+   "duration": 0.8333,
+   "frames": 26,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0819,
+    "yMin": 0.9278,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "R head punch": {
+   "name": "R head punch",
+   "source": "R head punch",
+   "tag": "Hit",
+   "duration": 0.8333,
+   "frames": 26,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0464,
+    "yMin": 0.9579,
+    "yMax": 0.9805,
+    "rootTravel": false
+   }
+  },
+  "L head punch": {
+   "name": "L head punch",
+   "source": "L head punch",
+   "tag": "Hit",
+   "duration": 0.8333,
+   "frames": 26,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0855,
+    "yMin": 0.9633,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "U head Stun": {
+   "name": "U head Stun",
+   "source": "U head Stun",
+   "tag": "Hit",
+   "duration": 1.2,
+   "frames": 37,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1217,
+    "yMin": 0.9545,
+    "yMax": 0.9894,
+    "rootTravel": false
+   }
+  },
+  "R head KO": {
+   "name": "R head KO",
+   "source": "R head KO",
+   "tag": "Hit",
+   "duration": 1.95,
+   "frames": 59,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     -0.076,
+     -0.8738,
+     0.041
+    ],
+    "netXZ": 0.0863,
+    "maxXZ": 0.0955,
+    "yMin": 0.1112,
+    "yMax": 0.9936,
+    "rootTravel": false
+   }
+  },
+  "L head KO": {
+   "name": "L head KO",
+   "source": "L head KO",
+   "tag": "Hit",
+   "duration": 2.2167,
+   "frames": 67,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     -0.0768,
+     -0.8739,
+     0.041
+    ],
+    "netXZ": 0.087,
+    "maxXZ": 0.1321,
+    "yMin": 0.1161,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "F head KO": {
+   "name": "F head KO",
+   "source": "F head KO",
+   "tag": "Hit",
+   "duration": 3.25,
+   "frames": 99,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     -0.0765,
+     -0.874,
+     0.0409
+    ],
+    "netXZ": 0.0867,
+    "maxXZ": 0.0896,
+    "yMin": 0.1152,
+    "yMax": 0.9964,
+    "rootTravel": false
+   }
+  },
+  "U head KO": {
+   "name": "U head KO",
+   "source": "U head KO",
+   "tag": "Hit",
+   "duration": 2.2,
+   "frames": 67,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     -0.0765,
+     -0.874,
+     0.0409
+    ],
+    "netXZ": 0.0867,
+    "maxXZ": 0.1591,
+    "yMin": 0.1093,
+    "yMax": 1.1247,
+    "rootTravel": false
+   }
+  },
+  "R body PKO": {
+   "name": "R body PKO",
+   "source": "R body PKO",
+   "tag": "Hit",
+   "duration": 1.5,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0129,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     -0.0001,
+     0,
+     -0.001
+    ],
+    "netXZ": 0.001,
+    "maxXZ": 0.1404,
+    "yMin": 0.8817,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "F body PKO": {
+   "name": "F body PKO",
+   "source": "F body PKO",
+   "tag": "Hit",
+   "duration": 1.5,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1532,
+    "yMin": 0.8388,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "L body PKO": {
+   "name": "L body PKO",
+   "source": "L body PKO",
+   "tag": "Hit",
+   "duration": 1.5,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0127,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0.0004,
+     0,
+     0.0004
+    ],
+    "netXZ": 0.0006,
+    "maxXZ": 0.137,
+    "yMin": 0.8734,
+    "yMax": 0.9813,
+    "rootTravel": false
+   }
+  },
+  "F body kick Break": {
+   "name": "F body kick Break",
+   "source": "F body kick Break",
+   "tag": "Hit",
+   "duration": 1.5,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1532,
+    "yMin": 0.8388,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "R body kick Break": {
+   "name": "R body kick Break",
+   "source": "R body kick Break",
+   "tag": "Hit",
+   "duration": 1.5,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0129,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     -0.0001,
+     0,
+     -0.001
+    ],
+    "netXZ": 0.001,
+    "maxXZ": 0.1404,
+    "yMin": 0.8817,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "L body kick Break": {
+   "name": "L body kick Break",
+   "source": "L body kick Break",
+   "tag": "Hit",
+   "duration": 1.5,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0127,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0.0004,
+     0,
+     0.0004
+    ],
+    "netXZ": 0.0006,
+    "maxXZ": 0.137,
+    "yMin": 0.8734,
+    "yMax": 0.9813,
+    "rootTravel": false
+   }
+  },
+  "R body KO": {
+   "name": "R body KO",
+   "source": "R body KO",
+   "tag": "Hit",
+   "duration": 1.15,
+   "frames": 36,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0.0518,
+     -0.1184,
+     -0.1608
+    ],
+    "netXZ": 0.1689,
+    "maxXZ": 0.1689,
+    "yMin": 0.8316,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "L body KO": {
+   "name": "L body KO",
+   "source": "L body KO",
+   "tag": "Hit",
+   "duration": 1.4833,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0.0251,
+     -0.0616,
+     -0.0993
+    ],
+    "netXZ": 0.1024,
+    "maxXZ": 0.1294,
+    "yMin": 0.9094,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "F body KO": {
+   "name": "F body KO",
+   "source": "F body KO",
+   "tag": "Hit",
+   "duration": 2.0667,
+   "frames": 63,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     -0.059,
+     -0.9009,
+     0.0359
+    ],
+    "netXZ": 0.0691,
+    "maxXZ": 0.2036,
+    "yMin": 0.0891,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "U head kick": {
+   "name": "U head kick",
+   "source": "U head kick",
+   "tag": "Hit",
+   "duration": 1.2,
+   "frames": 37,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1217,
+    "yMin": 0.9545,
+    "yMax": 0.9894,
+    "rootTravel": false
+   }
+  },
+  "O head KO": {
+   "name": "O head KO",
+   "source": "O head KO",
+   "tag": "Hit",
+   "duration": 1.95,
+   "frames": 59,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     -0.077,
+     -0.8739,
+     0.0408
+    ],
+    "netXZ": 0.0871,
+    "maxXZ": 0.1384,
+    "yMin": 0.0997,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "O head Stun": {
+   "name": "O head Stun",
+   "source": "O head Stun",
+   "tag": "Hit",
+   "duration": 1.5,
+   "frames": 46,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1412,
+    "yMin": 0.8196,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "R leg kick KO": {
+   "name": "R leg kick KO",
+   "source": "R leg kick KO",
+   "tag": "Hit",
+   "duration": 0.75,
+   "frames": 24,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0.0323,
+     -0.1179,
+     -0.1691
+    ],
+    "netXZ": 0.1721,
+    "maxXZ": 0.1721,
+    "yMin": 0.8037,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "L leg kick KO": {
+   "name": "L leg kick KO",
+   "source": "L leg kick KO",
+   "tag": "Hit",
+   "duration": 0.2667,
+   "frames": 9,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0128,
+     0.9778,
+     -0.0234
+    ],
+    "endDelta": [
+     0.0783,
+     -0.1792,
+     -0.1092
+    ],
+    "netXZ": 0.1344,
+    "maxXZ": 0.1344,
+    "yMin": 0.7986,
+    "yMax": 0.9778,
+    "rootTravel": false
+   }
+  },
+  "L H": {
+   "name": "L H",
+   "source": "L H",
+   "tag": "LHook",
+   "duration": 1,
+   "frames": 31,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0.0003,
+     0,
+     0.0003
+    ],
+    "netXZ": 0.0004,
+    "maxXZ": 0.105,
+    "yMin": 0.9405,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "L H + R H": {
+   "name": "L H + R H",
+   "source": "L H + R H",
+   "tag": "RHook",
+   "duration": 1.0167,
+   "frames": 32,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     -0.0001,
+     0.0005,
+     -0.0001
+    ],
+    "netXZ": 0.0001,
+    "maxXZ": 0.1965,
+    "yMin": 0.9225,
+    "yMax": 0.9915,
+    "rootTravel": false
+   }
+  },
+  "L H + R H + L H": {
+   "name": "L H + R H + L H",
+   "source": "L H + R H + L H",
+   "tag": "LHook",
+   "duration": 1,
+   "frames": 31,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0.0003,
+     0,
+     0.0003
+    ],
+    "netXZ": 0.0004,
+    "maxXZ": 0.105,
+    "yMin": 0.9405,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "L U": {
+   "name": "L U",
+   "source": "L U",
+   "tag": "LUppercut",
+   "duration": 0.9667,
+   "frames": 30,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1131,
+    "yMin": 0.9305,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "L U + R U": {
+   "name": "L U + R U",
+   "source": "L U + R U",
+   "tag": "RUppercut",
+   "duration": 1.1,
+   "frames": 34,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1431,
+    "yMin": 0.9148,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "L U + R U + L U": {
+   "name": "L U + R U + L U",
+   "source": "L U + R U + L U",
+   "tag": "LUppercut",
+   "duration": 0.9667,
+   "frames": 30,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1131,
+    "yMin": 0.9305,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "R U": {
+   "name": "R U",
+   "source": "R U",
+   "tag": "RUppercut",
+   "duration": 1.1,
+   "frames": 34,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1431,
+    "yMin": 0.9148,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "R U + L U": {
+   "name": "R U + L U",
+   "source": "R U + L U",
+   "tag": "LUppercut",
+   "duration": 0.9667,
+   "frames": 30,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1131,
+    "yMin": 0.9305,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "R H": {
+   "name": "R H",
+   "source": "R H",
+   "tag": "RHook",
+   "duration": 1.0167,
+   "frames": 32,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     -0.0001,
+     0.0005,
+     -0.0001
+    ],
+    "netXZ": 0.0001,
+    "maxXZ": 0.1965,
+    "yMin": 0.9225,
+    "yMax": 0.9915,
+    "rootTravel": false
+   }
+  },
+  "R H + L H": {
+   "name": "R H + L H",
+   "source": "R H + L H",
+   "tag": "LHook",
+   "duration": 1,
+   "frames": 31,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0.0003,
+     0,
+     0.0003
+    ],
+    "netXZ": 0.0004,
+    "maxXZ": 0.105,
+    "yMin": 0.9405,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "R H + L H + R H": {
+   "name": "R H + L H + R H",
+   "source": "R H + L H + R H",
+   "tag": "RHook",
+   "duration": 1.0167,
+   "frames": 32,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     -0.0001,
+     0.0005,
+     -0.0001
+    ],
+    "netXZ": 0.0001,
+    "maxXZ": 0.1965,
+    "yMin": 0.9225,
+    "yMax": 0.9915,
+    "rootTravel": false
+   }
+  },
+  "R B J + L B J": {
+   "name": "R B J + L B J",
+   "source": "R B J + L B J",
+   "tag": "LBodyJab",
+   "duration": 0.9167,
+   "frames": 29,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1481,
+    "yMin": 0.5957,
+    "yMax": 0.9948,
+    "rootTravel": false
+   }
+  },
+  "R B J + L B H": {
+   "name": "R B J + L B H",
+   "source": "R B J + L B H",
+   "tag": "LBodyHook",
+   "duration": 1.2,
+   "frames": 37,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.3547,
+    "yMin": 0.8106,
+    "yMax": 0.9935,
+    "rootTravel": true
+   }
+  },
+  "R B J + L B H + R B H": {
+   "name": "R B J + L B H + R B H",
+   "source": "R B J + L B H + R B H",
+   "tag": "RBodyHook",
+   "duration": 1.4,
+   "frames": 43,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.2444,
+    "yMin": 0.8183,
+    "yMax": 0.9985,
+    "rootTravel": false
+   }
+  },
+  "R B U": {
+   "name": "R B U",
+   "source": "R B U",
+   "tag": "RBodyUppercut",
+   "duration": 1.1167,
+   "frames": 35,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1185,
+    "yMin": 0.8122,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "R B U + L B U": {
+   "name": "R B U + L B U",
+   "source": "R B U + L B U",
+   "tag": "LBodyUppercut",
+   "duration": 1.15,
+   "frames": 36,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1087,
+    "yMin": 0.8717,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "R B U + L B H": {
+   "name": "R B U + L B H",
+   "source": "R B U + L B H",
+   "tag": "LBodyHook",
+   "duration": 1.2,
+   "frames": 37,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.3547,
+    "yMin": 0.8106,
+    "yMax": 0.9935,
+    "rootTravel": true
+   }
+  },
+  "L U P": {
+   "name": "L U P",
+   "source": "L U P",
+   "tag": "LPUppercut",
+   "duration": 1.1667,
+   "frames": 36,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.9899,
+     -0.0376
+    ],
+    "endDelta": [
+     -0.0001,
+     0.0001,
+     -0.0001
+    ],
+    "netXZ": 0.0001,
+    "maxXZ": 0.2318,
+    "yMin": 0.8051,
+    "yMax": 1.0008,
+    "rootTravel": false
+   }
+  },
+  "L H P": {
+   "name": "L H P",
+   "source": "L H P",
+   "tag": "LPHook",
+   "duration": 0.8,
+   "frames": 25,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0.065,
+     -0.0289,
+     0.1186
+    ],
+    "netXZ": 0.1352,
+    "maxXZ": 0.3194,
+    "yMin": 0.7905,
+    "yMax": 0.99,
+    "rootTravel": true
+   }
+  },
+  "R J P": {
+   "name": "R J P",
+   "source": "R J P",
+   "tag": "RPJab",
+   "duration": 0.9333,
+   "frames": 29,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0468,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     -0.0003,
+     0,
+     -0.0002
+    ],
+    "netXZ": 0.0004,
+    "maxXZ": 0.1968,
+    "yMin": 0.8022,
+    "yMax": 0.9905,
+    "rootTravel": false
+   }
+  },
+  "L J P": {
+   "name": "L J P",
+   "source": "L J P",
+   "tag": "LPJab",
+   "duration": 0.9,
+   "frames": 28,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.2215,
+    "yMin": 0.808,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "R U P": {
+   "name": "R U P",
+   "source": "R U P",
+   "tag": "RPUppercut",
+   "duration": 1.2,
+   "frames": 37,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0468,
+     0.9901,
+     -0.0374
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.2637,
+    "yMin": 0.8056,
+    "yMax": 0.9901,
+    "rootTravel": true
+   }
+  },
+  "R H P": {
+   "name": "R H P",
+   "source": "R H P",
+   "tag": "RPHook",
+   "duration": 1.0333,
+   "frames": 32,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     -0.0002,
+     0,
+     0.0005
+    ],
+    "netXZ": 0.0005,
+    "maxXZ": 0.1527,
+    "yMin": 0.8063,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "L B J": {
+   "name": "L B J",
+   "source": "L B J",
+   "tag": "LBodyJab",
+   "duration": 0.9167,
+   "frames": 29,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1481,
+    "yMin": 0.5957,
+    "yMax": 0.9948,
+    "rootTravel": false
+   }
+  },
+  "L B J + R B J": {
+   "name": "L B J + R B J",
+   "source": "L B J + R B J",
+   "tag": "RBodyJab",
+   "duration": 0.8833,
+   "frames": 28,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0674,
+    "yMin": 0.7125,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "L B J + R B J + L B J": {
+   "name": "L B J + R B J + L B J",
+   "source": "L B J + R B J + L B J",
+   "tag": "LBodyJab",
+   "duration": 0.9167,
+   "frames": 29,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1481,
+    "yMin": 0.5957,
+    "yMax": 0.9948,
+    "rootTravel": false
+   }
+  },
+  "L B J + R B H": {
+   "name": "L B J + R B H",
+   "source": "L B J + R B H",
+   "tag": "RBodyHook",
+   "duration": 1.4,
+   "frames": 43,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.2444,
+    "yMin": 0.8183,
+    "yMax": 0.9985,
+    "rootTravel": false
+   }
+  },
+  "L B J + R B H + L B H": {
+   "name": "L B J + R B H + L B H",
+   "source": "L B J + R B H + L B H",
+   "tag": "LBodyHook",
+   "duration": 1.2,
+   "frames": 37,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.3547,
+    "yMin": 0.8106,
+    "yMax": 0.9935,
+    "rootTravel": true
+   }
+  },
+  "L B H": {
+   "name": "L B H",
+   "source": "L B H",
+   "tag": "LBodyHook",
+   "duration": 1.2,
+   "frames": 37,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.3547,
+    "yMin": 0.8106,
+    "yMax": 0.9935,
+    "rootTravel": true
+   }
+  },
+  "R B H": {
+   "name": "R B H",
+   "source": "R B H",
+   "tag": "RBodyHook",
+   "duration": 1.4,
+   "frames": 43,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0377
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.2444,
+    "yMin": 0.8183,
+    "yMax": 0.9985,
+    "rootTravel": false
+   }
+  },
+  "L B U": {
+   "name": "L B U",
+   "source": "L B U",
+   "tag": "LBodyUppercut",
+   "duration": 1.15,
+   "frames": 36,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1087,
+    "yMin": 0.8717,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "L OverHand": {
+   "name": "L OverHand",
+   "source": "L OverHand",
+   "tag": "LOverHand",
+   "duration": 1.0167,
+   "frames": 32,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0.0001,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.2145,
+    "yMin": 0.8703,
+    "yMax": 0.9903,
+    "rootTravel": false
+   }
+  },
+  "L BackFist1": {
+   "name": "L BackFist1",
+   "source": "L BackFist1",
+   "tag": "LBackFist1",
+   "duration": 2.1833,
+   "frames": 67,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1222,
+    "yMin": 0.8814,
+    "yMax": 1.0077,
+    "rootTravel": false
+   }
+  },
+  "L BackFist2": {
+   "name": "L BackFist2",
+   "source": "L BackFist2",
+   "tag": "LBackFist2",
+   "duration": 2.45,
+   "frames": 75,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.208,
+    "yMin": 0.9055,
+    "yMax": 0.9992,
+    "rootTravel": false
+   }
+  },
+  "R OverHand": {
+   "name": "R OverHand",
+   "source": "R OverHand",
+   "tag": "ROverHand",
+   "duration": 1.6,
+   "frames": 49,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0468,
+     0.9899,
+     -0.0375
+    ],
+    "endDelta": [
+     -0.0001,
+     0.0001,
+     -0.0001
+    ],
+    "netXZ": 0.0001,
+    "maxXZ": 0.1493,
+    "yMin": 0.8641,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "R BackFist1": {
+   "name": "R BackFist1",
+   "source": "R BackFist1",
+   "tag": "RBackFist1",
+   "duration": 1.45,
+   "frames": 45,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.2261,
+    "yMin": 0.8611,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "R BackFist2": {
+   "name": "R BackFist2",
+   "source": "R BackFist2",
+   "tag": "RBackFist2",
+   "duration": 2.2333,
+   "frames": 68,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     -0.0012,
+     0.0079
+    ],
+    "netXZ": 0.0079,
+    "maxXZ": 0.288,
+    "yMin": 0.8297,
+    "yMax": 1.0053,
+    "rootTravel": true
+   }
+  },
+  "Cheering 0": {
+   "name": "Cheering 0",
+   "source": "Cheering 0",
+   "tag": "Entry",
+   "duration": 1.9167,
+   "frames": 59,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0214,
+     0.8558,
+     -0.0232
+    ],
+    "endDelta": [
+     0,
+     0,
+     -0.0002
+    ],
+    "netXZ": 0.0002,
+    "maxXZ": 0.0622,
+    "yMin": 0.7441,
+    "yMax": 0.8742,
+    "rootTravel": false
+   }
+  },
+  "Cheering 0 0": {
+   "name": "Cheering 0 0",
+   "source": "Cheering 0 0",
+   "tag": "Entry",
+   "duration": 1.9167,
+   "frames": 59,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     0.0214,
+     0.8558,
+     -0.0232
+    ],
+    "endDelta": [
+     0,
+     0,
+     -0.0002
+    ],
+    "netXZ": 0.0002,
+    "maxXZ": 0.0622,
+    "yMin": 0.7441,
+    "yMax": 0.8742,
+    "rootTravel": false
+   }
+  },
+  "VictoryEnd": {
+   "name": "VictoryEnd",
+   "source": "VictoryEnd",
+   "tag": "Victory",
+   "duration": 6.4833,
+   "frames": 195,
+   "fps": 30,
+   "loop": false,
+   "hip": {
+    "start": [
+     -0.0002,
+     1.0206,
+     0.0264
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0359,
+    "yMin": 1.0093,
+    "yMax": 1.0259,
+    "rootTravel": false
+   }
+  },
+  "H Block": {
+   "name": "H Block",
+   "source": "H Block",
+   "tag": "Neutral",
+   "duration": 0.9333,
+   "frames": 29,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0427,
+     0.9297,
+     -0.0897
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0078,
+    "yMin": 0.9295,
+    "yMax": 0.9298,
+    "rootTravel": false
+   }
+  },
+  "LH Block": {
+   "name": "LH Block",
+   "source": "LH Block",
+   "tag": "Neutral",
+   "duration": 2.2833,
+   "frames": 69,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0023,
+     0.9516,
+     -0.0489
+    ],
+    "endDelta": [
+     0.0066,
+     0,
+     -0.0019
+    ],
+    "netXZ": 0.0069,
+    "maxXZ": 0.0543,
+    "yMin": 0.9328,
+    "yMax": 0.9701,
+    "rootTravel": false
+   }
+  },
+  "RH Block": {
+   "name": "RH Block",
+   "source": "RH Block",
+   "tag": "Neutral",
+   "duration": 2.8667,
+   "frames": 87,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0241,
+     0.9655,
+     -0.0673
+    ],
+    "endDelta": [
+     -0.0066,
+     0.0007,
+     0.0093
+    ],
+    "netXZ": 0.0114,
+    "maxXZ": 0.0526,
+    "yMin": 0.9423,
+    "yMax": 0.9975,
+    "rootTravel": false
+   }
+  },
+  "FH Block": {
+   "name": "FH Block",
+   "source": "FH Block",
+   "tag": "Neutral",
+   "duration": 1.6,
+   "frames": 49,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0194,
+     1.0034,
+     -0.0187
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1141,
+    "yMin": 0.995,
+    "yMax": 1.0707,
+    "rootTravel": false
+   }
+  },
+  "FBodyBlock": {
+   "name": "FBodyBlock",
+   "source": "FBodyBlock",
+   "tag": "Neutral",
+   "duration": 2.8833,
+   "frames": 87,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0142,
+     0.9784,
+     -0.0595
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.0785,
+    "yMin": 0.9368,
+    "yMax": 1.0176,
+    "rootTravel": false
+   }
+  },
+  "LBodyBlock": {
+   "name": "LBodyBlock",
+   "source": "LBodyBlock",
+   "tag": "Neutral",
+   "duration": 0.9833,
+   "frames": 31,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1429,
+    "yMin": 0.9029,
+    "yMax": 0.99,
+    "rootTravel": false
+   }
+  },
+  "RBodyBlock": {
+   "name": "RBodyBlock",
+   "source": "RBodyBlock",
+   "tag": "Neutral",
+   "duration": 0.9833,
+   "frames": 31,
+   "fps": 30,
+   "loop": true,
+   "hip": {
+    "start": [
+     0.0467,
+     0.99,
+     -0.0376
+    ],
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "netXZ": 0,
+    "maxXZ": 0.1019,
+    "yMin": 0.8999,
+    "yMax": 1.0029,
+    "rootTravel": false
+   }
+  },
+  "DEF_slip_left": {
+   "name": "DEF_slip_left",
+   "duration": 0.7,
+   "frames": 85,
+   "fps": 120,
+   "loop": false,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0.0447,
+    "yMin": -0.06,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "in": 0.18,
+   "peakEnd": 0.18,
+   "out": 0.53,
+   "maxHold": 0.4,
+   "headInheritance": 0.55,
+   "holdClip": "DEF_slip_left_hold",
+   "isCounter": false
+  },
+  "DEF_slip_left_hold": {
+   "name": "DEF_slip_left_hold",
+   "duration": 0.4,
+   "frames": 49,
+   "fps": 120,
+   "loop": true,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0.04,
+     -0.06,
+     0.02
+    ],
+    "maxXZ": 0.0447,
+    "yMin": -0.06,
+    "yMax": -0.054,
+    "rootTravel": false
+   },
+   "holdOf": "DEF_slip_left"
+  },
+  "DEF_slip_right": {
+   "name": "DEF_slip_right",
+   "duration": 0.7,
+   "frames": 85,
+   "fps": 120,
+   "loop": false,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0.0447,
+    "yMin": -0.06,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "in": 0.18,
+   "peakEnd": 0.18,
+   "out": 0.53,
+   "maxHold": 0.4,
+   "headInheritance": 0.55,
+   "holdClip": "DEF_slip_right_hold",
+   "isCounter": false
+  },
+  "DEF_slip_right_hold": {
+   "name": "DEF_slip_right_hold",
+   "duration": 0.4,
+   "frames": 49,
+   "fps": 120,
+   "loop": true,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     -0.04,
+     -0.06,
+     0.02
+    ],
+    "maxXZ": 0.0447,
+    "yMin": -0.06,
+    "yMax": -0.054,
+    "rootTravel": false
+   },
+   "holdOf": "DEF_slip_right"
+  },
+  "DEF_slip_left_block": {
+   "name": "DEF_slip_left_block",
+   "duration": 0.7,
+   "frames": 85,
+   "fps": 120,
+   "loop": false,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0.0447,
+    "yMin": -0.06,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "in": 0.18,
+   "peakEnd": 0.18,
+   "out": 0.53,
+   "maxHold": 0.4,
+   "headInheritance": 0.55,
+   "holdClip": "DEF_slip_left_block_hold",
+   "isCounter": false
+  },
+  "DEF_slip_left_block_hold": {
+   "name": "DEF_slip_left_block_hold",
+   "duration": 0.4,
+   "frames": 49,
+   "fps": 120,
+   "loop": true,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0.04,
+     -0.06,
+     0.02
+    ],
+    "maxXZ": 0.0447,
+    "yMin": -0.06,
+    "yMax": -0.054,
+    "rootTravel": false
+   },
+   "holdOf": "DEF_slip_left_block"
+  },
+  "DEF_slip_right_block": {
+   "name": "DEF_slip_right_block",
+   "duration": 0.7,
+   "frames": 85,
+   "fps": 120,
+   "loop": false,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0.0447,
+    "yMin": -0.06,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "in": 0.18,
+   "peakEnd": 0.18,
+   "out": 0.53,
+   "maxHold": 0.4,
+   "headInheritance": 0.55,
+   "holdClip": "DEF_slip_right_block_hold",
+   "isCounter": false
+  },
+  "DEF_slip_right_block_hold": {
+   "name": "DEF_slip_right_block_hold",
+   "duration": 0.4,
+   "frames": 49,
+   "fps": 120,
+   "loop": true,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     -0.04,
+     -0.06,
+     0.02
+    ],
+    "maxXZ": 0.0447,
+    "yMin": -0.06,
+    "yMax": -0.054,
+    "rootTravel": false
+   },
+   "holdOf": "DEF_slip_right_block"
+  },
+  "DEF_duck": {
+   "name": "DEF_duck",
+   "duration": 0.55,
+   "frames": 67,
+   "fps": 120,
+   "loop": false,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0.1449,
+    "yMin": -0.1811,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "in": 0.21,
+   "peakEnd": 0.21,
+   "out": 0.34,
+   "maxHold": 0.6,
+   "headInheritance": 0.65,
+   "holdClip": "DEF_duck_hold",
+   "isCounter": false
+  },
+  "DEF_duck_hold": {
+   "name": "DEF_duck_hold",
+   "duration": 0.6,
+   "frames": 2,
+   "fps": 2,
+   "loop": true,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     -0.1746,
+     -0.14
+    ],
+    "maxXZ": 0.14,
+    "yMin": -0.1746,
+    "yMax": -0.1746,
+    "rootTravel": false
+   },
+   "holdOf": "DEF_duck"
+  },
+  "DEF_duck_block": {
+   "name": "DEF_duck_block",
+   "duration": 0.55,
+   "frames": 67,
+   "fps": 120,
+   "loop": false,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0.1449,
+    "yMin": -0.1811,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "in": 0.21,
+   "peakEnd": 0.21,
+   "out": 0.34,
+   "maxHold": 0.6,
+   "headInheritance": 0.65,
+   "holdClip": "DEF_duck_block_hold",
+   "isCounter": false
+  },
+  "DEF_duck_block_hold": {
+   "name": "DEF_duck_block_hold",
+   "duration": 0.6,
+   "frames": 2,
+   "fps": 2,
+   "loop": true,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     -0.1746,
+     -0.14
+    ],
+    "maxXZ": 0.14,
+    "yMin": -0.1746,
+    "yMax": -0.1746,
+    "rootTravel": false
+   },
+   "holdOf": "DEF_duck_block"
+  },
+  "DEF_sway_left": {
+   "name": "DEF_sway_left",
+   "duration": 0.75,
+   "frames": 91,
+   "fps": 120,
+   "loop": false,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0.0658,
+    "yMin": -0.0155,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "in": 0.167,
+   "peakEnd": 0.167,
+   "out": 0.583,
+   "maxHold": 0.4,
+   "headInheritance": 0.5,
+   "holdClip": "DEF_sway_left_hold",
+   "isCounter": false
+  },
+  "DEF_sway_left_hold": {
+   "name": "DEF_sway_left_hold",
+   "duration": 0.4,
+   "frames": 49,
+   "fps": 120,
+   "loop": true,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0.01,
+     -0.015,
+     -0.065
+    ],
+    "maxXZ": 0.0658,
+    "yMin": -0.015,
+    "yMax": -0.01,
+    "rootTravel": false
+   },
+   "holdOf": "DEF_sway_left"
+  },
+  "DEF_sway_right": {
+   "name": "DEF_sway_right",
+   "duration": 0.75,
+   "frames": 91,
+   "fps": 120,
+   "loop": false,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0.0658,
+    "yMin": -0.0155,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "in": 0.167,
+   "peakEnd": 0.167,
+   "out": 0.583,
+   "maxHold": 0.4,
+   "headInheritance": 0.5,
+   "holdClip": "DEF_sway_right_hold",
+   "isCounter": false
+  },
+  "DEF_sway_right_hold": {
+   "name": "DEF_sway_right_hold",
+   "duration": 0.4,
+   "frames": 49,
+   "fps": 120,
+   "loop": true,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     -0.01,
+     -0.015,
+     -0.065
+    ],
+    "maxXZ": 0.0658,
+    "yMin": -0.015,
+    "yMax": -0.01,
+    "rootTravel": false
+   },
+   "holdOf": "DEF_sway_right"
+  },
+  "DEF_sway_left_block": {
+   "name": "DEF_sway_left_block",
+   "duration": 0.75,
+   "frames": 91,
+   "fps": 120,
+   "loop": false,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0.0658,
+    "yMin": -0.0155,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "in": 0.167,
+   "peakEnd": 0.167,
+   "out": 0.583,
+   "maxHold": 0.4,
+   "headInheritance": 0.5,
+   "holdClip": "DEF_sway_left_block_hold",
+   "isCounter": false
+  },
+  "DEF_sway_left_block_hold": {
+   "name": "DEF_sway_left_block_hold",
+   "duration": 0.4,
+   "frames": 49,
+   "fps": 120,
+   "loop": true,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0.01,
+     -0.015,
+     -0.065
+    ],
+    "maxXZ": 0.0658,
+    "yMin": -0.015,
+    "yMax": -0.01,
+    "rootTravel": false
+   },
+   "holdOf": "DEF_sway_left_block"
+  },
+  "DEF_sway_right_block": {
+   "name": "DEF_sway_right_block",
+   "duration": 0.75,
+   "frames": 91,
+   "fps": 120,
+   "loop": false,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0.0658,
+    "yMin": -0.0155,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "in": 0.167,
+   "peakEnd": 0.167,
+   "out": 0.583,
+   "maxHold": 0.4,
+   "headInheritance": 0.5,
+   "holdClip": "DEF_sway_right_block_hold",
+   "isCounter": false
+  },
+  "DEF_sway_right_block_hold": {
+   "name": "DEF_sway_right_block_hold",
+   "duration": 0.4,
+   "frames": 49,
+   "fps": 120,
+   "loop": true,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     -0.01,
+     -0.015,
+     -0.065
+    ],
+    "maxXZ": 0.0658,
+    "yMin": -0.015,
+    "yMax": -0.01,
+    "rootTravel": false
+   },
+   "holdOf": "DEF_sway_right_block"
+  },
+  "DEF_duck_left": {
+   "name": "DEF_duck_left",
+   "duration": 0.55,
+   "frames": 67,
+   "fps": 120,
+   "loop": false,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0.1507,
+    "yMin": -0.1768,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "in": 0.21,
+   "peakEnd": 0.21,
+   "out": 0.34,
+   "maxHold": 0.6,
+   "headInheritance": 0.65,
+   "holdClip": "DEF_duck_left_hold",
+   "isCounter": false
+  },
+  "DEF_duck_left_hold": {
+   "name": "DEF_duck_left_hold",
+   "duration": 0.6,
+   "frames": 2,
+   "fps": 2,
+   "loop": true,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0.04,
+     -0.17,
+     -0.14
+    ],
+    "maxXZ": 0.1456,
+    "yMin": -0.17,
+    "yMax": -0.17,
+    "rootTravel": false
+   },
+   "holdOf": "DEF_duck_left"
+  },
+  "DEF_duck_right": {
+   "name": "DEF_duck_right",
+   "duration": 0.55,
+   "frames": 67,
+   "fps": 120,
+   "loop": false,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0.1507,
+    "yMin": -0.1515,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "in": 0.21,
+   "peakEnd": 0.21,
+   "out": 0.34,
+   "maxHold": 0.6,
+   "headInheritance": 0.65,
+   "holdClip": "DEF_duck_right_hold",
+   "isCounter": false
+  },
+  "DEF_duck_right_hold": {
+   "name": "DEF_duck_right_hold",
+   "duration": 0.6,
+   "frames": 2,
+   "fps": 2,
+   "loop": true,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     -0.04,
+     -0.1444,
+     -0.14
+    ],
+    "maxXZ": 0.1456,
+    "yMin": -0.1444,
+    "yMax": -0.1444,
+    "rootTravel": false
+   },
+   "holdOf": "DEF_duck_right"
+  },
+  "DEF_duck_left_block": {
+   "name": "DEF_duck_left_block",
+   "duration": 0.55,
+   "frames": 67,
+   "fps": 120,
+   "loop": false,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0.1507,
+    "yMin": -0.1768,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "in": 0.21,
+   "peakEnd": 0.21,
+   "out": 0.34,
+   "maxHold": 0.6,
+   "headInheritance": 0.65,
+   "holdClip": "DEF_duck_left_block_hold",
+   "isCounter": false
+  },
+  "DEF_duck_left_block_hold": {
+   "name": "DEF_duck_left_block_hold",
+   "duration": 0.6,
+   "frames": 2,
+   "fps": 2,
+   "loop": true,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0.04,
+     -0.17,
+     -0.14
+    ],
+    "maxXZ": 0.1456,
+    "yMin": -0.17,
+    "yMax": -0.17,
+    "rootTravel": false
+   },
+   "holdOf": "DEF_duck_left_block"
+  },
+  "DEF_duck_right_block": {
+   "name": "DEF_duck_right_block",
+   "duration": 0.55,
+   "frames": 67,
+   "fps": 120,
+   "loop": false,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0.1507,
+    "yMin": -0.1515,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "in": 0.21,
+   "peakEnd": 0.21,
+   "out": 0.34,
+   "maxHold": 0.6,
+   "headInheritance": 0.65,
+   "holdClip": "DEF_duck_right_block_hold",
+   "isCounter": false
+  },
+  "DEF_duck_right_block_hold": {
+   "name": "DEF_duck_right_block_hold",
+   "duration": 0.6,
+   "frames": 2,
+   "fps": 2,
+   "loop": true,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     -0.04,
+     -0.1444,
+     -0.14
+    ],
+    "maxXZ": 0.1456,
+    "yMin": -0.1444,
+    "yMax": -0.1444,
+    "rootTravel": false
+   },
+   "holdOf": "DEF_duck_right_block"
+  },
+  "DEF_counter_slip_right_near": {
+   "name": "DEF_counter_slip_right_near",
+   "duration": 0.8,
+   "frames": 97,
+   "fps": 120,
+   "loop": false,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0.1055,
+    "yMin": -0.06,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "in": 0,
+   "peakEnd": 0.8,
+   "out": 0,
+   "maxHold": 0,
+   "headInheritance": 0.6,
+   "holdClip": "DEF_counter_slip_right_near_hold",
+   "isCounter": true
+  },
+  "DEF_counter_slip_right_near_hold": {
+   "name": "DEF_counter_slip_right_near_hold",
+   "duration": 0.01,
+   "frames": 2,
+   "fps": 100,
+   "loop": true,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0,
+    "yMin": 0,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "holdOf": "DEF_counter_slip_right_near"
+  },
+  "DEF_counter_slip_right_mid": {
+   "name": "DEF_counter_slip_right_mid",
+   "duration": 0.8,
+   "frames": 97,
+   "fps": 120,
+   "loop": false,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0.1257,
+    "yMin": -0.06,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "in": 0,
+   "peakEnd": 0.8,
+   "out": 0,
+   "maxHold": 0,
+   "headInheritance": 0.6,
+   "holdClip": "DEF_counter_slip_right_mid_hold",
+   "isCounter": true
+  },
+  "DEF_counter_slip_right_mid_hold": {
+   "name": "DEF_counter_slip_right_mid_hold",
+   "duration": 0.01,
+   "frames": 2,
+   "fps": 100,
+   "loop": true,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0,
+    "yMin": 0,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "holdOf": "DEF_counter_slip_right_mid"
+  },
+  "DEF_counter_slip_right_far": {
+   "name": "DEF_counter_slip_right_far",
+   "duration": 0.8,
+   "frames": 97,
+   "fps": 120,
+   "loop": false,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0.1461,
+    "yMin": -0.06,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "in": 0,
+   "peakEnd": 0.8,
+   "out": 0,
+   "maxHold": 0,
+   "headInheritance": 0.6,
+   "holdClip": "DEF_counter_slip_right_far_hold",
+   "isCounter": true
+  },
+  "DEF_counter_slip_right_far_hold": {
+   "name": "DEF_counter_slip_right_far_hold",
+   "duration": 0.01,
+   "frames": 2,
+   "fps": 100,
+   "loop": true,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0,
+    "yMin": 0,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "holdOf": "DEF_counter_slip_right_far"
+  },
+  "DEF_counter_slip_left_near": {
+   "name": "DEF_counter_slip_left_near",
+   "duration": 0.8,
+   "frames": 97,
+   "fps": 120,
+   "loop": false,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0.1055,
+    "yMin": -0.06,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "in": 0,
+   "peakEnd": 0.8,
+   "out": 0,
+   "maxHold": 0,
+   "headInheritance": 0.6,
+   "holdClip": "DEF_counter_slip_left_near_hold",
+   "isCounter": true
+  },
+  "DEF_counter_slip_left_near_hold": {
+   "name": "DEF_counter_slip_left_near_hold",
+   "duration": 0.01,
+   "frames": 2,
+   "fps": 100,
+   "loop": true,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0,
+    "yMin": 0,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "holdOf": "DEF_counter_slip_left_near"
+  },
+  "DEF_counter_slip_left_mid": {
+   "name": "DEF_counter_slip_left_mid",
+   "duration": 0.8,
+   "frames": 97,
+   "fps": 120,
+   "loop": false,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0.1257,
+    "yMin": -0.06,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "in": 0,
+   "peakEnd": 0.8,
+   "out": 0,
+   "maxHold": 0,
+   "headInheritance": 0.6,
+   "holdClip": "DEF_counter_slip_left_mid_hold",
+   "isCounter": true
+  },
+  "DEF_counter_slip_left_mid_hold": {
+   "name": "DEF_counter_slip_left_mid_hold",
+   "duration": 0.01,
+   "frames": 2,
+   "fps": 100,
+   "loop": true,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0,
+    "yMin": 0,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "holdOf": "DEF_counter_slip_left_mid"
+  },
+  "DEF_counter_slip_left_far": {
+   "name": "DEF_counter_slip_left_far",
+   "duration": 0.8,
+   "frames": 97,
+   "fps": 120,
+   "loop": false,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0.1461,
+    "yMin": -0.06,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "in": 0,
+   "peakEnd": 0.8,
+   "out": 0,
+   "maxHold": 0,
+   "headInheritance": 0.6,
+   "holdClip": "DEF_counter_slip_left_far_hold",
+   "isCounter": true
+  },
+  "DEF_counter_slip_left_far_hold": {
+   "name": "DEF_counter_slip_left_far_hold",
+   "duration": 0.01,
+   "frames": 2,
+   "fps": 100,
+   "loop": true,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0,
+    "yMin": 0,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "holdOf": "DEF_counter_slip_left_far"
+  },
+  "DEF_counter_sway_right_near": {
+   "name": "DEF_counter_sway_right_near",
+   "duration": 0.8,
+   "frames": 97,
+   "fps": 120,
+   "loop": false,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0.1055,
+    "yMin": -0.05,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "in": 0,
+   "peakEnd": 0.8,
+   "out": 0,
+   "maxHold": 0,
+   "headInheritance": 0.6,
+   "holdClip": "DEF_counter_sway_right_near_hold",
+   "isCounter": true
+  },
+  "DEF_counter_sway_right_near_hold": {
+   "name": "DEF_counter_sway_right_near_hold",
+   "duration": 0.01,
+   "frames": 2,
+   "fps": 100,
+   "loop": true,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0,
+    "yMin": 0,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "holdOf": "DEF_counter_sway_right_near"
+  },
+  "DEF_counter_sway_right_mid": {
+   "name": "DEF_counter_sway_right_mid",
+   "duration": 0.8,
+   "frames": 97,
+   "fps": 120,
+   "loop": false,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0.1257,
+    "yMin": -0.05,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "in": 0,
+   "peakEnd": 0.8,
+   "out": 0,
+   "maxHold": 0,
+   "headInheritance": 0.6,
+   "holdClip": "DEF_counter_sway_right_mid_hold",
+   "isCounter": true
+  },
+  "DEF_counter_sway_right_mid_hold": {
+   "name": "DEF_counter_sway_right_mid_hold",
+   "duration": 0.01,
+   "frames": 2,
+   "fps": 100,
+   "loop": true,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0,
+    "yMin": 0,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "holdOf": "DEF_counter_sway_right_mid"
+  },
+  "DEF_counter_sway_right_far": {
+   "name": "DEF_counter_sway_right_far",
+   "duration": 0.8,
+   "frames": 97,
+   "fps": 120,
+   "loop": false,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0.1461,
+    "yMin": -0.05,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "in": 0,
+   "peakEnd": 0.8,
+   "out": 0,
+   "maxHold": 0,
+   "headInheritance": 0.6,
+   "holdClip": "DEF_counter_sway_right_far_hold",
+   "isCounter": true
+  },
+  "DEF_counter_sway_right_far_hold": {
+   "name": "DEF_counter_sway_right_far_hold",
+   "duration": 0.01,
+   "frames": 2,
+   "fps": 100,
+   "loop": true,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0,
+    "yMin": 0,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "holdOf": "DEF_counter_sway_right_far"
+  },
+  "DEF_counter_sway_left_near": {
+   "name": "DEF_counter_sway_left_near",
+   "duration": 0.8,
+   "frames": 97,
+   "fps": 120,
+   "loop": false,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0.1055,
+    "yMin": -0.05,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "in": 0,
+   "peakEnd": 0.8,
+   "out": 0,
+   "maxHold": 0,
+   "headInheritance": 0.6,
+   "holdClip": "DEF_counter_sway_left_near_hold",
+   "isCounter": true
+  },
+  "DEF_counter_sway_left_near_hold": {
+   "name": "DEF_counter_sway_left_near_hold",
+   "duration": 0.01,
+   "frames": 2,
+   "fps": 100,
+   "loop": true,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0,
+    "yMin": 0,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "holdOf": "DEF_counter_sway_left_near"
+  },
+  "DEF_counter_sway_left_mid": {
+   "name": "DEF_counter_sway_left_mid",
+   "duration": 0.8,
+   "frames": 97,
+   "fps": 120,
+   "loop": false,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0.1257,
+    "yMin": -0.05,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "in": 0,
+   "peakEnd": 0.8,
+   "out": 0,
+   "maxHold": 0,
+   "headInheritance": 0.6,
+   "holdClip": "DEF_counter_sway_left_mid_hold",
+   "isCounter": true
+  },
+  "DEF_counter_sway_left_mid_hold": {
+   "name": "DEF_counter_sway_left_mid_hold",
+   "duration": 0.01,
+   "frames": 2,
+   "fps": 100,
+   "loop": true,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0,
+    "yMin": 0,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "holdOf": "DEF_counter_sway_left_mid"
+  },
+  "DEF_counter_sway_left_far": {
+   "name": "DEF_counter_sway_left_far",
+   "duration": 0.8,
+   "frames": 97,
+   "fps": 120,
+   "loop": false,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0.1461,
+    "yMin": -0.05,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "in": 0,
+   "peakEnd": 0.8,
+   "out": 0,
+   "maxHold": 0,
+   "headInheritance": 0.6,
+   "holdClip": "DEF_counter_sway_left_far_hold",
+   "isCounter": true
+  },
+  "DEF_counter_sway_left_far_hold": {
+   "name": "DEF_counter_sway_left_far_hold",
+   "duration": 0.01,
+   "frames": 2,
+   "fps": 100,
+   "loop": true,
+   "defense": true,
+   "hip": {
+    "deltaFromNeutral": true,
+    "endDelta": [
+     0,
+     0,
+     0
+    ],
+    "maxXZ": 0,
+    "yMin": 0,
+    "yMax": 0,
+    "rootTravel": false
+   },
+   "holdOf": "DEF_counter_sway_left_far"
+  }
+ }
+}

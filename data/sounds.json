@@ -1,0 +1,110 @@
+{
+    "arrays":  {
+                   "punchSounds":  [
+                                       "jab-01.ogg",
+                                       "jab-02.ogg",
+                                       "jab-03.ogg",
+                                       "jab-04.ogg",
+                                       "jab-05.ogg"
+                                   ],
+                   "bodySounds":  [
+                                      "body-01.ogg",
+                                      "body-02.ogg",
+                                      "body-03.ogg",
+                                      "body-04.ogg",
+                                      "body-04.ogg",
+                                      "body-04.ogg"
+                                  ],
+                   "blockSounds":  [
+                                       "guard-heavy-01.ogg",
+                                       "guard-heavy-02.ogg",
+                                       "guard-heavy-03.ogg",
+                                       "guard-heavy-04.ogg",
+                                       "guard-01.ogg",
+                                       "guard-02.ogg",
+                                       "guard-03.ogg",
+                                       "guard-04.ogg",
+                                       "grab-01.ogg",
+                                       "grab-02.ogg",
+                                       "grab-03.ogg",
+                                       "grab-04.ogg",
+                                       "clinch-01.ogg",
+                                       "clinch-02.ogg",
+                                       "clinch-03.ogg",
+                                       "clinch-04.ogg"
+                                   ],
+                   "mediumSounds":  [
+                                        "hook-04.ogg",
+                                        "hook-02.ogg",
+                                        "hook-03.ogg",
+                                        "hook-04.ogg",
+                                        "hook-05.ogg"
+                                    ],
+                   "critSounds":  [
+                                      "heavy-01.ogg",
+                                      "heavy-04.ogg",
+                                      "heavy-32.ogg",
+                                      "heavy-33.ogg"
+                                  ],
+                   "stunSounds":  [
+                                      "stagger-03.ogg",
+                                      "stagger-05.ogg"
+                                  ],
+                   "koSounds":  [
+                                    "knockout-01.ogg",
+                                    "knockout-02.ogg",
+                                    "knockout-03.ogg",
+                                    "knockout-04.ogg"
+                                ],
+                   "breathSounds":  [
+                                        "breath-01.ogg"
+                                    ],
+                   "gloveBlockSounds":  [
+                                            "guard-heavy-01.ogg",
+                                            "guard-heavy-02.ogg",
+                                            "guard-heavy-03.ogg",
+                                            "guard-heavy-04.ogg",
+                                            "guard-01.ogg",
+                                            "guard-02.ogg",
+                                            "guard-03.ogg",
+                                            "guard-04.ogg"
+                                        ],
+                   "guardBreakSounds":  [
+                                            "guard-heavy-01.ogg",
+                                            "guard-heavy-02.ogg",
+                                            "guard-heavy-03.ogg",
+                                            "guard-heavy-04.ogg"
+                                        ],
+                   "grazeSounds":  [
+                                       "guard-01.ogg",
+                                       "guard-02.ogg",
+                                       "guard-03.ogg",
+                                       "guard-04.ogg"
+                                   ],
+                   "bodyThudSounds":  [
+                                          "body-01.ogg",
+                                          "body-02.ogg",
+                                          "body-03.ogg",
+                                          "body-04.ogg"
+                                      ],
+                   "headLightSounds":  [
+                                           "jab-01.ogg",
+                                           "jab-02.ogg",
+                                           "jab-03.ogg",
+                                           "jab-04.ogg",
+                                           "jab-05.ogg"
+                                       ],
+                   "headMediumSounds":  [
+                                            "hook-02.ogg",
+                                            "hook-03.ogg",
+                                            "hook-04.ogg",
+                                            "hook-05.ogg"
+                                        ],
+                   "headHeavySounds":  [
+                                           "heavy-01.ogg",
+                                           "heavy-04.ogg",
+                                           "heavy-32.ogg",
+                                           "heavy-33.ogg"
+                                       ]
+               }
+}

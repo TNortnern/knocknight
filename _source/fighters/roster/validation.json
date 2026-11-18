@@ -1,0 +1,356 @@
+{
+ "validated_utc": "2026-10-21T17:08:38.554Z",
+ "results": [
+  {
+   "file": "assets/roster/anvil.glb",
+   "source": "web/assets/anvil_source.glb",
+   "source_sha256": "089e6a1690c2e7430236633e0086f3e7f3c707b08f354d29d7ac52024a537c37",
+   "sha256": "02d89d4d86dcaf444aeaefaa7a6fbc3bdc75eea5f9841c52b2d1de9d9b11c8f5",
+   "bytes": 2694076,
+   "joint_names": [
+    "Hips",
+    "LeftUpLeg",
+    "LeftLeg",
+    "LeftFoot",
+    "LeftToeBase",
+    "RightUpLeg",
+    "RightLeg",
+    "RightFoot",
+    "RightToeBase",
+    "Spine02",
+    "Spine01",
+    "Spine",
+    "LeftShoulder",
+    "LeftArm",
+    "LeftForeArm",
+    "LeftHand",
+    "RightShoulder",
+    "RightArm",
+    "RightForeArm",
+    "RightHand",
+    "neck",
+    "Head",
+    "head_end",
+    "headfront"
+   ],
+   "mesh": {
+    "vertices": 16192,
+    "triangles": 25022,
+    "materials": 1,
+    "uv_sets": 1
+   },
+   "skin": {
+    "max_influences": 4,
+    "unweighted_vertices": 0,
+    "weights_normalized": true
+   },
+   "bounds": {
+    "height_m": 1.847642820478881,
+    "min_y_m": -2.1383629598828924e-7,
+    "max_y_m": 1.847642606642585,
+    "width_m": 1.834709231959966,
+    "depth_m": 0.3574350122715816
+   },
+   "textures": [
+    {
+     "slot": "baseColor",
+     "height": 2048,
+     "width": 2048,
+     "mime": "image/jpeg",
+     "bytes": 655716
+    },
+    {
+     "slot": "normal",
+     "width": 1024,
+     "height": 1024,
+     "mime": "image/png",
+     "bytes": 914035
+    },
+    {
+     "slot": "roughness",
+     "height": 1024,
+     "width": 1024,
+     "mime": "image/jpeg",
+     "bytes": 121743
+    }
+   ],
+   "topology": {
+    "degenerate_faces": 0,
+    "loose_vertices": 0,
+    "nan_values": 0,
+    "open_boundary_edges": 0,
+    "non_manifold_edges": 0
+   },
+   "checks": {
+    "one_skin": true,
+    "joint_count_24": true,
+    "bone_names_match": true,
+    "armature_and_char1": true,
+    "joint_and_armature_transforms_identical": true,
+    "attributes_present": true,
+    "single_mesh_primitive": true,
+    "ibm_identical": true,
+    "joints0_identical": true,
+    "weights0_identical": true,
+    "uv0_identical": true,
+    "source_triangles_preserved": true,
+    "max_influences_le_4": true,
+    "no_unweighted_vertices": true,
+    "weights_normalized": true,
+    "no_nan": true,
+    "bind_pose_loaded": true,
+    "foot_grounded": true,
+    "height_in_range": true,
+    "closed_surface": true,
+    "no_zero_area_faces": true,
+    "no_loose_vertices": true,
+    "material_present": true,
+    "no_emissive_glow": true,
+    "single_sided": true,
+    "specular_in_range": true,
+    "no_animations": true,
+    "textures_embedded": true,
+    "triangles_15k_30k": true,
+    "size_under_6mb": true
+   },
+   "passed": true,
+   "notes": [
+    "appended_fill_triangles=0"
+   ]
+  },
+  {
+   "file": "assets/roster/viper_alt.glb",
+   "source": "web/assets/viper_source.glb",
+   "source_sha256": "8dcd2ab6cd435ac922c5b781b381e251ad093fd2a7cf27f05d3a3b095ffd0a24",
+   "sha256": "932b7f82963095f33364bd5a037bf0de6194abeb0911c0aae17a066ad11e3d76",
+   "bytes": 3216728,
+   "joint_names": [
+    "Hips",
+    "LeftUpLeg",
+    "LeftLeg",
+    "LeftFoot",
+    "LeftToeBase",
+    "RightUpLeg",
+    "RightLeg",
+    "RightFoot",
+    "RightToeBase",
+    "Spine02",
+    "Spine01",
+    "Spine",
+    "LeftShoulder",
+    "LeftArm",
+    "LeftForeArm",
+    "LeftHand",
+    "RightShoulder",
+    "RightArm",
+    "RightForeArm",
+    "RightHand",
+    "neck",
+    "Head",
+    "head_end",
+    "headfront"
+   ],
+   "mesh": {
+    "vertices": 16565,
+    "triangles": 24994,
+    "materials": 1,
+    "uv_sets": 1
+   },
+   "skin": {
+    "max_influences": 4,
+    "unweighted_vertices": 0,
+    "weights_normalized": true
+   },
+   "bounds": {
+    "height_m": 1.8043269997640452,
+    "min_y_m": 1.5355403220573388e-7,
+    "max_y_m": 1.8043271533180774,
+    "width_m": 1.7608285158215835,
+    "depth_m": 0.2940823306110182
+   },
+   "textures": [
+    {
+     "slot": "baseColor",
+     "height": 2048,
+     "width": 2048,
+     "mime": "image/jpeg",
+     "bytes": 1170262
+    },
+    {
+     "slot": "normal",
+     "width": 1024,
+     "height": 1024,
+     "mime": "image/png",
+     "bytes": 890222
+    },
+    {
+     "slot": "roughness",
+     "height": 1024,
+     "width": 1024,
+     "mime": "image/jpeg",
+     "bytes": 134550
+    }
+   ],
+   "topology": {
+    "degenerate_faces": 0,
+    "loose_vertices": 0,
+    "nan_values": 0,
+    "open_boundary_edges": 0,
+    "non_manifold_edges": 0
+   },
+   "checks": {
+    "one_skin": true,
+    "joint_count_24": true,
+    "bone_names_match": true,
+    "armature_and_char1": true,
+    "joint_and_armature_transforms_identical": true,
+    "attributes_present": true,
+    "single_mesh_primitive": true,
+    "ibm_identical": true,
+    "joints0_identical": true,
+    "weights0_identical": true,
+    "uv0_identical": true,
+    "source_triangles_preserved": true,
+    "max_influences_le_4": true,
+    "no_unweighted_vertices": true,
+    "weights_normalized": true,
+    "no_nan": true,
+    "bind_pose_loaded": true,
+    "foot_grounded": true,
+    "height_in_range": true,
+    "closed_surface": true,
+    "no_zero_area_faces": true,
+    "no_loose_vertices": true,
+    "material_present": true,
+    "no_emissive_glow": true,
+    "single_sided": true,
+    "specular_in_range": true,
+    "no_animations": true,
+    "textures_embedded": true,
+    "triangles_15k_30k": true,
+    "size_under_6mb": true
+   },
+   "passed": true,
+   "notes": [
+    "appended_fill_triangles=6"
+   ]
+  },
+  {
+   "file": "assets/roster/oak.glb",
+   "source": "web/assets/viper_source.glb",
+   "source_sha256": "8dcd2ab6cd435ac922c5b781b381e251ad093fd2a7cf27f05d3a3b095ffd0a24",
+   "sha256": "011a76abb7fe5de074ebf1fd15503b6a3c505e2dda5e30b5209eee76fd83552d",
+   "bytes": 3134328,
+   "joint_names": [
+    "Hips",
+    "LeftUpLeg",
+    "LeftLeg",
+    "LeftFoot",
+    "LeftToeBase",
+    "RightUpLeg",
+    "RightLeg",
+    "RightFoot",
+    "RightToeBase",
+    "Spine02",
+    "Spine01",
+    "Spine",
+    "LeftShoulder",
+    "LeftArm",
+    "LeftForeArm",
+    "LeftHand",
+    "RightShoulder",
+    "RightArm",
+    "RightForeArm",
+    "RightHand",
+    "neck",
+    "Head",
+    "head_end",
+    "headfront"
+   ],
+   "mesh": {
+    "vertices": 16565,
+    "triangles": 24994,
+    "materials": 1,
+    "uv_sets": 1
+   },
+   "skin": {
+    "max_influences": 4,
+    "unweighted_vertices": 0,
+    "weights_normalized": true
+   },
+   "bounds": {
+    "height_m": 1.7944873439882518,
+    "min_y_m": 1.5337463891642307e-7,
+    "max_y_m": 1.7944874973628908,
+    "width_m": 1.7608285158215835,
+    "depth_m": 0.3212512862359751
+   },
+   "textures": [
+    {
+     "slot": "baseColor",
+     "height": 2048,
+     "width": 2048,
+     "mime": "image/jpeg",
+     "bytes": 1060545
+    },
+    {
+     "slot": "normal",
+     "width": 1024,
+     "height": 1024,
+     "mime": "image/png",
+     "bytes": 890280
+    },
+    {
+     "slot": "roughness",
+     "height": 1024,
+     "width": 1024,
+     "mime": "image/jpeg",
+     "bytes": 161813
+    }
+   ],
+   "topology": {
+    "degenerate_faces": 0,
+    "loose_vertices": 0,
+    "nan_values": 0,
+    "open_boundary_edges": 0,
+    "non_manifold_edges": 0
+   },
+   "checks": {
+    "one_skin": true,
+    "joint_count_24": true,
+    "bone_names_match": true,
+    "armature_and_char1": true,
+    "joint_and_armature_transforms_identical": true,
+    "attributes_present": true,
+    "single_mesh_primitive": true,
+    "ibm_identical": true,
+    "joints0_identical": true,
+    "weights0_identical": true,
+    "uv0_identical": true,
+    "source_triangles_preserved": true,
+    "max_influences_le_4": true,
+    "no_unweighted_vertices": true,
+    "weights_normalized": true,
+    "no_nan": true,
+    "bind_pose_loaded": true,
+    "foot_grounded": true,
+    "height_in_range": true,
+    "closed_surface": true,
+    "no_zero_area_faces": true,
+    "no_loose_vertices": true,
+    "material_present": true,
+    "no_emissive_glow": true,
+    "single_sided": true,
+    "specular_in_range": true,
+    "no_animations": true,
+    "textures_embedded": true,
+    "triangles_15k_30k": true,
+    "size_under_6mb": true
+   },
+   "passed": true,
+   "notes": [
+    "appended_fill_triangles=6"
+   ]
+  }
+ ]
+}

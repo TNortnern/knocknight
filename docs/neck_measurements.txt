@@ -1,0 +1,154 @@
+Neck / upper-trapezius / upper-back hump fix: measurements (cm, rest pose, from tools/blender_necks.py)
+=====================================================================================================
+Base: fa7a385 (original glbs in git history). Re-generate: see tools/blender_necks.py header
+(blender --background --python tools/blender_necks.py -- --apply).
+Definitions: mid-neck = cross-section 3 cm under the chin line; waist = smallest-circumference section between
+10 cm and 0.5 cm under the chin line; trapezius shelf = how far the top of the trap at the neck wall (|x| 11 cm) sits
+below the chin line (larger = more neck exposed); visible neck length = chin line down to where the silhouette reaches
+85 % of the head half width (front) / the nape moves 4 cm behind its chin-line position (side).
+Hump: protrusion = how far the central back (|x| < 2.5 cm) sits behind a straight chord from the lumbar curve (most forward
+back point) to the nape at the chin line, maximum over the upper back; back-most z = most posterior point of the central back.
+"After" rows include BOTH fields (neck + hump). Note: "before" mid-neck widths are huge because the trapezius flares
+straight into the jaw line (no neck column).
+Realistic athletic reference: neck width 0.75-0.85 of head width, circumference 40-46 cm (head 57-60 cm).
+
+== viper_alt BEFORE
+viper_alt (H 1.804 m, chin line y=1.562)
+  mid-neck (chin-3cm): width 27.2 depth 15.6 circ 67.8 cm | waist (min circ, y=1.557): width 16.7 depth 15.1 circ 51.5 cm
+  head: width 16.6 depth 19.8 circ 60.5 cm | waist/head width 1.00, mid/head width 1.64, waist/head circ 0.85
+  trapezius: shelf 1.9 cm below chin line at the neck wall, slope neck->shoulder 1.8 cm
+  visible neck length: front 0.0 cm, side 7.0 cm
+  upper back: hump protrusion behind lumbar->nape chord 5.7 cm (at y=1.394); back-most z -14.4 cm at y=1.394
+== viper_alt AFTER (chin 1.562, chord y 1.174-1.562, params {'girth_x': 0.1, 'girth_zb': 0.14, 'girth_zf': 0.04, 'drop': 0.03, 'hump': 0.6}, 1448 vertices moved)
+viper_alt (H 1.804 m, chin line y=1.562)
+  mid-neck (chin-3cm): width 17.5 depth 14.1 circ 50.9 cm | waist (min circ, y=1.557): width 12.8 depth 14.2 circ 45.2 cm
+  head: width 16.6 depth 19.8 circ 60.5 cm | waist/head width 0.77, mid/head width 1.05, waist/head circ 0.75
+  trapezius: shelf 4.7 cm below chin line at the neck wall, slope neck->shoulder 1.4 cm
+  visible neck length: front 1.2 cm, side 19.7 cm
+  upper back: hump protrusion behind lumbar->nape chord 2.4 cm (at y=1.394); back-most z -11.1 cm at y=1.394
+-- integrity diff vs fa7a385:assets/fighters/meshy/viper_alt.glb: PASS
+   file size 3216728 -> 3216728, BIN chunk 3207920 -> 3207920 bytes
+   glTF JSON (nodes, skins, joint names + rest transforms, materials, images, all other accessors) identical apart from POSITION min/max: True; POSITION bounds updated (hump was the back-most point)
+   BIN bytes changed: 21092 total, 0 outside the POSITION/NORMAL accessors (OK)
+     attribute POSITION    changed
+     attribute NORMAL      changed
+     attribute TEXCOORD_0  identical
+     attribute JOINTS_0    identical
+     attribute WEIGHTS_0   identical
+     indices (triangles)      identical
+     inverseBindMatrices      identical
+     POSITION min/max in JSON equal the new vertex bounds: True
+     coincident (UV-split) position groups: 3450, moved inconsistently: 0 (OK)
+     normals: |n| in [1.0000, 1.0000], min dot(old,new)=0.763
+== anvil BEFORE
+anvil (H 1.848 m, chin line y=1.605)
+  mid-neck (chin-3cm): width 54.7 depth 19.4 circ 127.3 cm | waist (min circ, y=1.595): width 30.4 depth 18.9 circ 78.3 cm
+  head: width 19.2 depth 23.0 circ 71.9 cm | waist/head width 1.58, mid/head width 2.85, waist/head circ 1.09
+  trapezius: shelf -1.5 cm below chin line at the neck wall, slope neck->shoulder 3.1 cm
+  visible neck length: front 0.0 cm, side 9.7 cm
+  upper back: hump protrusion behind lumbar->nape chord 5.8 cm (at y=1.427); back-most z -18.1 cm at y=1.447
+== anvil AFTER (chin 1.605, chord y 1.187-1.605, params {'girth_x': 0.34, 'girth_zb': 0.22, 'girth_zf': 0.08, 'drop': 0.04, 'flare': 0.27, 'ramp': 0.17, 'hump': 0.58}, 1367 vertices moved)
+anvil (H 1.848 m, chin line y=1.605)
+  mid-neck (chin-3cm): width 21.7 depth 16.6 circ 60.7 cm | waist (min circ, y=1.595): width 19.2 depth 16.8 circ 58.4 cm
+  head: width 19.2 depth 23.0 circ 71.9 cm | waist/head width 1.00, mid/head width 1.13, waist/head circ 0.81
+  trapezius: shelf 2.2 cm below chin line at the neck wall, slope neck->shoulder 2.0 cm
+  visible neck length: front 0.0 cm, side 19.7 cm
+  upper back: hump protrusion behind lumbar->nape chord 2.5 cm (at y=1.412); back-most z -15.0 cm at y=1.472
+-- integrity diff vs fa7a385:assets/fighters/meshy/anvil.glb: PASS
+   file size 2694076 -> 2694076, BIN chunk 2685148 -> 2685148 bytes
+   glTF JSON (nodes, skins, joint names + rest transforms, materials, images, all other accessors) identical apart from POSITION min/max: True; POSITION bounds updated (hump was the back-most point)
+   BIN bytes changed: 20321 total, 0 outside the POSITION/NORMAL accessors (OK)
+     attribute POSITION    changed
+     attribute NORMAL      changed
+     attribute TEXCOORD_0  identical
+     attribute JOINTS_0    identical
+     attribute WEIGHTS_0   identical
+     indices (triangles)      identical
+     inverseBindMatrices      identical
+     POSITION min/max in JSON equal the new vertex bounds: True
+     coincident (UV-split) position groups: 3191, moved inconsistently: 0 (OK)
+     normals: |n| in [1.0000, 1.0000], min dot(old,new)=0.597
+== oak BEFORE
+oak (H 1.794 m, chin line y=1.563)
+  mid-neck (chin-3cm): width 29.0 depth 17.1 circ 73.0 cm | waist (min circ, y=1.558): width 19.0 depth 16.8 circ 58.0 cm
+  head: width 19.0 depth 21.2 circ 67.1 cm | waist/head width 1.00, mid/head width 1.53, waist/head circ 0.86
+  trapezius: shelf 0.8 cm below chin line at the neck wall, slope neck->shoulder 2.5 cm
+  visible neck length: front 0.0 cm, side 7.0 cm
+  upper back: hump protrusion behind lumbar->nape chord 6.3 cm (at y=1.389); back-most z -16.1 cm at y=1.389
+== oak AFTER (chin 1.563, chord y 1.154-1.563, params {'girth_x': 0.14, 'girth_zb': 0.16, 'girth_zf': 0.05, 'drop': 0.034, 'hump': 0.65}, 1472 vertices moved)
+oak (H 1.794 m, chin line y=1.563)
+  mid-neck (chin-3cm): width 17.4 depth 15.3 circ 53.2 cm | waist (min circ, y=1.558): width 13.4 depth 15.6 circ 49.2 cm
+  head: width 19.0 depth 21.2 circ 67.1 cm | waist/head width 0.71, mid/head width 0.92, waist/head circ 0.73
+  trapezius: shelf 4.7 cm below chin line at the neck wall, slope neck->shoulder 1.3 cm
+  visible neck length: front 2.2 cm, side 19.7 cm
+  upper back: hump protrusion behind lumbar->nape chord 2.3 cm (at y=1.389); back-most z -12.2 cm at y=1.389
+-- integrity diff vs fa7a385:assets/fighters/meshy/oak.glb: PASS
+   file size 3134328 -> 3134332, BIN chunk 3125524 -> 3125524 bytes
+   glTF JSON (nodes, skins, joint names + rest transforms, materials, images, all other accessors) identical apart from POSITION min/max: True; POSITION bounds updated (hump was the back-most point)
+   BIN bytes changed: 21314 total, 0 outside the POSITION/NORMAL accessors (OK)
+     attribute POSITION    changed
+     attribute NORMAL      changed
+     attribute TEXCOORD_0  identical
+     attribute JOINTS_0    identical
+     attribute WEIGHTS_0   identical
+     indices (triangles)      identical
+     inverseBindMatrices      identical
+     POSITION min/max in JSON equal the new vertex bounds: True
+     coincident (UV-split) position groups: 3450, moved inconsistently: 0 (OK)
+     normals: |n| in [1.0000, 1.0000], min dot(old,new)=0.694
+== boxer1 BEFORE
+boxer1 (H 1.800 m, chin line y=1.564)
+  mid-neck (chin-3cm): width 26.6 depth 15.5 circ 66.8 cm | waist (min circ, y=1.559): width 16.0 depth 15.0 circ 50.5 cm
+  head: width 17.2 depth 19.9 circ 61.6 cm | waist/head width 0.93, mid/head width 1.55, waist/head circ 0.82
+  trapezius: shelf 1.7 cm below chin line at the neck wall, slope neck->shoulder 2.1 cm
+  visible neck length: front 0.0 cm, side 7.5 cm
+  upper back: hump protrusion behind lumbar->nape chord 5.9 cm (at y=1.379); back-most z -14.6 cm at y=1.379
+== boxer1 AFTER (chin 1.564, chord y 1.169-1.564, params {'girth_x': 0.1, 'girth_zb': 0.14, 'girth_zf': 0.04, 'drop': 0.03, 'hump': 0.6}, 1453 vertices moved)
+boxer1 (H 1.800 m, chin line y=1.564)
+  mid-neck (chin-3cm): width 17.3 depth 14.1 circ 50.6 cm | waist (min circ, y=1.559): width 12.5 depth 14.0 circ 44.7 cm
+  head: width 17.2 depth 19.9 circ 61.6 cm | waist/head width 0.73, mid/head width 1.00, waist/head circ 0.73
+  trapezius: shelf 4.9 cm below chin line at the neck wall, slope neck->shoulder 1.5 cm
+  visible neck length: front 1.5 cm, side 19.7 cm
+  upper back: hump protrusion behind lumbar->nape chord 2.5 cm (at y=1.379); back-most z -11.2 cm at y=1.379
+-- integrity diff vs fa7a385:assets/fighters/meshy/boxer1.glb: PASS
+   file size 8390596 -> 8390596, BIN chunk 8366644 -> 8366644 bytes
+   glTF JSON (nodes, skins, joint names + rest transforms, materials, images, all other accessors) identical apart from POSITION min/max: True; POSITION bounds unchanged
+   BIN bytes changed: 21096 total, 0 outside the POSITION/NORMAL accessors (OK)
+     attribute POSITION    changed
+     attribute NORMAL      changed
+     attribute TEXCOORD_0  identical
+     attribute JOINTS_0    identical
+     attribute WEIGHTS_0   identical
+     indices (triangles)      identical
+     inverseBindMatrices      identical
+     POSITION min/max in JSON equal the new vertex bounds: True
+     coincident (UV-split) position groups: 3450, moved inconsistently: 0 (OK)
+     normals: |n| in [1.0000, 1.0000], min dot(old,new)=0.757
+== boxer2 BEFORE
+boxer2 (H 1.850 m, chin line y=1.608)
+  mid-neck (chin-3cm): width 49.9 depth 17.4 circ 116.3 cm | waist (min circ, y=1.603): width 25.5 depth 18.9 circ 70.1 cm
+  head: width 18.1 depth 22.1 circ 68.2 cm | waist/head width 1.41, mid/head width 2.76, waist/head circ 1.03
+  trapezius: shelf -0.7 cm below chin line at the neck wall, slope neck->shoulder 3.1 cm
+  visible neck length: front 0.0 cm, side 8.7 cm
+  upper back: hump protrusion behind lumbar->nape chord 5.7 cm (at y=1.422); back-most z -16.9 cm at y=1.422
+== boxer2 AFTER (chin 1.608, chord y 1.187-1.608, params {'girth_x': 0.28, 'girth_zb': 0.2, 'girth_zf': 0.07, 'drop': 0.038, 'flare': 0.26, 'ramp': 0.16, 'hump': 0.58}, 1411 vertices moved)
+boxer2 (H 1.850 m, chin line y=1.608)
+  mid-neck (chin-3cm): width 19.7 depth 15.1 circ 55.6 cm | waist (min circ, y=1.593): width 17.3 depth 14.9 circ 52.4 cm
+  head: width 18.1 depth 22.1 circ 68.2 cm | waist/head width 0.96, mid/head width 1.09, waist/head circ 0.77
+  trapezius: shelf 3.5 cm below chin line at the neck wall, slope neck->shoulder 1.4 cm
+  visible neck length: front 0.0 cm, side 19.7 cm
+  upper back: hump protrusion behind lumbar->nape chord 2.5 cm (at y=1.422); back-most z -13.8 cm at y=1.442
+-- integrity diff vs fa7a385:assets/fighters/meshy/boxer2.glb: PASS
+   file size 8255984 -> 8255984, BIN chunk 8231896 -> 8231896 bytes
+   glTF JSON (nodes, skins, joint names + rest transforms, materials, images, all other accessors) identical apart from POSITION min/max: True; POSITION bounds updated (hump was the back-most point)
+   BIN bytes changed: 20999 total, 0 outside the POSITION/NORMAL accessors (OK)
+     attribute POSITION    changed
+     attribute NORMAL      changed
+     attribute TEXCOORD_0  identical
+     attribute JOINTS_0    identical
+     attribute WEIGHTS_0   identical
+     indices (triangles)      identical
+     inverseBindMatrices      identical
+     POSITION min/max in JSON equal the new vertex bounds: True
+     coincident (UV-split) position groups: 3191, moved inconsistently: 0 (OK)
+     normals: |n| in [1.0000, 1.0000], min dot(old,new)=0.630
